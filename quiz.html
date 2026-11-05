@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f7fb" />
+    <title>MCQs Practice</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="quiz-page">
+    <main class="app-shell">
+      <header class="topbar">
+        <a class="back-link" href="index.html" aria-label="Back to dashboard">← Dashboard</a>
+        <button class="reset-button" id="reset-button" type="button">Reset test</button>
+      </header>
+
+      <section class="progress-card" aria-label="Test progress">
+        <div class="progress-head">
+          <div>
+            <span class="muted-label">Your progress</span>
+            <strong id="progress-label">Question 1 of 200</strong>
+          </div>
+          <span class="progress-percent" id="progress-percent">0%</span>
+        </div>
+        <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+        <div class="score-row">
+          <span><i class="dot dot-correct"></i> Correct <strong id="correct-count">0</strong></span>
+          <span><i class="dot dot-wrong"></i> Wrong <strong id="wrong-count">0</strong></span>
+          <span><i class="dot dot-pending"></i> Remaining <strong id="remaining-count">200</strong></span>
+        </div>
+      </section>
+
+      <section class="question-card" id="question-card">
+        <div class="question-meta">
+          <span class="question-number" id="question-number">Question 01</span>
+          <span class="topic-pill" id="topic-pill">Pakistan Studies</span>
+        </div>
+        <h2 id="question-text">Loading your questions…</h2>
+        <div class="options" id="options" role="group" aria-label="Answer choices"></div>
+        <div class="feedback" id="feedback" aria-live="polite"></div>
+        <div class="action-row">
+          <button class="secondary-button" id="previous-button" type="button">Previous</button>
+          <button class="primary-button" id="next-button" type="button" disabled>Choose an answer</button>
+        </div>
+      </section>
+
+      <section class="complete-card hidden" id="complete-card">
+        <div class="complete-icon">✓</div>
+        <p class="eyebrow">Test complete</p>
+        <h2>Nice work. You finished the test.</h2>
+        <p class="completion-summary" id="completion-summary"></p>
+        <button class="primary-button" id="restart-button" type="button">Try again</button>
+      </section>
+      <p class="loading-error hidden" id="loading-error">Questions could not be loaded. Please try again.</p>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

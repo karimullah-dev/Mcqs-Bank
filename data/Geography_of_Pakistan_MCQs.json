@@ -1,0 +1,2202 @@
+[
+    {
+        "Question": "What is the total geographical area of Pakistan?",
+        "options": {
+            "A": "881,913 sq km",
+            "B": "796,096 sq km",
+            "C": "990,000 sq km",
+            "D": "670,000 sq km"
+        },
+        "correct": "B",
+        "explanation": "The historical total land area of Pakistan's four provinces and Islamabad is 796,096 sq km."
+    },
+    {
+        "Question": "Which mountain range is located in the north of Pakistan?",
+        "options": {
+            "A": "Kirthar Range",
+            "B": "Salt Range",
+            "C": "Karakoram Range",
+            "D": "Sulaiman Range"
+        },
+        "correct": "C",
+        "explanation": "The Karakoram Range lies in the extreme north of Pakistan, separating it from China."
+    },
+    {
+        "Question": "K2, the second highest peak in the world, is located in which mountain range?",
+        "options": {
+            "A": "Karakoram Range",
+            "B": "Hindu Kush",
+            "C": "Himalayas",
+            "D": "Pamir Mountains"
+        },
+        "correct": "A",
+        "explanation": "K2 (8611m) is the highest peak of the Karakoram Mountain Range."
+    },
+    {
+        "Question": "What is the height of Nanga Parbat?",
+        "options": {
+            "A": "8,051 meters",
+            "B": "7,708 meters",
+            "C": "8,126 meters",
+            "D": "8,611 meters"
+        },
+        "correct": "C",
+        "explanation": "Nanga Parbat, known as the Killer Mountain, is 8,126 meters high and is located in the Himalayas."
+    },
+    {
+        "Question": "Which mountain pass connects Peshawar with Kabul?",
+        "options": {
+            "A": "Khunjerab Pass",
+            "B": "Khyber Pass",
+            "C": "Gomal Pass",
+            "D": "Bolan Pass"
+        },
+        "correct": "B",
+        "explanation": "The Khyber Pass is a historic mountain pass connecting Pakistan's Khyber Pakhtunkhwa province with Afghanistan."
+    },
+    {
+        "Question": "The Bolan Pass is located in which mountain range?",
+        "options": {
+            "A": "Toba Kakar Range",
+            "B": "Kirthar Range",
+            "C": "Sulaiman Range",
+            "D": "Salt Range"
+        },
+        "correct": "A",
+        "explanation": "The Bolan Pass is a mountain pass through the Toba Kakar range of Balochistan in western Pakistan."
+    },
+    {
+        "Question": "Which pass connects Pakistan and China?",
+        "options": {
+            "A": "Khunjerab Pass",
+            "B": "Shandur Pass",
+            "C": "Lowari Pass",
+            "D": "Babusar Pass"
+        },
+        "correct": "A",
+        "explanation": "The Khunjerab Pass is the highest paved international border crossing in the world, connecting Gilgit-Baltistan with China's Xinjiang."
+    },
+    {
+        "Question": "Shandur Pass connects Chitral with which region?",
+        "options": {
+            "A": "Dir",
+            "B": "Kabul",
+            "C": "Swat",
+            "D": "Gilgit"
+        },
+        "correct": "D",
+        "explanation": "Shandur Pass connects the Chitral District of KPK with the Gilgit-Baltistan region and is famous for its polo festival."
+    },
+    {
+        "Question": "Which is the highest peak of the Hindu Kush mountain range?",
+        "options": {
+            "A": "Rakaposhi",
+            "B": "Tirich Mir",
+            "C": "K2",
+            "D": "Nanga Parbat"
+        },
+        "correct": "B",
+        "explanation": "Tirich Mir, located in the Chitral District, is the highest peak of the Hindu Kush range at 7,708 meters."
+    },
+    {
+        "Question": "The Potohar Plateau is bounded on the east by which river?",
+        "options": {
+            "A": "Ravi River",
+            "B": "Indus River",
+            "C": "Chenab River",
+            "D": "Jhelum River"
+        },
+        "correct": "D",
+        "explanation": "The Potohar Plateau is bounded on the east by the Jhelum River, on the west by the Indus River, and on the north by the Kala Chitta Range."
+    },
+    {
+        "Question": "Which is the largest desert in Pakistan?",
+        "options": {
+            "A": "Thar Desert",
+            "B": "Thal Desert",
+            "C": "Kharan Desert",
+            "D": "Cholistan Desert"
+        },
+        "correct": "A",
+        "explanation": "The Thar Desert, spanning Sindh and extending into India, is the largest desert in Pakistan."
+    },
+    {
+        "Question": "The Thal Desert is located in which province?",
+        "options": {
+            "A": "Balochistan",
+            "B": "Punjab",
+            "C": "Khyber Pakhtunkhwa",
+            "D": "Sindh"
+        },
+        "correct": "B",
+        "explanation": "The Thal Desert is situated in Punjab, between the Jhelum and Indus rivers near the Pothohar Plateau."
+    },
+    {
+        "Question": "Which river is known as the 'Nile of Pakistan'?",
+        "options": {
+            "A": "Jhelum River",
+            "B": "Indus River",
+            "C": "Chenab River",
+            "D": "Sutlej River"
+        },
+        "correct": "B",
+        "explanation": "The Indus River is the longest river in Pakistan and the lifeline of its agricultural system, often compared to the Nile."
+    },
+    {
+        "Question": "Where do the five rivers of Punjab meet the Indus River?",
+        "options": {
+            "A": "Guddu",
+            "B": "Sukkur",
+            "C": "Panjnad",
+            "D": "Mithankot"
+        },
+        "correct": "D",
+        "explanation": "The five rivers of Punjab combine at Panjnad and eventually join the Indus River at Mithankot."
+    },
+    {
+        "Question": "Which river does NOT originate in the Himalayas?",
+        "options": {
+            "A": "Kabul River",
+            "B": "Chenab River",
+            "C": "Indus River",
+            "D": "Jhelum River"
+        },
+        "correct": "A",
+        "explanation": "The Kabul River originates in the Sanglakh Range of the Hindu Kush mountains in Afghanistan."
+    },
+    {
+        "Question": "What is the length of the Indus River?",
+        "options": {
+            "A": "1,900 km",
+            "B": "2,800 km",
+            "C": "2,500 km",
+            "D": "3,180 km"
+        },
+        "correct": "D",
+        "explanation": "The Indus River is approximately 3,180 km (1,980 miles) long, making it one of the longest rivers in Asia."
+    },
+    {
+        "Question": "Manchar Lake, the largest freshwater lake in Pakistan, is situated in which district?",
+        "options": {
+            "A": "Jamshoro",
+            "B": "Badin",
+            "C": "Thatta",
+            "D": "Dadu"
+        },
+        "correct": "A",
+        "explanation": "Manchar Lake is located west of the Indus River in the Jamshoro District of Sindh."
+    },
+    {
+        "Question": "Which glacier is the longest in Pakistan?",
+        "options": {
+            "A": "Hispar Glacier",
+            "B": "Siachen Glacier",
+            "C": "Baltoro Glacier",
+            "D": "Biafo Glacier"
+        },
+        "correct": "B",
+        "explanation": "The Siachen Glacier is the longest glacier in the Karakoram range and the second-longest in the world's non-polar areas."
+    },
+    {
+        "Question": "Which of the following lakes is located in Gilgit-Baltistan?",
+        "options": {
+            "A": "Haleji Lake",
+            "B": "Attabad Lake",
+            "C": "Keenjhar Lake",
+            "D": "Kalar Kahar"
+        },
+        "correct": "B",
+        "explanation": "Attabad Lake was formed in 2010 due to a massive landslide in the Hunza Valley of Gilgit-Baltistan."
+    },
+    {
+        "Question": "Which mountain range separates Pakistan from Afghanistan?",
+        "options": {
+            "A": "Hindu Kush",
+            "B": "Karakoram",
+            "C": "Himalayas",
+            "D": "Sulaiman"
+        },
+        "correct": "A",
+        "explanation": "The Hindu Kush mountain range forms the formidable natural border between Pakistan and Afghanistan."
+    },
+    {
+        "Question": "Takht-e-Sulaiman is the highest peak of which mountain range?",
+        "options": {
+            "A": "Salt Range",
+            "B": "Kirthar Range",
+            "C": "Hindu Kush",
+            "D": "Sulaiman Range"
+        },
+        "correct": "D",
+        "explanation": "Takht-e-Sulaiman (Throne of Solomon) is the highest peak of the Sulaiman Mountains."
+    },
+    {
+        "Question": "The Salt Range is located in which province of Pakistan?",
+        "options": {
+            "A": "Balochistan",
+            "B": "Punjab",
+            "C": "KPK",
+            "D": "Sindh"
+        },
+        "correct": "B",
+        "explanation": "The Salt Range is a hill system in the Punjab province, known for extensive rock salt deposits like the Khewra Salt Mine."
+    },
+    {
+        "Question": "Which plain is highly fertile and formed by the Indus River and its tributaries?",
+        "options": {
+            "A": "Indus Plain",
+            "B": "Balochistan Plateau",
+            "C": "Potohar Plateau",
+            "D": "Kharan Plain"
+        },
+        "correct": "A",
+        "explanation": "The Indus Plain, divided into Upper and Lower, is formed by alluvium deposited by the Indus River network."
+    },
+    {
+        "Question": "Cholistan Desert is locally known as?",
+        "options": {
+            "A": "Rohi",
+            "B": "Nara",
+            "C": "Thar",
+            "D": "Thal"
+        },
+        "correct": "A",
+        "explanation": "The Cholistan Desert, located in the southern part of Punjab, is locally referred to as Rohi."
+    },
+    {
+        "Question": "Where is the Kharan Desert located?",
+        "options": {
+            "A": "Punjab",
+            "B": "Sindh",
+            "C": "Balochistan",
+            "D": "Gilgit-Baltistan"
+        },
+        "correct": "C",
+        "explanation": "The Kharan Desert is a sandy and mountainous desert situated in the Balochistan province."
+    },
+    {
+        "Question": "Which river joins the Chenab River at Trimmu?",
+        "options": {
+            "A": "Indus River",
+            "B": "Ravi River",
+            "C": "Jhelum River",
+            "D": "Sutlej River"
+        },
+        "correct": "C",
+        "explanation": "The Jhelum River joins the Chenab River at Trimmu Barrage in Jhang district."
+    },
+    {
+        "Question": "The Hub River flows along the border of which two provinces?",
+        "options": {
+            "A": "KPK and Punjab",
+            "B": "Punjab and Sindh",
+            "C": "Sindh and Balochistan",
+            "D": "Balochistan and KPK"
+        },
+        "correct": "C",
+        "explanation": "The Hub River forms the natural boundary between the Sindh and Balochistan provinces before falling into the Arabian Sea."
+    },
+    {
+        "Question": "Which of the following is a famous coastal feature of Pakistan?",
+        "options": {
+            "A": "Makran Coast",
+            "B": "Konkan Coast",
+            "C": "Coromandel Coast",
+            "D": "Malabar Coast"
+        },
+        "correct": "A",
+        "explanation": "The Makran Coast is a semi-desert coastal strip situated in Balochistan along the coast of the Arabian Sea."
+    },
+    {
+        "Question": "Which is the second longest river of Pakistan?",
+        "options": {
+            "A": "Chenab River",
+            "B": "Ravi River",
+            "C": "Sutlej River",
+            "D": "Jhelum River"
+        },
+        "correct": "C",
+        "explanation": "The Sutlej River is the longest of the five rivers that flow through the historic crossroads region of Punjab in northern India and Pakistan, making it the second longest in Pakistan after Indus."
+    },
+    {
+        "Question": "Astola Island is located in?",
+        "options": {
+            "A": "Red Sea",
+            "B": "Bay of Bengal",
+            "C": "Arabian Sea",
+            "D": "Indian Ocean"
+        },
+        "correct": "C",
+        "explanation": "Astola Island, also known as Jezira Haft Talar, is a small, uninhabited island in the Arabian Sea, off the coast of Balochistan."
+    },
+    {
+        "Question": "The Swat Valley is located in which mountain range?",
+        "options": {
+            "A": "Karakoram",
+            "B": "Sulaiman",
+            "C": "Hindu Kush",
+            "D": "Himalayas"
+        },
+        "correct": "C",
+        "explanation": "The Swat Valley is situated in the Hindu Kush mountain range in Khyber Pakhtunkhwa."
+    },
+    {
+        "Question": "Which pass connects Dir and Chitral?",
+        "options": {
+            "A": "Shandur Pass",
+            "B": "Khyber Pass",
+            "C": "Lowari Pass",
+            "D": "Tochi Pass"
+        },
+        "correct": "C",
+        "explanation": "The Lowari Pass connects Dir with Chitral and is famous for the Lowari Tunnel project."
+    },
+    {
+        "Question": "Where is the Hunza Valley located?",
+        "options": {
+            "A": "Balochistan",
+            "B": "KPK",
+            "C": "Gilgit-Baltistan",
+            "D": "AJK"
+        },
+        "correct": "C",
+        "explanation": "Hunza is a mountainous valley in the autonomous region of Gilgit-Baltistan, situated north/west of the Hunza River."
+    },
+    {
+        "Question": "The fertile land between two rivers is known as?",
+        "options": {
+            "A": "Doab",
+            "B": "Gorge",
+            "C": "Plateau",
+            "D": "Delta"
+        },
+        "correct": "A",
+        "explanation": "In South Asia, a 'Doab' is a tract of land lying between two converging, or confluent, rivers."
+    },
+    {
+        "Question": "Bari Doab is the area between which two rivers?",
+        "options": {
+            "A": "Indus and Jhelum",
+            "B": "Ravi and Sutlej",
+            "C": "Jhelum and Chenab",
+            "D": "Chenab and Ravi"
+        },
+        "correct": "B",
+        "explanation": "The Bari Doab lies between the Ravi and Sutlej rivers in the Punjab region."
+    },
+    {
+        "Question": "Which region of Pakistan is known as the 'Roof of the World'?",
+        "options": {
+            "A": "Deosai Plains",
+            "B": "Potohar Plateau",
+            "C": "Pamir Knot",
+            "D": "Khunjerab"
+        },
+        "correct": "C",
+        "explanation": "The Pamir Knot, which touches northern Pakistan, is often referred to as the 'Roof of the World' due to its high altitude."
+    },
+    {
+        "Question": "What is the average height of the Salt Range?",
+        "options": {
+            "A": "3,000 meters",
+            "B": "700 to 900 meters",
+            "C": "2,000 meters",
+            "D": "1,500 meters"
+        },
+        "correct": "B",
+        "explanation": "The Salt Range mountains have an average height of around 700 to 900 meters above sea level."
+    },
+    {
+        "Question": "Which peak is known as 'Broad Peak'?",
+        "options": {
+            "A": "K3",
+            "B": "Gasherbrum I",
+            "C": "K4",
+            "D": "Masherbrum"
+        },
+        "correct": "A",
+        "explanation": "Broad Peak (8051m) is also known as K3 and is the 12th highest mountain in the world."
+    },
+    {
+        "Question": "What is the location of the Neelum Valley?",
+        "options": {
+            "A": "Chitral",
+            "B": "Gilgit",
+            "C": "Swat",
+            "D": "Azad Kashmir"
+        },
+        "correct": "D",
+        "explanation": "Neelum Valley is a heavily forested, deep gorge situated in Azad Jammu and Kashmir."
+    },
+    {
+        "Question": "The Gomal Pass connects Pakistan with which country?",
+        "options": {
+            "A": "Afghanistan",
+            "B": "Iran",
+            "C": "India",
+            "D": "China"
+        },
+        "correct": "A",
+        "explanation": "The Gomal Pass connects South Waziristan in Pakistan with Paktika province in Afghanistan."
+    },
+    {
+        "Question": "The highest peak of the Kirthar Range is?",
+        "options": {
+            "A": "Sakesar",
+            "B": "Takht-e-Sulaiman",
+            "C": "Zardak",
+            "D": "Gorakh Hill"
+        },
+        "correct": "C",
+        "explanation": "Zardak is considered the highest peak of the Kirthar mountain range in Sindh/Balochistan."
+    },
+    {
+        "Question": "Which is the largest tectonic plateau in Pakistan?",
+        "options": {
+            "A": "Pamir Plateau",
+            "B": "Deosai Plateau",
+            "C": "Potohar Plateau",
+            "D": "Balochistan Plateau"
+        },
+        "correct": "D",
+        "explanation": "The Balochistan Plateau is the largest plateau in Pakistan, covering a vast arid region in the southwest."
+    },
+    {
+        "Question": "Which river flows through the city of Lahore?",
+        "options": {
+            "A": "Chenab",
+            "B": "Jhelum",
+            "C": "Sutlej",
+            "D": "Ravi"
+        },
+        "correct": "D",
+        "explanation": "The Ravi River flows past the historic city of Lahore in Punjab."
+    },
+    {
+        "Question": "Which is the smallest province of Pakistan by area?",
+        "options": {
+            "A": "Sindh",
+            "B": "Punjab",
+            "C": "Balochistan",
+            "D": "Khyber Pakhtunkhwa"
+        },
+        "correct": "D",
+        "explanation": "Khyber Pakhtunkhwa (KPK) is the smallest province by land area, even after the merger of FATA."
+    },
+    {
+        "Question": "The delta of the Indus River is located near?",
+        "options": {
+            "A": "Thatta",
+            "B": "Gwadar",
+            "C": "Ormara",
+            "D": "Pasni"
+        },
+        "correct": "A",
+        "explanation": "The Indus River forms a massive delta near the city of Thatta in Sindh before emptying into the Arabian Sea."
+    },
+    {
+        "Question": "Lake Saiful Muluk is situated near which town?",
+        "options": {
+            "A": "Babusar",
+            "B": "Naran",
+            "C": "Skardu",
+            "D": "Kaghan"
+        },
+        "correct": "B",
+        "explanation": "Lake Saiful Muluk is an alpine lake located at the northern end of the Kaghan Valley, near the town of Naran."
+    },
+    {
+        "Question": "Which glacier is situated in the Chitral district?",
+        "options": {
+            "A": "Chiantar Glacier",
+            "B": "Biafo Glacier",
+            "C": "Batura Glacier",
+            "D": "Baltoro Glacier"
+        },
+        "correct": "A",
+        "explanation": "The Chiantar Glacier is located in the Hindu Kush range in the Chitral district."
+    },
+    {
+        "Question": "Which city is known as the 'City of Saints'?",
+        "options": {
+            "A": "Multan",
+            "B": "Sehwan",
+            "C": "Lahore",
+            "D": "Peshawar"
+        },
+        "correct": "A",
+        "explanation": "Multan is famous for its large number of Sufi shrines and is known as the City of Saints."
+    },
+    {
+        "Question": "Gorakh Hill Station is located in which mountain range?",
+        "options": {
+            "A": "Kirthar Range",
+            "B": "Salt Range",
+            "C": "Sulaiman Range",
+            "D": "Himalaya"
+        },
+        "correct": "A",
+        "explanation": "Gorakh Hill Station is situated in the Kirthar Mountains in the Dadu District of Sindh."
+    },
+    {
+        "Question": "The Chagai Hills are located in which province?",
+        "options": {
+            "A": "Balochistan",
+            "B": "Punjab",
+            "C": "KPK",
+            "D": "Sindh"
+        },
+        "correct": "A",
+        "explanation": "The Chagai Hills, famous for Pakistan's nuclear tests in 1998, are located in northern Balochistan."
+    },
+    {
+        "Question": "What type of climate is predominant in Pakistan?",
+        "options": {
+            "A": "Tundra",
+            "B": "Arid and Semi-Arid",
+            "C": "Mediterranean",
+            "D": "Tropical Rainforest"
+        },
+        "correct": "B",
+        "explanation": "Most of Pakistan has an arid and semi-arid climate, experiencing hot summers and cool/cold winters with low rainfall."
+    },
+    {
+        "Question": "Which city in Pakistan holds the record for the highest temperature?",
+        "options": {
+            "A": "Sibi",
+            "B": "Nawabshah",
+            "C": "Jacobabad",
+            "D": "Turbat"
+        },
+        "correct": "D",
+        "explanation": "Turbat recorded a temperature of 53.7 \u00b0C (128.7 \u00b0F) on May 28, 2017, one of the highest reliably measured globally."
+    },
+    {
+        "Question": "When does the monsoon season usually start in Pakistan?",
+        "options": {
+            "A": "April",
+            "B": "July",
+            "C": "September",
+            "D": "May"
+        },
+        "correct": "B",
+        "explanation": "The summer monsoon season in Pakistan generally starts in early July and lasts until September."
+    },
+    {
+        "Question": "Which crop is known as the largest cash crop of Pakistan?",
+        "options": {
+            "A": "Rice",
+            "B": "Wheat",
+            "C": "Sugarcane",
+            "D": "Cotton"
+        },
+        "correct": "D",
+        "explanation": "Cotton is the largest cash crop of Pakistan and forms the backbone of its textile industry."
+    },
+    {
+        "Question": "When is the Rabi crop sown in Pakistan?",
+        "options": {
+            "A": "April-June",
+            "B": "January-March",
+            "C": "October-December",
+            "D": "July-August"
+        },
+        "correct": "C",
+        "explanation": "Rabi crops like wheat are sown in winter from October to December and harvested in spring (April-May)."
+    },
+    {
+        "Question": "Which of the following is a Kharif crop?",
+        "options": {
+            "A": "Barley",
+            "B": "Rice",
+            "C": "Wheat",
+            "D": "Gram"
+        },
+        "correct": "B",
+        "explanation": "Rice is a major Kharif crop, sown in early summer (monsoon season) and harvested in autumn."
+    },
+    {
+        "Question": "Which barrage is built on the Indus River?",
+        "options": {
+            "A": "Qadirabad Barrage",
+            "B": "Marala Barrage",
+            "C": "Guddu Barrage",
+            "D": "Khanki Barrage"
+        },
+        "correct": "C",
+        "explanation": "Guddu Barrage is located on the Indus River in Kashmore, Sindh."
+    },
+    {
+        "Question": "The Sukkur Barrage has how many canals?",
+        "options": {
+            "A": "5",
+            "B": "9",
+            "C": "7",
+            "D": "3"
+        },
+        "correct": "C",
+        "explanation": "The Sukkur Barrage, built during the British era, feeds the largest irrigation system in the world through its 7 main canals."
+    },
+    {
+        "Question": "Tarbela Dam is constructed on which river?",
+        "options": {
+            "A": "Chenab River",
+            "B": "Ravi River",
+            "C": "Indus River",
+            "D": "Jhelum River"
+        },
+        "correct": "C",
+        "explanation": "Tarbela Dam, the largest earth-filled dam in the world, is built on the Indus River in KPK."
+    },
+    {
+        "Question": "Mangla Dam is situated on which river?",
+        "options": {
+            "A": "Jhelum River",
+            "B": "Indus River",
+            "C": "Chenab River",
+            "D": "Sutlej River"
+        },
+        "correct": "A",
+        "explanation": "Mangla Dam, the 6th largest dam in the world, is constructed on the Jhelum River in Azad Kashmir."
+    },
+    {
+        "Question": "Diamer-Bhasha Dam is currently being constructed on?",
+        "options": {
+            "A": "Kabul River",
+            "B": "Chenab River",
+            "C": "Jhelum River",
+            "D": "Indus River"
+        },
+        "correct": "D",
+        "explanation": "The Diamer-Bhasha Dam is a mega concrete-core rockfill dam under construction on the Indus River in Gilgit-Baltistan/KPK."
+    },
+    {
+        "Question": "Which mineral is heavily extracted from Khewra?",
+        "options": {
+            "A": "Rock Salt",
+            "B": "Limestone",
+            "C": "Gypsum",
+            "D": "Coal"
+        },
+        "correct": "A",
+        "explanation": "Khewra Salt Mine in Punjab is the second-largest salt mine in the world, famous for pink Himalayan rock salt."
+    },
+    {
+        "Question": "Thar coalfield is located in which province?",
+        "options": {
+            "A": "Balochistan",
+            "B": "Sindh",
+            "C": "Punjab",
+            "D": "KPK"
+        },
+        "correct": "B",
+        "explanation": "The Thar coalfield, containing immense reserves of lignite coal, is located in the Tharparkar district of Sindh."
+    },
+    {
+        "Question": "Saindak project in Balochistan is famous for mining which minerals?",
+        "options": {
+            "A": "Chromite and Gypsum",
+            "B": "Copper and Gold",
+            "C": "Iron and Coal",
+            "D": "Silver and Lead"
+        },
+        "correct": "B",
+        "explanation": "The Saindak Copper-Gold Project is a mining operation in Chagai District, Balochistan, producing copper and gold."
+    },
+    {
+        "Question": "Reko Diq holds vast reserves of?",
+        "options": {
+            "A": "Uranium",
+            "B": "Oil and Gas",
+            "C": "Iron Ore",
+            "D": "Copper and Gold"
+        },
+        "correct": "D",
+        "explanation": "Reko Diq, located in Balochistan, is famous for possessing one of the world's largest unexploited copper and gold reserves."
+    },
+    {
+        "Question": "Where is Pakistan's largest natural gas field located?",
+        "options": {
+            "A": "Mari",
+            "B": "Qadirpur",
+            "C": "Sui",
+            "D": "Dhodak"
+        },
+        "correct": "C",
+        "explanation": "The Sui gas field, discovered in 1952 in Balochistan, remains one of the largest natural gas fields in Pakistan."
+    },
+    {
+        "Question": "Which type of forest is found in the coastal areas of Sindh and Balochistan?",
+        "options": {
+            "A": "Coniferous Forests",
+            "B": "Deciduous Forests",
+            "C": "Alpine Forests",
+            "D": "Mangrove Forests"
+        },
+        "correct": "D",
+        "explanation": "Mangrove forests, particularly the Indus River Delta mangroves, thrive in the saline coastal waters of Sindh and Balochistan."
+    },
+    {
+        "Question": "Hingol National Park is situated in?",
+        "options": {
+            "A": "KPK",
+            "B": "Sindh",
+            "C": "Balochistan",
+            "D": "Gilgit-Baltistan"
+        },
+        "correct": "C",
+        "explanation": "Hingol National Park is the largest national park in Pakistan, located along the Makran coast in Balochistan."
+    },
+    {
+        "Question": "What is the primary function of the Chashma Barrage?",
+        "options": {
+            "A": "Flood Control only",
+            "B": "Drinking water supply",
+            "C": "Irrigation and Power Generation",
+            "D": "Navigation"
+        },
+        "correct": "C",
+        "explanation": "Chashma Barrage on the Indus River is utilized for irrigation, flood control, and has a hydropower generation facility."
+    },
+    {
+        "Question": "The world's largest contiguous irrigation system is located in?",
+        "options": {
+            "A": "China",
+            "B": "Pakistan",
+            "C": "India",
+            "D": "Egypt"
+        },
+        "correct": "B",
+        "explanation": "Pakistan's Indus Basin Irrigation System (IBIS) is the largest contiguous irrigation system in the world."
+    },
+    {
+        "Question": "Which region is famous for the production of Kinnow (mandarin)?",
+        "options": {
+            "A": "Sargodha",
+            "B": "Sukkur",
+            "C": "Peshawar",
+            "D": "Multan"
+        },
+        "correct": "A",
+        "explanation": "Sargodha district in Punjab is internationally recognized for producing high-quality Kinnow citrus fruit."
+    },
+    {
+        "Question": "The National Animal of Pakistan, known for climbing steep, rocky cliffs, is the?",
+        "options": {
+            "A": "Snow Leopard",
+            "B": "Markhor",
+            "C": "Chinkara",
+            "D": "Asiatic Black Bear"
+        },
+        "correct": "B",
+        "explanation": "The Markhor, a large species of wild goat found in mountainous regions, is the national animal of Pakistan."
+    },
+    {
+        "Question": "What percentage of Pakistan's land is officially forested (approx)?",
+        "options": {
+            "A": "35%",
+            "B": "5%",
+            "C": "25%",
+            "D": "15%"
+        },
+        "correct": "B",
+        "explanation": "Pakistan has a low forest cover, with estimates typically placing it at around 4-5% of the total land area."
+    },
+    {
+        "Question": "Which is the largest earth and rock-filled dam in the world?",
+        "options": {
+            "A": "Hoover Dam",
+            "B": "Aswan Dam",
+            "C": "Mangla Dam",
+            "D": "Tarbela Dam"
+        },
+        "correct": "D",
+        "explanation": "Tarbela Dam on the Indus River holds the record as the world's largest earth and rock-filled dam."
+    },
+    {
+        "Question": "Warsak Dam is built on which river?",
+        "options": {
+            "A": "Indus River",
+            "B": "Kurram River",
+            "C": "Kabul River",
+            "D": "Jhelum River"
+        },
+        "correct": "C",
+        "explanation": "Warsak Dam is a mass concrete gravity dam built on the Kabul River, approximately 20 km northwest of Peshawar."
+    },
+    {
+        "Question": "Which province is the largest producer of wheat in Pakistan?",
+        "options": {
+            "A": "Balochistan",
+            "B": "KPK",
+            "C": "Sindh",
+            "D": "Punjab"
+        },
+        "correct": "D",
+        "explanation": "Punjab, known as the 'Breadbasket of Pakistan', produces the vast majority of the country's wheat."
+    },
+    {
+        "Question": "Which city is known as the 'Manchester of Pakistan' due to its textile industry?",
+        "options": {
+            "A": "Sialkot",
+            "B": "Faisalabad",
+            "C": "Lahore",
+            "D": "Karachi"
+        },
+        "correct": "B",
+        "explanation": "Faisalabad is an industrial hub deeply rooted in the textile industry, earning it the nickname Manchester of Pakistan."
+    },
+    {
+        "Question": "Which environmental issue is most severely affecting Pakistan's agriculture?",
+        "options": {
+            "A": "Deforestation",
+            "B": "Ozone Depletion",
+            "C": "Water Scarcity",
+            "D": "Air Pollution"
+        },
+        "correct": "C",
+        "explanation": "Water scarcity and decreasing per capita water availability severely threaten Pakistan's agriculture-dependent economy."
+    },
+    {
+        "Question": "The Chashma-Jhelum Link Canal connects which two rivers?",
+        "options": {
+            "A": "Indus and Chenab",
+            "B": "Indus and Jhelum",
+            "C": "Ravi and Sutlej",
+            "D": "Chenab and Jhelum"
+        },
+        "correct": "B",
+        "explanation": "The Chashma-Jhelum Link Canal transfers water from the Indus River at Chashma to the Jhelum River."
+    },
+    {
+        "Question": "Which soil type is most prevalent in the Indus plain?",
+        "options": {
+            "A": "Laterite Soil",
+            "B": "Red Soil",
+            "C": "Black Soil",
+            "D": "Alluvial Soil"
+        },
+        "correct": "D",
+        "explanation": "The Indus plain is predominantly covered with fertile alluvial soil deposited by the Indus River and its tributaries."
+    },
+    {
+        "Question": "Pakistan's first nuclear power plant (KANUPP) was established in?",
+        "options": {
+            "A": "Islamabad",
+            "B": "Quetta",
+            "C": "Karachi",
+            "D": "Chashma"
+        },
+        "correct": "C",
+        "explanation": "The Karachi Nuclear Power Plant (KANUPP) was the first commercial nuclear power plant inaugurated in 1972."
+    },
+    {
+        "Question": "Which mineral is primarily mined at Muslim Bagh?",
+        "options": {
+            "A": "Chromite",
+            "B": "Copper",
+            "C": "Gypsum",
+            "D": "Coal"
+        },
+        "correct": "A",
+        "explanation": "Muslim Bagh in Balochistan is highly famous for its extensive deposits of high-grade Chromite."
+    },
+    {
+        "Question": "The 'Billion Tree Tsunami' afforestation program was primarily initiated in which province first?",
+        "options": {
+            "A": "Balochistan",
+            "B": "Punjab",
+            "C": "Sindh",
+            "D": "Khyber Pakhtunkhwa"
+        },
+        "correct": "D",
+        "explanation": "The Billion Tree Tsunami campaign was launched in 2014 by the Government of Khyber Pakhtunkhwa to combat deforestation."
+    },
+    {
+        "Question": "Which region receives the highest amount of rainfall in Pakistan?",
+        "options": {
+            "A": "Karachi",
+            "B": "Murree",
+            "C": "Gilgit",
+            "D": "Quetta"
+        },
+        "correct": "B",
+        "explanation": "Murree and its surrounding areas receive the highest annual rainfall in Pakistan."
+    },
+    {
+        "Question": "What is the primary source of energy generation in Pakistan?",
+        "options": {
+            "A": "Nuclear",
+            "B": "Hydel",
+            "C": "Thermal (Gas/Coal/Oil)",
+            "D": "Solar"
+        },
+        "correct": "C",
+        "explanation": "Thermal power (using natural gas, coal, and oil) accounts for the largest share of electricity generation in Pakistan."
+    },
+    {
+        "Question": "The Gomal Zam Dam is located in which region?",
+        "options": {
+            "A": "North Waziristan",
+            "B": "South Waziristan",
+            "C": "Bannu",
+            "D": "Kohat"
+        },
+        "correct": "B",
+        "explanation": "Gomal Zam Dam is a multi-purpose dam located on the Gomal River in the South Waziristan district."
+    },
+    {
+        "Question": "Which tree is considered the National Tree of Pakistan?",
+        "options": {
+            "A": "Neem",
+            "B": "Banyan",
+            "C": "Peepal",
+            "D": "Deodar"
+        },
+        "correct": "D",
+        "explanation": "The Deodar (Cedrus deodara), found in the northern Himalayan regions, is the national tree of Pakistan."
+    },
+    {
+        "Question": "The Hub Dam supplies water primarily to which city?",
+        "options": {
+            "A": "Hyderabad",
+            "B": "Quetta",
+            "C": "Gwadar",
+            "D": "Karachi"
+        },
+        "correct": "D",
+        "explanation": "Hub Dam, situated on the Hub River, is a major source of drinking water for the city of Karachi."
+    },
+    {
+        "Question": "Which crop is sown in the 'Zaid' season (spring/early summer)?",
+        "options": {
+            "A": "Wheat",
+            "B": "Melons and Vegetables",
+            "C": "Cotton",
+            "D": "Sugarcane"
+        },
+        "correct": "B",
+        "explanation": "Zaid crops, grown between the Rabi and Kharif seasons, typically include seasonal fruits like melons and various vegetables."
+    },
+    {
+        "Question": "Where is the famous 'Juniper Forest' located in Pakistan?",
+        "options": {
+            "A": "Chitral",
+            "B": "Ziarat",
+            "C": "Swat",
+            "D": "Murree"
+        },
+        "correct": "B",
+        "explanation": "The Ziarat district in Balochistan is home to one of the largest and oldest Juniper forests in the world."
+    },
+    {
+        "Question": "Which institution manages the distribution of water resources among provinces in Pakistan?",
+        "options": {
+            "A": "IRSA",
+            "B": "WAPDA",
+            "C": "PCRWR",
+            "D": "NHA"
+        },
+        "correct": "A",
+        "explanation": "The Indus River System Authority (IRSA) regulates and distributes water resources among the provinces of Pakistan."
+    },
+    {
+        "Question": "Which part of Pakistan experiences a true 'desert climate'?",
+        "options": {
+            "A": "Northern Areas",
+            "B": "Kashmir",
+            "C": "Thar and Cholistan",
+            "D": "Potohar Plateau"
+        },
+        "correct": "C",
+        "explanation": "The southeastern regions, including the Thar and Cholistan deserts, experience extreme desert climates with negligible rainfall."
+    },
+    {
+        "Question": "What is 'Karez' in the context of Balochistan?",
+        "options": {
+            "A": "A type of traditional dress",
+            "B": "An underground irrigation system",
+            "C": "A local tribal council",
+            "D": "A mountain pass"
+        },
+        "correct": "B",
+        "explanation": "Karez is an ancient, traditional underground tunnel system used to extract and transport groundwater for irrigation in Balochistan."
+    },
+    {
+        "Question": "Which is the largest artificial lake in Pakistan?",
+        "options": {
+            "A": "Kalar Kahar",
+            "B": "Haleji Lake",
+            "C": "Keenjhar Lake",
+            "D": "Manchar Lake"
+        },
+        "correct": "C",
+        "explanation": "Keenjhar Lake (Kalri Lake) in Thatta District is the second largest freshwater lake, heavily expanded artificially to supply water to Karachi."
+    },
+    {
+        "Question": "Pakistan is the world's leading exporter of?",
+        "options": {
+            "A": "Heavy Machinery",
+            "B": "Automobiles",
+            "C": "Electronics",
+            "D": "Surgical Instruments"
+        },
+        "correct": "D",
+        "explanation": "Pakistan, particularly the city of Sialkot, is one of the world's leading manufacturers and exporters of surgical instruments and sports goods."
+    },
+    {
+        "Question": "Which region in Pakistan is heavily impacted by waterlogging and salinity?",
+        "options": {
+            "A": "Northern Mountains",
+            "B": "Thar Desert",
+            "C": "Makran Coast",
+            "D": "Indus Basin (Punjab & Sindh)"
+        },
+        "correct": "D",
+        "explanation": "Poor drainage in the extensive canal irrigation system of the Indus Basin has led to severe waterlogging and salinity issues."
+    },
+    {
+        "Question": "The 'Neelum-Jhelum Hydropower Project' is located in?",
+        "options": {
+            "A": "Punjab",
+            "B": "KPK",
+            "C": "Gilgit-Baltistan",
+            "D": "Azad Kashmir"
+        },
+        "correct": "D",
+        "explanation": "The Neelum-Jhelum Hydropower Plant is a major run-of-the-river hydroelectric power scheme in Azad Kashmir."
+    },
+    {
+        "Question": "What type of climate is found in the extreme northern areas of Pakistan?",
+        "options": {
+            "A": "Tropical",
+            "B": "Mediterranean",
+            "C": "Desert",
+            "D": "Alpine / Tundra"
+        },
+        "correct": "D",
+        "explanation": "The high-altitude northern regions like Gilgit-Baltistan experience Alpine and Tundra climates, characterized by extreme cold and ice."
+    },
+    {
+        "Question": "Pakistan's Exclusive Economic Zone (EEZ) extends up to?",
+        "options": {
+            "A": "200 nautical miles",
+            "B": "100 nautical miles",
+            "C": "350 nautical miles",
+            "D": "50 nautical miles"
+        },
+        "correct": "A",
+        "explanation": "Under international law, Pakistan's Exclusive Economic Zone (EEZ) extends 200 nautical miles into the Arabian Sea."
+    },
+    {
+        "Question": "What is the main purpose of the Right Bank Outfall Drain (RBOD)?",
+        "options": {
+            "A": "To generate hydropower",
+            "B": "To irrigate the Thar desert",
+            "C": "To provide drinking water to Sindh",
+            "D": "To carry saline water to the sea"
+        },
+        "correct": "D",
+        "explanation": "The RBOD is a mega-project designed to carry saline, waterlogged effluent from Sindh directly to the Arabian Sea to protect Manchar Lake."
+    },
+    {
+        "Question": "What is the length of the Durand Line (approx)?",
+        "options": {
+            "A": "3,100 km",
+            "B": "800 km",
+            "C": "2,640 km",
+            "D": "1,200 km"
+        },
+        "correct": "C",
+        "explanation": "The Durand Line is the roughly 2,640 km border between Afghanistan and Pakistan, established in 1893."
+    },
+    {
+        "Question": "Which country lies to the east of Pakistan?",
+        "options": {
+            "A": "China",
+            "B": "Iran",
+            "C": "India",
+            "D": "Afghanistan"
+        },
+        "correct": "C",
+        "explanation": "India shares the eastern and south-eastern boundary with Pakistan."
+    },
+    {
+        "Question": "The border between Pakistan and Iran is known as?",
+        "options": {
+            "A": "Radcliffe Line",
+            "B": "Durand Line",
+            "C": "Goldsmid Line",
+            "D": "McMahon Line"
+        },
+        "correct": "C",
+        "explanation": "The boundary between Pakistan and Iran is often referred to as the Goldsmid Line, demarcated initially in the 19th century."
+    },
+    {
+        "Question": "What is the total length of the Pakistan-Iran border (approx)?",
+        "options": {
+            "A": "1,500 km",
+            "B": "595 km",
+            "C": "1,200 km",
+            "D": "909 km"
+        },
+        "correct": "D",
+        "explanation": "The border separating Pakistan's Balochistan province from Iran's Sistan and Baluchestan province is about 909 km long."
+    },
+    {
+        "Question": "Which borderline separates Pakistan from India?",
+        "options": {
+            "A": "Durand Line",
+            "B": "Maginot Line",
+            "C": "MacMahon Line",
+            "D": "Radcliffe Line"
+        },
+        "correct": "D",
+        "explanation": "The Radcliffe Line was announced in August 1947 as the boundary demarcation line between India and Pakistan."
+    },
+    {
+        "Question": "What is the Working Boundary in Pakistan?",
+        "options": {
+            "A": "Border between KPK and Afghanistan",
+            "B": "Border between Sialkot and Indian Occupied Kashmir",
+            "C": "Border between Sindh and Gujarat",
+            "D": "Border between GB and Xinjiang"
+        },
+        "correct": "B",
+        "explanation": "The Working Boundary is the line between the Pakistani province of Punjab (specifically Sialkot sector) and Indian-administered Jammu and Kashmir."
+    },
+    {
+        "Question": "The Line of Control (LoC) divides which region?",
+        "options": {
+            "A": "Rann of Kutch",
+            "B": "Siachen",
+            "C": "Punjab",
+            "D": "Kashmir"
+        },
+        "correct": "D",
+        "explanation": "The LoC is a military control line dividing the region of Kashmir between India and Pakistan, established after the 1971 war."
+    },
+    {
+        "Question": "Which is the largest seaport of Pakistan?",
+        "options": {
+            "A": "Gwadar Port",
+            "B": "Ormara Port",
+            "C": "Port of Karachi",
+            "D": "Port Qasim"
+        },
+        "correct": "C",
+        "explanation": "The Port of Karachi is the largest and busiest deep-water seaport of Pakistan, handling the majority of the nation's cargo."
+    },
+    {
+        "Question": "Where is Port Qasim located?",
+        "options": {
+            "A": "Pasni",
+            "B": "Jiwani",
+            "C": "Karachi",
+            "D": "Gwadar"
+        },
+        "correct": "C",
+        "explanation": "Port Qasim is the second busiest port in Pakistan, located at the coastline of the Arabian Sea in Karachi."
+    },
+    {
+        "Question": "Gwadar Port is located in which province?",
+        "options": {
+            "A": "Sindh",
+            "B": "KPK",
+            "C": "Punjab",
+            "D": "Balochistan"
+        },
+        "correct": "D",
+        "explanation": "Gwadar Port is a strategic deep-sea port situated on the Arabian Sea at Gwadar in Balochistan province."
+    },
+    {
+        "Question": "Which country helped in the construction of Gwadar Port?",
+        "options": {
+            "A": "USA",
+            "B": "Saudi Arabia",
+            "C": "China",
+            "D": "Turkey"
+        },
+        "correct": "C",
+        "explanation": "China has heavily financed and constructed the Gwadar Port under the framework of the China-Pakistan Economic Corridor (CPEC)."
+    },
+    {
+        "Question": "What does CPEC stand for?",
+        "options": {
+            "A": "Central Pakistan Energy Commission",
+            "B": "China-Pakistan Economic Corridor",
+            "C": "China-Pakistan Export Center",
+            "D": "China-Punjab Economic Corridor"
+        },
+        "correct": "B",
+        "explanation": "CPEC is a massive bilateral project to improve infrastructure and connectivity between China and Pakistan."
+    },
+    {
+        "Question": "Which is the longest motorway in Pakistan?",
+        "options": {
+            "A": "M-1",
+            "B": "M-9",
+            "C": "M-8",
+            "D": "M-2"
+        },
+        "correct": "C",
+        "explanation": "The M-8 Motorway (Ratodero to Gwadar) is currently the longest motorway project in Pakistan at nearly 892 km."
+    },
+    {
+        "Question": "The M-2 motorway connects which two cities?",
+        "options": {
+            "A": "Multan and Sukkur",
+            "B": "Peshawar and Islamabad",
+            "C": "Karachi and Hyderabad",
+            "D": "Lahore and Islamabad"
+        },
+        "correct": "D",
+        "explanation": "The M-2 motorway, completed in 1997, connects the capital city Islamabad with Lahore."
+    },
+    {
+        "Question": "Which highway is known as the 'Eighth Wonder of the World'?",
+        "options": {
+            "A": "Karakoram Highway",
+            "B": "Grand Trunk Road",
+            "C": "Indus Highway",
+            "D": "Makran Coastal Highway"
+        },
+        "correct": "A",
+        "explanation": "The Karakoram Highway (N-35) is often called the 8th wonder of the world due to its high elevation and the difficult conditions under which it was built."
+    },
+    {
+        "Question": "The Karakoram Highway connects Pakistan with?",
+        "options": {
+            "A": "India",
+            "B": "China",
+            "C": "Afghanistan",
+            "D": "Iran"
+        },
+        "correct": "B",
+        "explanation": "The Karakoram Highway connects the Gilgit-Baltistan region of Pakistan to China's Xinjiang province across the Khunjerab Pass."
+    },
+    {
+        "Question": "Which railway station is the highest in Pakistan?",
+        "options": {
+            "A": "Quetta",
+            "B": "Kan Mehtarzai",
+            "C": "Rawalpindi",
+            "D": "Lahore Junction"
+        },
+        "correct": "B",
+        "explanation": "Kan Mehtarzai in Balochistan was historically the highest railway station in Pakistan (at over 2200m)."
+    },
+    {
+        "Question": "What is the name of the international airport in Lahore?",
+        "options": {
+            "A": "Bacha Khan International Airport",
+            "B": "Allama Iqbal International Airport",
+            "C": "Jinnah International Airport",
+            "D": "Islamabad International Airport"
+        },
+        "correct": "B",
+        "explanation": "The primary airport serving Lahore and Punjab is named after the national poet, Allama Muhammad Iqbal."
+    },
+    {
+        "Question": "Which is the busiest airport in Pakistan?",
+        "options": {
+            "A": "Allama Iqbal International Airport",
+            "B": "Jinnah International Airport, Karachi",
+            "C": "Peshawar Airport",
+            "D": "Islamabad International Airport"
+        },
+        "correct": "B",
+        "explanation": "Jinnah International Airport in Karachi handles the highest volume of domestic and international passenger traffic in Pakistan."
+    },
+    {
+        "Question": "Where is Pakistan's largest dry port located?",
+        "options": {
+            "A": "Multan",
+            "B": "Sialkot",
+            "C": "Faisalabad",
+            "D": "Lahore"
+        },
+        "correct": "D",
+        "explanation": "The Mughalpura Dry Port in Lahore was the first and remains one of the largest dry ports in Pakistan."
+    },
+    {
+        "Question": "The Makran Coastal Highway connects Karachi with?",
+        "options": {
+            "A": "Chabahar",
+            "B": "Sukkur",
+            "C": "Quetta",
+            "D": "Gwadar"
+        },
+        "correct": "D",
+        "explanation": "The N-10 or Makran Coastal Highway runs along Pakistan's Arabian Sea coast connecting Karachi to Gwadar."
+    },
+    {
+        "Question": "What is the old name of the historic Grand Trunk (GT) Road?",
+        "options": {
+            "A": "Shahrah-e-Resham",
+            "B": "Sadak-e-Azam",
+            "C": "Silk Route",
+            "D": "Indus Highway"
+        },
+        "correct": "B",
+        "explanation": "Built by Sher Shah Suri, the GT road was historically known as Sadak-e-Azam or 'The Great Road'."
+    },
+    {
+        "Question": "Which border crossing is famous for the daily flag-lowering ceremony?",
+        "options": {
+            "A": "Wagah Border",
+            "B": "Torkham Border",
+            "C": "Taftan Border",
+            "D": "Chaman Border"
+        },
+        "correct": "A",
+        "explanation": "The Wagah Border between Lahore and Amritsar is famous for the spectacular daily beating retreat border ceremony."
+    },
+    {
+        "Question": "Torkham is a major border crossing between Pakistan and?",
+        "options": {
+            "A": "Afghanistan",
+            "B": "India",
+            "C": "China",
+            "D": "Iran"
+        },
+        "correct": "A",
+        "explanation": "Torkham is one of the busiest and most strategically important border crossings between Pakistan and Afghanistan."
+    },
+    {
+        "Question": "The Taftan border connects Pakistan with which country?",
+        "options": {
+            "A": "China",
+            "B": "Oman",
+            "C": "Afghanistan",
+            "D": "Iran"
+        },
+        "correct": "D",
+        "explanation": "Taftan is a town located in Chagai District, Balochistan, and serves as the main border crossing with Iran."
+    },
+    {
+        "Question": "The Chaman border crossing connects Balochistan with which Afghan province?",
+        "options": {
+            "A": "Kabul",
+            "B": "Kandahar",
+            "C": "Herat",
+            "D": "Helmand"
+        },
+        "correct": "B",
+        "explanation": "The Chaman crossing is a major commercial point linking Quetta, Pakistan, with Spin Boldak in Kandahar, Afghanistan."
+    },
+    {
+        "Question": "Which pass connects the Wakhan Corridor of Afghanistan with Pakistan?",
+        "options": {
+            "A": "Broghil Pass",
+            "B": "Khyber Pass",
+            "C": "Khunjerab Pass",
+            "D": "Gomal Pass"
+        },
+        "correct": "A",
+        "explanation": "The Broghil Pass crosses the Hindu Kush and Pamir mountain ranges, connecting Chitral with the Wakhan Corridor."
+    },
+    {
+        "Question": "Which river forms a natural border between Pakistan and India in the Punjab region?",
+        "options": {
+            "A": "Jhelum",
+            "B": "Chenab",
+            "C": "Indus",
+            "D": "Sutlej"
+        },
+        "correct": "D",
+        "explanation": "The Sutlej River acts as a natural border in certain sections of the Punjab plains between India and Pakistan."
+    },
+    {
+        "Question": "What is the total length of Pakistan's coastline along the Arabian Sea?",
+        "options": {
+            "A": "750 km",
+            "B": "900 km",
+            "C": "1,046 km",
+            "D": "1,200 km"
+        },
+        "correct": "C",
+        "explanation": "Pakistan's coastline stretches approximately 1,046 kilometers (650 miles) along the Arabian Sea."
+    },
+    {
+        "Question": "Which strategic corridor in Afghanistan separates Pakistan from Tajikistan?",
+        "options": {
+            "A": "Khyber Pass",
+            "B": "Wakhan Corridor",
+            "C": "Salang Pass",
+            "D": "Panjshir Valley"
+        },
+        "correct": "B",
+        "explanation": "The Wakhan Corridor is a narrow strip of Afghan territory that prevents Pakistan and Tajikistan from sharing a border."
+    },
+    {
+        "Question": "Pakistan Railways is headquartered in which city?",
+        "options": {
+            "A": "Rawalpindi",
+            "B": "Islamabad",
+            "C": "Karachi",
+            "D": "Lahore"
+        },
+        "correct": "D",
+        "explanation": "The headquarters of Pakistan Railways, established during the British Raj, is located in Lahore."
+    },
+    {
+        "Question": "The 'Orange Line' metro train system was first launched in which city?",
+        "options": {
+            "A": "Peshawar",
+            "B": "Islamabad",
+            "C": "Karachi",
+            "D": "Lahore"
+        },
+        "correct": "D",
+        "explanation": "The Orange Line is an automated rapid transit system in Lahore, the first of its kind in Pakistan."
+    },
+    {
+        "Question": "Which organization is responsible for maintaining national highways in Pakistan?",
+        "options": {
+            "A": "WAPDA",
+            "B": "CDA",
+            "C": "NHA",
+            "D": "CAA"
+        },
+        "correct": "C",
+        "explanation": "The National Highway Authority (NHA) is responsible for building and maintaining highways and motorways in Pakistan."
+    },
+    {
+        "Question": "Which is the longest national highway in Pakistan?",
+        "options": {
+            "A": "N-10",
+            "B": "N-5",
+            "C": "N-55",
+            "D": "N-35"
+        },
+        "correct": "B",
+        "explanation": "The N-5 (Grand Trunk Road section in Pakistan) is the longest national highway, running from Karachi to Torkham (1819 km)."
+    },
+    {
+        "Question": "Which dry port was established entirely by the private sector?",
+        "options": {
+            "A": "Lahore Dry Port",
+            "B": "Faisalabad Dry Port",
+            "C": "Multan Dry Port",
+            "D": "Sialkot Dry Port"
+        },
+        "correct": "D",
+        "explanation": "The Sialkot Dry Port Trust was established by local businessmen, making it the first private sector dry port in Asia."
+    },
+    {
+        "Question": "The Lowari Tunnel connects Dir with which district?",
+        "options": {
+            "A": "Gilgit",
+            "B": "Swat",
+            "C": "Kohistan",
+            "D": "Chitral"
+        },
+        "correct": "D",
+        "explanation": "The Lowari Tunnel is an all-weather vehicular tunnel connecting Dir to the Chitral Valley in KPK."
+    },
+    {
+        "Question": "The Khojak Tunnel is located in which province?",
+        "options": {
+            "A": "Sindh",
+            "B": "Punjab",
+            "C": "Balochistan",
+            "D": "KPK"
+        },
+        "correct": "C",
+        "explanation": "The Khojak Tunnel is a 3.9 km long railway tunnel in the Qila Abdullah District of Balochistan, one of the longest in South Asia."
+    },
+    {
+        "Question": "Which bridge connects Sukkur with Rohri?",
+        "options": {
+            "A": "Lansdowne Bridge",
+            "B": "Both A and B",
+            "C": "Kotri Bridge",
+            "D": "Ayub Bridge"
+        },
+        "correct": "D",
+        "explanation": "Both the historic Lansdowne Bridge and the newer Ayub Arch Bridge connect the cities of Sukkur and Rohri across the Indus River."
+    },
+    {
+        "Question": "Which international airport is located at the highest elevation in Pakistan?",
+        "options": {
+            "A": "Chitral Airport",
+            "B": "Quetta Airport",
+            "C": "Skardu Airport",
+            "D": "Gilgit Airport"
+        },
+        "correct": "C",
+        "explanation": "Skardu Airport, situated at an elevation of 2,230 meters, is the highest commercial airport in Pakistan."
+    },
+    {
+        "Question": "Pakistan's first deep-water container terminal (SAPT) is located at?",
+        "options": {
+            "A": "Gwadar Port",
+            "B": "Port Qasim",
+            "C": "Karachi Port",
+            "D": "Ormara"
+        },
+        "correct": "C",
+        "explanation": "The South Asia Pakistan Terminals (SAPT) is located at Karachi Port and is designed to accommodate super post-Panamax ships."
+    },
+    {
+        "Question": "What is the main highway connecting Karachi to Peshawar along the west bank of the Indus?",
+        "options": {
+            "A": "Makran Coastal Highway",
+            "B": "Indus Highway (N-55)",
+            "C": "M-1 Motorway",
+            "D": "Grand Trunk Road (N-5)"
+        },
+        "correct": "B",
+        "explanation": "The N-55, or Indus Highway, runs along the western bank of the Indus River, providing a shorter route between Karachi and Peshawar than the N-5."
+    },
+    {
+        "Question": "Which border separates Sindh province from the Indian state of Rajasthan?",
+        "options": {
+            "A": "Radcliffe Line",
+            "B": "Durand Line",
+            "C": "Line of Control",
+            "D": "Working Boundary"
+        },
+        "correct": "A",
+        "explanation": "The international border defined by the Radcliffe Line separates Sindh from the Indian states of Gujarat and Rajasthan."
+    },
+    {
+        "Question": "The Rann of Kutch dispute between Pakistan and India is primarily located in which province?",
+        "options": {
+            "A": "Punjab",
+            "B": "Balochistan",
+            "C": "Sindh",
+            "D": "Kashmir"
+        },
+        "correct": "C",
+        "explanation": "The Rann of Kutch is a massive salt marsh area located on the border between the Sindh province of Pakistan and Gujarat, India."
+    },
+    {
+        "Question": "Which pass connects Quetta with Chaman and Afghanistan?",
+        "options": {
+            "A": "Khojak Pass",
+            "B": "Bolan Pass",
+            "C": "Khyber Pass",
+            "D": "Tochi Pass"
+        },
+        "correct": "A",
+        "explanation": "The Khojak Pass in the Toba Kakar range connects Quetta to the border town of Chaman."
+    },
+    {
+        "Question": "The green Line BRT system was first operationalized in which city?",
+        "options": {
+            "A": "Lahore",
+            "B": "Multan",
+            "C": "Karachi",
+            "D": "Peshawar"
+        },
+        "correct": "C",
+        "explanation": "The Green Line Bus Rapid Transit (BRT) was inaugurated as the first modern public transport system for Karachi."
+    },
+    {
+        "Question": "Pakistan's space agency SUPARCO was established in which year?",
+        "options": {
+            "A": "1998",
+            "B": "1973",
+            "C": "1947",
+            "D": "1961"
+        },
+        "correct": "D",
+        "explanation": "The Space and Upper Atmosphere Research Commission (SUPARCO) was established in 1961 by Dr. Abdus Salam."
+    },
+    {
+        "Question": "Which dam is proposed to be built on the Swat River?",
+        "options": {
+            "A": "Munda Dam (Mohmand Dam)",
+            "B": "Diamer Bhasha Dam",
+            "C": "Gomal Zam Dam",
+            "D": "Kurram Tangi Dam"
+        },
+        "correct": "A",
+        "explanation": "Mohmand Dam, formerly Munda Dam, is an under-construction multi-purpose concrete-faced rock-filled dam on the Swat River."
+    },
+    {
+        "Question": "The Hazara Motorway connects Burhan (M-1) to which northern city?",
+        "options": {
+            "A": "Gilgit",
+            "B": "Chitral",
+            "C": "Havelian / Thakot",
+            "D": "Skardu"
+        },
+        "correct": "C",
+        "explanation": "The Hazara Motorway (M-15) connects the M-1 near Burhan to Havelian and extends up to Thakot, part of CPEC."
+    },
+    {
+        "Question": "Where is Pakistan's largest oil refinery, PARCO, located?",
+        "options": {
+            "A": "Mahmood Kot (Muzaffargarh)",
+            "B": "Rawalpindi",
+            "C": "Attock",
+            "D": "Karachi"
+        },
+        "correct": "A",
+        "explanation": "The Pak-Arab Refinery (PARCO) in Mahmood Kot, Muzaffargarh is the largest and most complex oil refinery in Pakistan."
+    },
+    {
+        "Question": "Which major highway connects Quetta to Karachi?",
+        "options": {
+            "A": "N-10",
+            "B": "N-25",
+            "C": "N-5",
+            "D": "N-55"
+        },
+        "correct": "B",
+        "explanation": "The N-25 National Highway connects Karachi to Quetta and extends up to Chaman on the Afghan border."
+    },
+    {
+        "Question": "What is the capital city of Punjab?",
+        "options": {
+            "A": "Peshawar",
+            "B": "Karachi",
+            "C": "Lahore",
+            "D": "Quetta"
+        },
+        "correct": "C",
+        "explanation": "The capital and administrative hub of Punjab is Lahore."
+    },
+    {
+        "Question": "What is the capital city of Sindh?",
+        "options": {
+            "A": "Karachi",
+            "B": "Lahore",
+            "C": "Quetta",
+            "D": "Peshawar"
+        },
+        "correct": "A",
+        "explanation": "The capital and administrative hub of Sindh is Karachi."
+    },
+    {
+        "Question": "What is the capital city of KPK?",
+        "options": {
+            "A": "Peshawar",
+            "B": "Karachi",
+            "C": "Quetta",
+            "D": "Lahore"
+        },
+        "correct": "A",
+        "explanation": "The capital and administrative hub of KPK is Peshawar."
+    },
+    {
+        "Question": "What is the capital city of Balochistan?",
+        "options": {
+            "A": "Lahore",
+            "B": "Quetta",
+            "C": "Karachi",
+            "D": "Peshawar"
+        },
+        "correct": "B",
+        "explanation": "The capital and administrative hub of Balochistan is Quetta."
+    },
+    {
+        "Question": "What is the capital city of Gilgit-Baltistan?",
+        "options": {
+            "A": "Peshawar",
+            "B": "Karachi",
+            "C": "Lahore",
+            "D": "Gilgit"
+        },
+        "correct": "D",
+        "explanation": "The capital and administrative hub of Gilgit-Baltistan is Gilgit."
+    },
+    {
+        "Question": "What is the capital city of AJK?",
+        "options": {
+            "A": "Muzaffarabad",
+            "B": "Karachi",
+            "C": "Lahore",
+            "D": "Peshawar"
+        },
+        "correct": "A",
+        "explanation": "The capital and administrative hub of AJK is Muzaffarabad."
+    },
+    {
+        "Question": "Which of these rivers flows prominently through Sindh?",
+        "options": {
+            "A": "Indus",
+            "B": "Chenab",
+            "C": "Hub",
+            "D": "Kabul"
+        },
+        "correct": "A",
+        "explanation": "The Indus river is a major water body flowing through the Sindh province."
+    },
+    {
+        "Question": "Which of these rivers flows prominently through Punjab?",
+        "options": {
+            "A": "Chenab",
+            "B": "Kabul",
+            "C": "Indus",
+            "D": "Hub"
+        },
+        "correct": "A",
+        "explanation": "The Chenab river is a major water body flowing through the Punjab province."
+    },
+    {
+        "Question": "Which of these rivers flows prominently through KPK?",
+        "options": {
+            "A": "Chenab",
+            "B": "Kabul",
+            "C": "Indus",
+            "D": "Hub"
+        },
+        "correct": "B",
+        "explanation": "The Kabul river is a major water body flowing through the KPK province."
+    },
+    {
+        "Question": "Which of these rivers flows prominently through Balochistan?",
+        "options": {
+            "A": "Chenab",
+            "B": "Indus",
+            "C": "Kabul",
+            "D": "Hub"
+        },
+        "correct": "D",
+        "explanation": "The Hub river is a major water body flowing through the Balochistan province."
+    },
+    {
+        "Question": "K2 is the highest peak of which mountain range?",
+        "options": {
+            "A": "Karakoram",
+            "B": "Himalaya",
+            "C": "Sulaiman",
+            "D": "Hindu Kush"
+        },
+        "correct": "A",
+        "explanation": "The K2 peak is the highest point of the Karakoram mountain range."
+    },
+    {
+        "Question": "Nanga Parbat is the highest peak of which mountain range?",
+        "options": {
+            "A": "Himalaya",
+            "B": "Sulaiman",
+            "C": "Hindu Kush",
+            "D": "Karakoram"
+        },
+        "correct": "A",
+        "explanation": "The Nanga Parbat peak is the highest point of the Himalaya mountain range."
+    },
+    {
+        "Question": "Tirich Mir is the highest peak of which mountain range?",
+        "options": {
+            "A": "Himalaya",
+            "B": "Karakoram",
+            "C": "Hindu Kush",
+            "D": "Sulaiman"
+        },
+        "correct": "C",
+        "explanation": "The Tirich Mir peak is the highest point of the Hindu Kush mountain range."
+    },
+    {
+        "Question": "Takht-e-Sulaiman is the highest peak of which mountain range?",
+        "options": {
+            "A": "Himalaya",
+            "B": "Sulaiman",
+            "C": "Hindu Kush",
+            "D": "Karakoram"
+        },
+        "correct": "B",
+        "explanation": "The Takht-e-Sulaiman peak is the highest point of the Sulaiman mountain range."
+    },
+    {
+        "Question": "Sakesar is the highest peak of which mountain range?",
+        "options": {
+            "A": "Hindu Kush",
+            "B": "Karakoram",
+            "C": "Salt Range",
+            "D": "Himalaya"
+        },
+        "correct": "C",
+        "explanation": "The Sakesar peak is the highest point of the Salt Range mountain range."
+    },
+    {
+        "Question": "Which country is located to the East of Pakistan?",
+        "options": {
+            "A": "Iran",
+            "B": "India",
+            "C": "Afghanistan",
+            "D": "China"
+        },
+        "correct": "B",
+        "explanation": "India shares Pakistan's Eastern border."
+    },
+    {
+        "Question": "Which country is located to the West of Pakistan?",
+        "options": {
+            "A": "India",
+            "B": "Iran",
+            "C": "Afghanistan",
+            "D": "China"
+        },
+        "correct": "B",
+        "explanation": "Iran shares Pakistan's Western border."
+    },
+    {
+        "Question": "Which country is located to the North-West of Pakistan?",
+        "options": {
+            "A": "China",
+            "B": "India",
+            "C": "Afghanistan",
+            "D": "Iran"
+        },
+        "correct": "C",
+        "explanation": "Afghanistan shares Pakistan's North-Western border."
+    },
+    {
+        "Question": "Which country is located to the North-East of Pakistan?",
+        "options": {
+            "A": "India",
+            "B": "Iran",
+            "C": "Afghanistan",
+            "D": "China"
+        },
+        "correct": "D",
+        "explanation": "China shares Pakistan's North-Eastern border."
+    },
+    {
+        "Question": "Wheat is primarily classified as which type of crop in Pakistan?",
+        "options": {
+            "A": "Summer",
+            "B": "Monsoon",
+            "C": "Kharif",
+            "D": "Rabi"
+        },
+        "correct": "D",
+        "explanation": "In the agricultural cycle of Pakistan, Wheat is a major Rabi crop."
+    },
+    {
+        "Question": "Rice is primarily classified as which type of crop in Pakistan?",
+        "options": {
+            "A": "Zaid",
+            "B": "Monsoon",
+            "C": "Kharif",
+            "D": "Winter"
+        },
+        "correct": "C",
+        "explanation": "In the agricultural cycle of Pakistan, Rice is a major Kharif crop."
+    },
+    {
+        "Question": "Cotton is primarily classified as which type of crop in Pakistan?",
+        "options": {
+            "A": "Monsoon",
+            "B": "Kharif",
+            "C": "Winter",
+            "D": "Zaid"
+        },
+        "correct": "B",
+        "explanation": "In the agricultural cycle of Pakistan, Cotton is a major Kharif crop."
+    },
+    {
+        "Question": "Barley is primarily classified as which type of crop in Pakistan?",
+        "options": {
+            "A": "Monsoon",
+            "B": "Rabi",
+            "C": "Summer",
+            "D": "Kharif"
+        },
+        "correct": "B",
+        "explanation": "In the agricultural cycle of Pakistan, Barley is a major Rabi crop."
+    },
+    {
+        "Question": "Tarbela Dam is constructed on which river?",
+        "options": {
+            "A": "Sutlej",
+            "B": "Chenab",
+            "C": "Indus",
+            "D": "Ravi"
+        },
+        "correct": "C",
+        "explanation": "The Tarbela Dam is an important hydro-project built on the Indus River."
+    },
+    {
+        "Question": "Mangla Dam is constructed on which river?",
+        "options": {
+            "A": "Sutlej",
+            "B": "Chenab",
+            "C": "Jhelum",
+            "D": "Ravi"
+        },
+        "correct": "C",
+        "explanation": "The Mangla Dam is an important hydro-project built on the Jhelum River."
+    },
+    {
+        "Question": "Warsak Dam is constructed on which river?",
+        "options": {
+            "A": "Ravi",
+            "B": "Sutlej",
+            "C": "Kabul",
+            "D": "Chenab"
+        },
+        "correct": "C",
+        "explanation": "The Warsak Dam is an important hydro-project built on the Kabul River."
+    },
+    {
+        "Question": "Gomal Zam Dam is constructed on which river?",
+        "options": {
+            "A": "Ravi",
+            "B": "Sutlej",
+            "C": "Gomal",
+            "D": "Chenab"
+        },
+        "correct": "C",
+        "explanation": "The Gomal Zam Dam is an important hydro-project built on the Gomal River."
+    },
+    {
+        "Question": "The Khyber border crossing connects Pakistan with which country?",
+        "options": {
+            "A": "Afghanistan",
+            "B": "Oman",
+            "C": "Tajikistan",
+            "D": "India"
+        },
+        "correct": "A",
+        "explanation": "The Khyber route is a critical commercial and strategic link between Pakistan and Afghanistan."
+    },
+    {
+        "Question": "The Khunjerab border crossing connects Pakistan with which country?",
+        "options": {
+            "A": "China",
+            "B": "Tajikistan",
+            "C": "Oman",
+            "D": "India"
+        },
+        "correct": "A",
+        "explanation": "The Khunjerab route is a critical commercial and strategic link between Pakistan and China."
+    },
+    {
+        "Question": "The Taftan border crossing connects Pakistan with which country?",
+        "options": {
+            "A": "Tajikistan",
+            "B": "Iran",
+            "C": "India",
+            "D": "Oman"
+        },
+        "correct": "B",
+        "explanation": "The Taftan route is a critical commercial and strategic link between Pakistan and Iran."
+    },
+    {
+        "Question": "The Chaman border crossing connects Pakistan with which country?",
+        "options": {
+            "A": "Tajikistan",
+            "B": "Afghanistan",
+            "C": "India",
+            "D": "Oman"
+        },
+        "correct": "B",
+        "explanation": "The Chaman route is a critical commercial and strategic link between Pakistan and Afghanistan."
+    },
+    {
+        "Question": "Which region in Pakistan is most famous for copper deposits?",
+        "options": {
+            "A": "Tharparkar",
+            "B": "Chagai",
+            "C": "Swat",
+            "D": "Pothohar"
+        },
+        "correct": "B",
+        "explanation": "Chagai district in Balochistan, home to Reko Diq and Saindak, has massive copper deposits."
+    },
+    {
+        "Question": "The highest railway station in Asia is located in Pakistan. What is its name?",
+        "options": {
+            "A": "Quetta Station",
+            "B": "Kan Mehtarzai",
+            "C": "Peshawar Cantonment",
+            "D": "Lahore Station"
+        },
+        "correct": "B",
+        "explanation": "Kan Mehtarzai is historically noted as the highest railway station at an elevation of over 2224 meters."
+    },
+    {
+        "Question": "Where is the junction of three great mountain ranges (Karakoram, Himalaya, Hindu Kush)?",
+        "options": {
+            "A": "Dir",
+            "B": "Juglot",
+            "C": "Chitral",
+            "D": "Skardu"
+        },
+        "correct": "B",
+        "explanation": "Near Juglot in Gilgit-Baltistan is the unique point where the Karakoram, Himalaya, and Hindu Kush mountain ranges meet."
+    },
+    {
+        "Question": "Which desert stretches across the districts of Bhakkar, Khushab, Mianwali, Layyah, and Muzaffargarh?",
+        "options": {
+            "A": "Kharan",
+            "B": "Cholistan",
+            "C": "Thal",
+            "D": "Thar"
+        },
+        "correct": "C",
+        "explanation": "The Thal desert is situated between the Indus and Jhelum rivers in Punjab."
+    },
+    {
+        "Question": "What is the name of the plain area between the river Indus and river Jhelum?",
+        "options": {
+            "A": "Chaj Doab",
+            "B": "Bari Doab",
+            "C": "Sindh Sagar Doab",
+            "D": "Rachna Doab"
+        },
+        "correct": "C",
+        "explanation": "The land between the Indus and Jhelum rivers is known as the Sindh Sagar Doab."
+    },
+    {
+        "Question": "In which mountain range does the Karakoram Pass lie?",
+        "options": {
+            "A": "Hindu Kush",
+            "B": "Pamir",
+            "C": "Himalaya",
+            "D": "Karakoram"
+        },
+        "correct": "D",
+        "explanation": "The Karakoram Pass lies in the Karakoram range, serving as a historical route between Ladakh and Xinjiang."
+    },
+    {
+        "Question": "Which is the highest plateau in Pakistan?",
+        "options": {
+            "A": "Balochistan Plateau",
+            "B": "Kharan Plateau",
+            "C": "Deosai Plateau",
+            "D": "Potohar Plateau"
+        },
+        "correct": "C",
+        "explanation": "The Deosai Plains, at an average elevation of 4114 meters, is the second highest plateau in the world."
+    },
+    {
+        "Question": "Deosai National Park is famous for protecting which endangered species?",
+        "options": {
+            "A": "Markhor",
+            "B": "Himalayan Brown Bear",
+            "C": "Snow Leopard",
+            "D": "Indus Dolphin"
+        },
+        "correct": "B",
+        "explanation": "Deosai National Park was established to protect the endangered Himalayan Brown Bear."
+    },
+    {
+        "Question": "What is the length of the Makran Coastal Highway?",
+        "options": {
+            "A": "1200 km",
+            "B": "892 km",
+            "C": "653 km",
+            "D": "300 km"
+        },
+        "correct": "C",
+        "explanation": "The N-10 or Makran Coastal Highway is approximately 653 km long, stretching from Karachi to Gwadar."
+    },
+    {
+        "Question": "Which river forms the eastern boundary of the Potohar Plateau?",
+        "options": {
+            "A": "Jhelum",
+            "B": "Indus",
+            "C": "Soan",
+            "D": "Chenab"
+        },
+        "correct": "A",
+        "explanation": "The Jhelum River forms the eastern natural boundary of the Potohar Plateau."
+    },
+    {
+        "Question": "What is the dominant soil type in the desert regions of Pakistan (Thar, Cholistan)?",
+        "options": {
+            "A": "Sandy Soil",
+            "B": "Loamy Soil",
+            "C": "Alluvial Soil",
+            "D": "Clayey Soil"
+        },
+        "correct": "A",
+        "explanation": "Desert areas are predominantly covered with sandy soils which have low water retention capacity."
+    },
+    {
+        "Question": "Which of the following is the most important cash crop of Pakistan for export?",
+        "options": {
+            "A": "Tobacco",
+            "B": "Maize",
+            "C": "Cotton",
+            "D": "Wheat"
+        },
+        "correct": "C",
+        "explanation": "Cotton and cotton-based textiles are the largest export earners for Pakistan."
+    },
+    {
+        "Question": "Which barrage is the first to be built on the Indus River after it enters the plains?",
+        "options": {
+            "A": "Sukkur Barrage",
+            "B": "Taunsa Barrage",
+            "C": "Guddu Barrage",
+            "D": "Kalabagh Barrage (Jinnah Barrage)"
+        },
+        "correct": "D",
+        "explanation": "Jinnah Barrage near Kalabagh is the first major barrage on the Indus River in the plains of Punjab."
+    },
+    {
+        "Question": "What is the total installed capacity of the Tarbela Dam?",
+        "options": {
+            "A": "3,478 MW",
+            "B": "4,888 MW",
+            "C": "1,000 MW",
+            "D": "9,000 MW"
+        },
+        "correct": "B",
+        "explanation": "Following recent extensions, the Tarbela Dam's installed capacity has reached 4,888 MW."
+    },
+    {
+        "Question": "Which province is the most heavily urbanized in Pakistan?",
+        "options": {
+            "A": "Balochistan",
+            "B": "Punjab",
+            "C": "Sindh",
+            "D": "KPK"
+        },
+        "correct": "C",
+        "explanation": "Sindh is the most urbanized province, primarily due to the massive population of Karachi and Hyderabad."
+    },
+    {
+        "Question": "Gwadar is physically situated on the shores of which body of water?",
+        "options": {
+            "A": "Persian Gulf",
+            "B": "Gulf of Oman",
+            "C": "Red Sea",
+            "D": "Arabian Sea"
+        },
+        "correct": "D",
+        "explanation": "Gwadar is located on the Arabian Sea coast, near the mouth of the Gulf of Oman."
+    },
+    {
+        "Question": "What separates Pakistan's airspace from Indian airspace in the Kashmir region?",
+        "options": {
+            "A": "Working Boundary",
+            "B": "Line of Control (LoC)",
+            "C": "International Border",
+            "D": "Durand Line"
+        },
+        "correct": "B",
+        "explanation": "The LoC serves as the de facto border separating the Indian and Pakistani administered areas of Kashmir."
+    },
+    {
+        "Question": "Port Qasim was established to relieve congestion from which port?",
+        "options": {
+            "A": "Gwadar Port",
+            "B": "Ormara Port",
+            "C": "Pasni Port",
+            "D": "Karachi Port"
+        },
+        "correct": "D",
+        "explanation": "Port Qasim was built to ease the heavy maritime traffic and congestion at the Karachi Port."
+    },
+    {
+        "Question": "Which major link canal transfers water from the Chenab to the Ravi river?",
+        "options": {
+            "A": "Bambawali-Ravi-Bedian (BRB) Canal",
+            "B": "Marala-Ravi Link Canal",
+            "C": "Chashma-Jhelum Canal",
+            "D": "Taunsa-Panjnad Canal"
+        },
+        "correct": "B",
+        "explanation": "The Marala-Ravi (M-R) Link Canal transfers water from the Chenab River (at Marala) to the Ravi River."
+    }
+]
