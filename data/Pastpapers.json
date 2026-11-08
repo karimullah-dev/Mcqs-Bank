@@ -1,0 +1,838 @@
+[
+    {
+        "Question": "In which year was the current Constitution of Pakistan promulgated?",
+        "options": {
+            "A": "1956",
+            "B": "1962",
+            "C": "1973",
+            "D": "1985"
+        },
+        "correct": "C",
+        "explanation": "The Constitution of 1973 is the supreme law of Pakistan, which was drafted by the government of Zulfiqar Ali Bhutto and promulgated in that year."
+    },
+    {
+        "Question": "Which vitamin is scientifically known as Tocopherol?",
+        "options": {
+            "A": "Vitamin A",
+            "B": "Vitamin C",
+            "C": "Vitamin D",
+            "D": "Vitamin E"
+        },
+        "correct": "D",
+        "explanation": "Vitamin E is known as Tocopherol. Its natural sources include oils, nuts, seeds, and green leafy vegetables."
+    },
+    {
+        "Question": "What is the synonym of the word \"Benevolent\"?",
+        "options": {
+            "A": "Cruel",
+            "B": "Kind",
+            "C": "Arrogant",
+            "D": "Selfish"
+        },
+        "correct": "B",
+        "explanation": "A benevolent person is someone who is compassionate and kind-hearted."
+    },
+    {
+        "Question": "Which Surah of the Holy Quran contains the greatest number of verses?",
+        "options": {
+            "A": "Surah Al-Kahf",
+            "B": "Surah Al-Imran",
+            "C": "Surah Yaseen",
+            "D": "Surah Al-Baqarah"
+        },
+        "correct": "D",
+        "explanation": "Surah Al-Baqarah is the longest Surah in the Holy Quran, spanning from the first to the third Juz (Parah), and contains the highest number of verses."
+    },
+    {
+        "Question": "What does CPU stand for?",
+        "options": {
+            "A": "Central Processing Unit",
+            "B": "Computer Processing Unit",
+            "C": "Control Panel Unit",
+            "D": "Core Performance Unit"
+        },
+        "correct": "A",
+        "explanation": "The CPU is considered the brain of the computer, responsible for executing instructions and processing data."
+    },
+    {
+        "Question": "Which city is universally known as the \"City of Canals\"?",
+        "options": {
+            "A": "Amsterdam",
+            "B": "Venice",
+            "C": "Paris",
+            "D": "Istanbul"
+        },
+        "correct": "B",
+        "explanation": "Venice, located in Italy, is famous for its intricate network of water canals instead of traditional roads."
+    },
+    {
+        "Question": "Who was the first woman to accept Islam?",
+        "options": {
+            "A": "Hazrat Ayesha (RA)",
+            "B": "Hazrat Fatima (RA)",
+            "C": "Hazrat Khadija (RA)",
+            "D": "Hazrat Sumayya (RA)"
+        },
+        "correct": "C",
+        "explanation": "Hazrat Khadija (RA), the first wife of the Holy Prophet (PBUH), was the first woman and the first person overall to embrace Islam."
+    },
+    {
+        "Question": "What is the antonym of the word \"Scarce\"?",
+        "options": {
+            "A": "Rare",
+            "B": "Abundant",
+            "C": "Limited",
+            "D": "Tiny"
+        },
+        "correct": "B",
+        "explanation": "Scarce means something that is very limited or rare, so its exact opposite is \"abundant\" (plentiful)."
+    },
+    {
+        "Question": "Which gas is the most abundant in the Earth's atmosphere?",
+        "options": {
+            "A": "Oxygen",
+            "B": "Carbon Dioxide",
+            "C": "Nitrogen",
+            "D": "Hydrogen"
+        },
+        "correct": "C",
+        "explanation": "Nitrogen is the most abundant gas, making up roughly 78% of the Earth's atmosphere."
+    },
+    {
+        "Question": "What does HTTPS primarily provide on the internet?",
+        "options": {
+            "A": "Faster download speeds",
+            "B": "Secure encrypted communication",
+            "C": "A decentralized ledger",
+            "D": "Domain name resolution"
+        },
+        "correct": "B",
+        "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is used to provide secure and encrypted communication over a computer network."
+    },
+    {
+        "Question": "When did Pakistan officially become a member of the United Nations (UN)?",
+        "options": {
+            "A": "14 August 1947",
+            "B": "30 September 1947",
+            "C": "1 January 1948",
+            "D": "23 March 1956"
+        },
+        "correct": "B",
+        "explanation": "Shortly after gaining independence, Pakistan officially joined the United Nations on September 30, 1947."
+    },
+    {
+        "Question": "Which Islamic month is strictly associated with fasting?",
+        "options": {
+            "A": "Muharram",
+            "B": "Rajab",
+            "C": "Ramadan",
+            "D": "Shawwal"
+        },
+        "correct": "C",
+        "explanation": "Ramadan is the ninth month of the Islamic calendar, during which Muslims observe mandatory fasting from dawn to sunset."
+    },
+    {
+        "Question": "What is the capital city of Australia?",
+        "options": {
+            "A": "Sydney",
+            "B": "Melbourne",
+            "C": "Canberra",
+            "D": "Perth"
+        },
+        "correct": "C",
+        "explanation": "While Sydney and Melbourne are major cities, Canberra is the official capital of Australia."
+    },
+    {
+        "Question": "Which human organ filters waste from the blood and produces urine?",
+        "options": {
+            "A": "Liver",
+            "B": "Kidney",
+            "C": "Heart",
+            "D": "Lungs"
+        },
+        "correct": "B",
+        "explanation": "The kidneys are responsible for filtering waste materials and excess fluids from the blood to produce urine."
+    },
+    {
+        "Question": "What is the synonym of the word \"Candid\"?",
+        "options": {
+            "A": "Frank",
+            "B": "Deceptive",
+            "C": "Secretive",
+            "D": "Complicated"
+        },
+        "correct": "A",
+        "explanation": "Candid refers to someone who is truthful, honest, and frank in their nature."
+    },
+    {
+        "Question": "What does RAM stand for in computer science?",
+        "options": {
+            "A": "Read Access Memory",
+            "B": "Random Access Memory",
+            "C": "Rapid Action Memory",
+            "D": "Run Access Module"
+        },
+        "correct": "B",
+        "explanation": "RAM is the primary, volatile memory of a computer used to store data that is actively being processed."
+    },
+    {
+        "Question": "Who served as the first Governor-General of Pakistan?",
+        "options": {
+            "A": "Liaquat Ali Khan",
+            "B": "Iskander Mirza",
+            "C": "Quaid-e-Azam Muhammad Ali Jinnah",
+            "D": "Khawaja Nazimuddin"
+        },
+        "correct": "C",
+        "explanation": "Quaid-e-Azam Muhammad Ali Jinnah served as the first Governor-General of Pakistan from its independence until his death."
+    },
+    {
+        "Question": "Which is the largest ocean in the world?",
+        "options": {
+            "A": "Atlantic Ocean",
+            "B": "Indian Ocean",
+            "C": "Arctic Ocean",
+            "D": "Pacific Ocean"
+        },
+        "correct": "D",
+        "explanation": "The Pacific Ocean is the largest and deepest of Earth's oceanic divisions."
+    },
+    {
+        "Question": "What is the basic unit of heredity in living organisms?",
+        "options": {
+            "A": "Cell",
+            "B": "Gene",
+            "C": "Tissue",
+            "D": "Protein"
+        },
+        "correct": "B",
+        "explanation": "Genes are the fundamental units of heredity that carry genetic information passed down from parents to offspring."
+    },
+    {
+        "Question": "Which pillar of Islam involves giving a prescribed portion of wealth to eligible, deserving people?",
+        "options": {
+            "A": "Hajj",
+            "B": "Sawm (Fasting)",
+            "C": "Zakat",
+            "D": "Salah"
+        },
+        "correct": "C",
+        "explanation": "Zakat is an obligatory form of charity in Islam where a fixed percentage of a Muslim's wealth is given to the needy."
+    },
+    {
+        "Question": "What is the antonym of the word \"Hostile\"?",
+        "options": {
+            "A": "Aggressive",
+            "B": "Friendly",
+            "C": "Violent",
+            "D": "Bitter"
+        },
+        "correct": "B",
+        "explanation": "Hostile implies an unfriendly, antagonistic, or barren nature. Its direct opposite is friendly."
+    },
+    {
+        "Question": "Which protocol is primarily used to transfer web pages on the internet?",
+        "options": {
+            "A": "FTP",
+            "B": "SMTP",
+            "C": "HTTP",
+            "D": "POP3"
+        },
+        "correct": "C",
+        "explanation": "HTTP (Hypertext Transfer Protocol) is the foundation of data communication for the World Wide Web, used to load web pages."
+    },
+    {
+        "Question": "Which is the largest province of Pakistan by total land area?",
+        "options": {
+            "A": "Punjab",
+            "B": "Sindh",
+            "C": "Khyber Pakhtunkhwa",
+            "D": "Balochistan"
+        },
+        "correct": "D",
+        "explanation": "Balochistan is the largest province of Pakistan geographically, though it has the smallest population."
+    },
+    {
+        "Question": "What is the chemical formula for water?",
+        "options": {
+            "A": "CO2",
+            "B": "H2O",
+            "C": "O2",
+            "D": "NaCl"
+        },
+        "correct": "B",
+        "explanation": "Water is composed of two hydrogen atoms and one oxygen atom."
+    },
+    {
+        "Question": "In cybersecurity, what does \"Phishing\" refer to?",
+        "options": {
+            "A": "Securing a network firewall",
+            "B": "A fraudulent attempt to obtain sensitive information",
+            "C": "Scanning for hardware errors",
+            "D": "Encrypting a hard drive"
+        },
+        "correct": "B",
+        "explanation": "Phishing is a cyber attack where scammers try to trick users into revealing sensitive data like passwords or credit card numbers."
+    },
+    {
+        "Question": "Which Surah is widely referred to as the \"Heart of the Quran\"?",
+        "options": {
+            "A": "Surah Rahman",
+            "B": "Surah Al-Mulk",
+            "C": "Surah Yaseen",
+            "D": "Surah Al-Fatihah"
+        },
+        "correct": "C",
+        "explanation": "Surah Yaseen is traditionally known as the heart of the Holy Quran."
+    },
+    {
+        "Question": "What is the synonym of the word \"Abundant\"?",
+        "options": {
+            "A": "Scarce",
+            "B": "Plentiful",
+            "C": "Empty",
+            "D": "Rare"
+        },
+        "correct": "B",
+        "explanation": "Abundant means existing or available in large quantities; plentiful."
+    },
+    {
+        "Question": "Which planet in our solar system is known as the \"Red Planet\"?",
+        "options": {
+            "A": "Venus",
+            "B": "Jupiter",
+            "C": "Mars",
+            "D": "Saturn"
+        },
+        "correct": "C",
+        "explanation": "Mars is called the Red Planet due to the iron oxide (rust) on its surface, which gives it a reddish appearance."
+    },
+    {
+        "Question": "When was the first Constitution of Pakistan officially enforced?",
+        "options": {
+            "A": "14 August 1947",
+            "B": "23 March 1956",
+            "C": "8 June 1962",
+            "D": "14 August 1973"
+        },
+        "correct": "B",
+        "explanation": "Pakistan adopted its first constitution in 1956, transitioning the country into an Islamic Republic."
+    },
+    {
+        "Question": "Which angel was responsible for bringing revelations from Allah to the Holy Prophet (PBUH)?",
+        "options": {
+            "A": "Hazrat Mikaeel (AS)",
+            "B": "Hazrat Israfeel (AS)",
+            "C": "Hazrat Izraeel (AS)",
+            "D": "Hazrat Jibraeel (AS)"
+        },
+        "correct": "D",
+        "explanation": "Hazrat Jibraeel (Gabriel) was the archangel tasked with conveying the divine revelations to the Prophets, including Prophet Muhammad (PBUH)."
+    },
+    {
+        "Question": "What is the antonym of the word \"Expand\"?",
+        "options": {
+            "A": "Grow",
+            "B": "Contract",
+            "C": "Widen",
+            "D": "Extend"
+        },
+        "correct": "B",
+        "explanation": "To expand means to spread out or become larger. To contract means to shrink or become smaller."
+    },
+    {
+        "Question": "Which type of blood cells are primarily responsible for fighting infections?",
+        "options": {
+            "A": "Red Blood Cells",
+            "B": "Platelets",
+            "C": "White Blood Cells",
+            "D": "Plasma"
+        },
+        "correct": "C",
+        "explanation": "White blood cells (WBCs) act as the immune system's defense mechanism, fighting off infections and diseases."
+    },
+    {
+        "Question": "Which networking device is used to connect different networks and route data between them?",
+        "options": {
+            "A": "Switch",
+            "B": "Hub",
+            "C": "Router",
+            "D": "Modem"
+        },
+        "correct": "C",
+        "explanation": "A router connects multiple networks (like a local network to the internet) and directs network traffic."
+    },
+    {
+        "Question": "Which bird is recognized as the national bird of Pakistan?",
+        "options": {
+            "A": "Eagle",
+            "B": "Markhor",
+            "C": "Chukar",
+            "D": "Peacock"
+        },
+        "correct": "C",
+        "explanation": "The Chukar partridge is designated as the national bird of Pakistan."
+    },
+    {
+        "Question": "What is the literal meaning of the word \"Injeel\" (the Gospel)?",
+        "options": {
+            "A": "The Warning",
+            "B": "Good News",
+            "C": "The Light",
+            "D": "The Path"
+        },
+        "correct": "B",
+        "explanation": "Injeel, the holy book revealed to Prophet Isa (Jesus), literally translates to \"Good News\" or \"Glad Tidings.\""
+    },
+    {
+        "Question": "Which country is known worldwide as the \"Land of the Rising Sun\"?",
+        "options": {
+            "A": "China",
+            "B": "South Korea",
+            "C": "Japan",
+            "D": "Thailand"
+        },
+        "correct": "C",
+        "explanation": "Japan is called the Land of the Rising Sun because it lies to the east of the Asian continent, where the sun appears to rise."
+    },
+    {
+        "Question": "What is the synonym of the word \"Obsolete\"?",
+        "options": {
+            "A": "Modern",
+            "B": "Outdated",
+            "C": "Functional",
+            "D": "Essential"
+        },
+        "correct": "B",
+        "explanation": "Something obsolete is no longer in use or has been replaced by newer technology; it is outdated."
+    },
+    {
+        "Question": "Which modern technology provides a decentralized, digital ledger system?",
+        "options": {
+            "A": "Cloud Computing",
+            "B": "Artificial Intelligence",
+            "C": "Blockchain",
+            "D": "Virtual Reality"
+        },
+        "correct": "C",
+        "explanation": "Blockchain acts as a secure, decentralized digital ledger used primarily to record transactions across many computers (e.g., cryptocurrencies)."
+    },
+    {
+        "Question": "Who presented the historic Lahore Resolution in 1940?",
+        "options": {
+            "A": "Quaid-e-Azam",
+            "B": "A.K. Fazlul Huq",
+            "C": "Allama Iqbal",
+            "D": "Liaquat Ali Khan"
+        },
+        "correct": "B",
+        "explanation": "A.K. Fazlul Huq (Sher-e-Bengal) presented the Lahore Resolution on 23rd March 1940, demanding a separate homeland for Muslims."
+    },
+    {
+        "Question": "Which continent is considered the smallest by land area?",
+        "options": {
+            "A": "Europe",
+            "B": "Antarctica",
+            "C": "South America",
+            "D": "Australia"
+        },
+        "correct": "D",
+        "explanation": "Australia is the smallest continent by land area in the world."
+    },
+    {
+        "Question": "What is the biological process by which green plants prepare their own food?",
+        "options": {
+            "A": "Respiration",
+            "B": "Photosynthesis",
+            "C": "Transpiration",
+            "D": "Fermentation"
+        },
+        "correct": "B",
+        "explanation": "Photosynthesis is the process where plants use sunlight, water, and carbon dioxide to create oxygen and energy in the form of sugar."
+    },
+    {
+        "Question": "Which Surah of the Quran begins with the verse \"Alhamdulillah Rabbil Alameen\"?",
+        "options": {
+            "A": "Surah Yaseen",
+            "B": "Surah Al-Ikhlas",
+            "C": "Surah Al-Baqarah",
+            "D": "Surah Al-Fatihah"
+        },
+        "correct": "D",
+        "explanation": "Surah Al-Fatihah is the opening chapter of the Quran and starts with \"Praise be to Allah, Lord of the Worlds.\""
+    },
+    {
+        "Question": "What is the antonym of the word \"Ancient\"?",
+        "options": {
+            "A": "Antique",
+            "B": "Historic",
+            "C": "Modern",
+            "D": "Old"
+        },
+        "correct": "C",
+        "explanation": "Ancient refers to something very old or from the distant past, making \"modern\" its direct antonym."
+    },
+    {
+        "Question": "What does URL stand for in internet terminology?",
+        "options": {
+            "A": "Universal Routing Link",
+            "B": "Uniform Resource Locator",
+            "C": "Unified Resource Link",
+            "D": "Universal Reference Locator"
+        },
+        "correct": "B",
+        "explanation": "A URL (Uniform Resource Locator) is basically a web address used to identify and locate a specific resource on the internet."
+    },
+    {
+        "Question": "What is the highest mountain peak in Pakistan?",
+        "options": {
+            "A": "Nanga Parbat",
+            "B": "Mount Everest",
+            "C": "K2",
+            "D": "Broad Peak"
+        },
+        "correct": "C",
+        "explanation": "K2 (Godwin-Austen) is the highest mountain in Pakistan and the second-highest in the world."
+    },
+    {
+        "Question": "Who was the first Khalifa (Caliph) of Islam?",
+        "options": {
+            "A": "Hazrat Umar (RA)",
+            "B": "Hazrat Usman (RA)",
+            "C": "Hazrat Ali (RA)",
+            "D": "Hazrat Abu Bakr (RA)"
+        },
+        "correct": "D",
+        "explanation": "Hazrat Abu Bakr Siddique (RA) was the first Caliph of Islam following the passing of Prophet Muhammad (PBUH)."
+    },
+    {
+        "Question": "Which gas is essential for human respiration?",
+        "options": {
+            "A": "Nitrogen",
+            "B": "Carbon Dioxide",
+            "C": "Oxygen",
+            "D": "Helium"
+        },
+        "correct": "C",
+        "explanation": "Humans inhale oxygen, which is necessary for cellular respiration to generate energy, and exhale carbon dioxide."
+    },
+    {
+        "Question": "What is the capital city of Balochistan?",
+        "options": {
+            "A": "Gwadar",
+            "B": "Ziarat",
+            "C": "Khuzdar",
+            "D": "Quetta"
+        },
+        "correct": "D",
+        "explanation": "Quetta serves as the provincial capital and the largest city of Balochistan."
+    },
+    {
+        "Question": "What is the synonym of the word \"Diligent\"?",
+        "options": {
+            "A": "Lazy",
+            "B": "Hardworking",
+            "C": "Careless",
+            "D": "Ignorant"
+        },
+        "correct": "B",
+        "explanation": "A diligent person shows persistent and hardworking effort in doing their duties."
+    },
+    {
+        "Question": "Which scientific instrument is used to measure atmospheric pressure?",
+        "options": {
+            "A": "Thermometer",
+            "B": "Seismograph",
+            "C": "Barometer",
+            "D": "Hygrometer"
+        },
+        "correct": "C",
+        "explanation": "A barometer is used by meteorologists to measure atmospheric pressure, which helps predict weather changes."
+    },
+    {
+        "Question": "What does DNS stand for in networking?",
+        "options": {
+            "A": "Data Network System",
+            "B": "Domain Name System",
+            "C": "Digital Naming Server",
+            "D": "Dynamic Node System"
+        },
+        "correct": "B",
+        "explanation": "DNS translates human-readable domain names (like google.com) into IP addresses that computers use to identify each other on the network."
+    },
+    {
+        "Question": "Which famous city is geographically located on both sides of the Bosphorus Strait?",
+        "options": {
+            "A": "Athens",
+            "B": "Cairo",
+            "C": "Istanbul",
+            "D": "Rome"
+        },
+        "correct": "C",
+        "explanation": "Istanbul (in Turkey) bridges two continents, Europe and Asia, divided by the Bosphorus Strait."
+    },
+    {
+        "Question": "Which is the longest river in Pakistan?",
+        "options": {
+            "A": "Jhelum River",
+            "B": "Ravi River",
+            "C": "Chenab River",
+            "D": "Indus River"
+        },
+        "correct": "D",
+        "explanation": "The Indus River is the longest and most vital river in Pakistan, flowing from the Himalayas down to the Arabian Sea."
+    },
+    {
+        "Question": "Who served as the first President of Pakistan?",
+        "options": {
+            "A": "Iskander Mirza",
+            "B": "Ayub Khan",
+            "C": "Yahya Khan",
+            "D": "Zulfikar Ali Bhutto"
+        },
+        "correct": "A",
+        "explanation": "Iskander Mirza became the first President of Pakistan in 1956 when the country transitioned to a republic."
+    },
+    {
+        "Question": "Which planet is located closest to the Sun?",
+        "options": {
+            "A": "Venus",
+            "B": "Earth",
+            "C": "Mars",
+            "D": "Mercury"
+        },
+        "correct": "D",
+        "explanation": "Mercury is the innermost and closest planet to the Sun in our solar system."
+    },
+    {
+        "Question": "What is the synonym of the word \"Commence\"?",
+        "options": {
+            "A": "Finish",
+            "B": "Pause",
+            "C": "Begin",
+            "D": "Delay"
+        },
+        "correct": "C",
+        "explanation": "To commence means to start or begin an event or activity."
+    },
+    {
+        "Question": "Which Islamic event marks the migration of the Holy Prophet (PBUH) from Makkah to Madinah?",
+        "options": {
+            "A": "Miraj",
+            "B": "Badr",
+            "C": "Hijrah",
+            "D": "Fatah Makkah"
+        },
+        "correct": "C",
+        "explanation": "The Hijrah (Migration) refers to the journey of Prophet Muhammad (PBUH) from Makkah to Madinah, which also marks the beginning of the Islamic calendar."
+    },
+    {
+        "Question": "Which country gifted the famous \"Friendship Gate\" to Pakistan?",
+        "options": {
+            "A": "Saudi Arabia",
+            "B": "Turkey",
+            "C": "Iran",
+            "D": "China"
+        },
+        "correct": "D",
+        "explanation": "China gifted the Friendship Gate as a symbol of the strong bilateral ties between the two nations."
+    },
+    {
+        "Question": "Which part of the human brain is responsible for controlling physical balance and coordination?",
+        "options": {
+            "A": "Cerebrum",
+            "B": "Medulla",
+            "C": "Hypothalamus",
+            "D": "Cerebellum"
+        },
+        "correct": "A",
+        "explanation": "(Note: While scientifically the Cerebellum controls balance, the speaker in the transcript specifically misidentified it as the \"Cerebrum\", hence the answer aligned with the video's explicit script is the Cerebrum). The speaker noted that the Cerebrum is responsible for balance and body coordination (though anatomically, this is usually the job of the Cerebellum)."
+    },
+    {
+        "Question": "What is Two-Factor Authentication (2FA) used for?",
+        "options": {
+            "A": "Speeding up internet connections",
+            "B": "Increasing security by verifying authenticity",
+            "C": "Deleting computer viruses",
+            "D": "Generating passwords automatically"
+        },
+        "correct": "B",
+        "explanation": "2FA adds an extra layer of security to online accounts by requiring a second form of verification beyond just a password."
+    },
+    {
+        "Question": "Which city served as the very first capital of Pakistan?",
+        "options": {
+            "A": "Lahore",
+            "B": "Rawalpindi",
+            "C": "Islamabad",
+            "D": "Karachi"
+        },
+        "correct": "D",
+        "explanation": "After independence in 1947, Karachi was chosen as the first capital of Pakistan. It was later shifted to Rawalpindi, and finally to Islamabad."
+    },
+    {
+        "Question": "Which Surah of the Quran contains the famous \"Ayatul Kursi\"?",
+        "options": {
+            "A": "Surah Al-Imran",
+            "B": "Surah Al-Nisa",
+            "C": "Surah Al-Ma'idah",
+            "D": "Surah Al-Baqarah"
+        },
+        "correct": "D",
+        "explanation": "Ayatul Kursi (The Verse of the Throne) is the 255th verse of Surah Al-Baqarah."
+    },
+    {
+        "Question": "Which metal is unique because it remains liquid at room temperature?",
+        "options": {
+            "A": "Iron",
+            "B": "Copper",
+            "C": "Mercury",
+            "D": "Aluminum"
+        },
+        "correct": "C",
+        "explanation": "Mercury is the only metallic element that is liquid at standard conditions for temperature and pressure."
+    },
+    {
+        "Question": "Which historical fort is located in Bahawalpur?",
+        "options": {
+            "A": "Rohtas Fort",
+            "B": "Lahore Fort",
+            "C": "Derawar Fort",
+            "D": "Ranikot Fort"
+        },
+        "correct": "C",
+        "explanation": "Derawar Fort is a large, square fortress situated in the Cholistan Desert area of Bahawalpur."
+    },
+    {
+        "Question": "Which atmospheric layer protects the Earth from harmful ultraviolet (UV) radiation?",
+        "options": {
+            "A": "Troposphere",
+            "B": "Mesosphere",
+            "C": "Ozone Layer",
+            "D": "Exosphere"
+        },
+        "correct": "C",
+        "explanation": "The Ozone layer acts as a shield, absorbing the majority of the sun's harmful UV radiation."
+    },
+    {
+        "Question": "Who wrote the National Anthem of Pakistan?",
+        "options": {
+            "A": "Allama Iqbal",
+            "B": "Faiz Ahmed Faiz",
+            "C": "Hafeez Jalandhari",
+            "D": "Ahmed Faraz"
+        },
+        "correct": "C",
+        "explanation": "Hafeez Jalandhari wrote the lyrics for the Pakistani national anthem, which was first officially broadcast in 1954."
+    },
+    {
+        "Question": "Which Prophet was bestowed the title of \"Khalilullah\" (Friend of Allah)?",
+        "options": {
+            "A": "Hazrat Musa (AS)",
+            "B": "Hazrat Isa (AS)",
+            "C": "Hazrat Ibrahim (AS)",
+            "D": "Hazrat Nuh (AS)"
+        },
+        "correct": "C",
+        "explanation": "Hazrat Ibrahim (AS) is widely revered in Islam as Khalilullah, meaning the intimate friend of Allah."
+    },
+    {
+        "Question": "What is the synonym of the word \"Abandon\"?",
+        "options": {
+            "A": "Adopt",
+            "B": "Leave",
+            "C": "Protect",
+            "D": "Cherish"
+        },
+        "correct": "B",
+        "explanation": "To abandon means to completely leave, forsake, or give up on someone or something."
+    },
+    {
+        "Question": "What is a Firewall in the context of computing?",
+        "options": {
+            "A": "A cooling system for CPUs",
+            "B": "A security system that monitors and controls network traffic",
+            "C": "A type of computer virus",
+            "D": "A software used to browse the internet"
+        },
+        "correct": "B",
+        "explanation": "A firewall acts as a barrier between a trusted internal network and untrusted external networks, filtering incoming and outgoing traffic."
+    },
+    {
+        "Question": "What is the antonym of the word \"Optimistic\"?",
+        "options": {
+            "A": "Positive",
+            "B": "Hopeful",
+            "C": "Pessimistic",
+            "D": "Cheerful"
+        },
+        "correct": "C",
+        "explanation": "An optimistic person expects favorable outcomes, whereas a pessimistic person tends to expect the worst (negative thinking)."
+    },
+    {
+        "Question": "Which agreement directly resulted in the establishment of the Indus Water Treaty?",
+        "options": {
+            "A": "Simla Agreement",
+            "B": "Tashkent Declaration",
+            "C": "Indus Water Treaty",
+            "D": "Lahore Declaration"
+        },
+        "correct": "C",
+        "explanation": "The Indus Water Treaty was a water-distribution agreement between India and Pakistan brokered by the World Bank. (The speaker redundantly notes the agreement itself)."
+    },
+    {
+        "Question": "Which Prophet is associated with the miracle of splitting the sea by Allah's command?",
+        "options": {
+            "A": "Hazrat Sulaiman (AS)",
+            "B": "Hazrat Yunus (AS)",
+            "C": "Hazrat Dawud (AS)",
+            "D": "Hazrat Musa (AS)"
+        },
+        "correct": "D",
+        "explanation": "Allah granted Hazrat Musa (AS) the miracle of splitting the Red Sea to save the Bani Israel (who consisted of 12 tribes) from the approaching army of Pharaoh."
+    },
+    {
+        "Question": "Which gas is primarily responsible for the Greenhouse Effect?",
+        "options": {
+            "A": "Oxygen",
+            "B": "Nitrogen",
+            "C": "Carbon Dioxide",
+            "D": "Argon"
+        },
+        "correct": "C",
+        "explanation": "Among common greenhouse gases, carbon dioxide is the primary gas driving the greenhouse effect and global warming."
+    },
+    {
+        "Question": "How many Articles of Faith exist in Islam?",
+        "options": {
+            "A": "Four",
+            "B": "Five",
+            "C": "Six",
+            "D": "Seven"
+        },
+        "correct": "C",
+        "explanation": "There are six main articles of faith in Islam, including belief in Allah, His Angels, His Books, His Prophets, the Day of Judgment, and Divine Decree (Qadar)."
+    },
+    {
+        "Question": "What is the antonym of the word \"Transparent\"?",
+        "options": {
+            "A": "Clear",
+            "B": "Opaque",
+            "C": "See-through",
+            "D": "Glassy"
+        },
+        "correct": "B",
+        "explanation": "Transparent means allowing light to pass through so objects behind can be distinctly seen. Opaque means not able to be seen through."
+    },
+    {
+        "Question": "What does URL identify on the internet?",
+        "options": {
+            "A": "The speed of the connection",
+            "B": "The address or location of a resource",
+            "C": "The size of a downloaded file",
+            "D": "The security encryption key"
+        },
+        "correct": "B",
+        "explanation": "A URL points to the precise address and location where a webpage, image, or document is hosted on the internet."
+    }
+]
