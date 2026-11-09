@@ -1,0 +1,959 @@
+[
+    {
+        "Question": "Which Surah was recited by the Holy Prophet (PBUH) at the time of migration (Hijrat)?",
+        "options": {
+            "A": "Surah Al-Kahf",
+            "B": "Surah Yaseen",
+            "C": "Surah Al-Mulk",
+            "D": "Surah Ar-Rahman"
+        },
+        "correct": "B",
+        "explanation": "The Holy Prophet (PBUH) recited Surah Yaseen during the time of his migration from Makkah to Madinah."
+    },
+    {
+        "Question": "What was the number of clauses in the Charter of Medina (Misaq-e-Madina)?",
+        "options": {
+            "A": "35",
+            "B": "40",
+            "C": "47",
+            "D": "52"
+        },
+        "correct": "C",
+        "explanation": "The historic Charter of Medina consisted of a total of 47 clauses."
+    },
+    {
+        "Question": "Which was the first revealed holy book?",
+        "options": {
+            "A": "Taurat (Torah)",
+            "B": "Zabur (Psalms)",
+            "C": "Injeel (Gospel)",
+            "D": "Quran"
+        },
+        "correct": "A",
+        "explanation": "Taurat was the first revealed holy book. According to the transcript, Zabur was revealed to Hazrat Dawood (AS), Injeel to Hazrat Isa (AS), and the Quran to the Holy Prophet Muhammad (PBUH)."
+    },
+    {
+        "Question": "Ayatul Kursi is verse number ___ in Surah Al-Baqarah.",
+        "options": {
+            "A": "250",
+            "B": "255",
+            "C": "260",
+            "D": "285"
+        },
+        "correct": "B",
+        "explanation": "Ayatul Kursi, known as the Verse of the Throne, is the 255th verse of Surah Al-Baqarah."
+    },
+    {
+        "Question": "When did the Waqia Karbala (Tragedy of Karbala) occur?",
+        "options": {
+            "A": "50 Hijri",
+            "B": "61 Hijri",
+            "C": "70 Hijri",
+            "D": "81 Hijri"
+        },
+        "correct": "B",
+        "explanation": "The tragic event of Karbala took place in the Islamic year 61 Hijri."
+    },
+    {
+        "Question": "What is the serial number of Surah Yaseen in the Holy Quran?",
+        "options": {
+            "A": "28",
+            "B": "32",
+            "C": "36",
+            "D": "40"
+        },
+        "correct": "C",
+        "explanation": "Surah Yaseen is the 36th Surah in the chronological order of the Holy Quran."
+    },
+    {
+        "Question": "Most of the Huffaz-e-Quran (memorizers of the Quran) were martyred in which battle?",
+        "options": {
+            "A": "Battle of Badr",
+            "B": "Battle of Uhud",
+            "C": "Battle of Khandaq",
+            "D": "Battle of Yamama"
+        },
+        "correct": "D",
+        "explanation": "A large number of companions who had memorized the Quran were martyred during the Battle of Yamama."
+    },
+    {
+        "Question": "The short period of sitting between two Sajdas in prayer is called?",
+        "options": {
+            "A": "Qiyam",
+            "B": "Jalsa",
+            "C": "Ruku",
+            "D": "Qa'dah"
+        },
+        "correct": "B",
+        "explanation": "The brief pause or sitting position between two prostrations (Sajdas) during Salah is called Jalsa."
+    },
+    {
+        "Question": "Who is considered the first authority for the compilation of Ahadith?",
+        "options": {
+            "A": "Imam Bukhari",
+            "B": "Imam Muslim",
+            "C": "Imam Malik",
+            "D": "Imam Abu Hanifa"
+        },
+        "correct": "C",
+        "explanation": "Imam Malik is recognized as the first major authority for compiling Ahadith systematically."
+    },
+    {
+        "Question": "How many vowels does the Arabic language have?",
+        "options": {
+            "A": "3",
+            "B": "5",
+            "C": "7",
+            "D": "9"
+        },
+        "correct": "A",
+        "explanation": "The Arabic language has 3 primary short vowels (Fatha, Kasra, and Damma)."
+    },
+    {
+        "Question": "What is the meaning of the idiom \"Cat is out of the bag\"?",
+        "options": {
+            "A": "To find a lost item",
+            "B": "To reveal a secret carelessly",
+            "C": "To hide something properly",
+            "D": "To get into trouble"
+        },
+        "correct": "B",
+        "explanation": "The idiom refers to revealing a secret, often accidentally or without intention."
+    },
+    {
+        "Question": "How many times has Pakistan won the Men's Hockey World Cup?",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "5"
+        },
+        "correct": "C",
+        "explanation": "Pakistan holds the record for winning the Men's Hockey World Cup four times (in 1971, 1978, 1982, and 1994)."
+    },
+    {
+        "Question": "Which province of China touches the border of Pakistan?",
+        "options": {
+            "A": "Sichuan",
+            "B": "Yunnan",
+            "C": "Xinjiang",
+            "D": "Guangdong"
+        },
+        "correct": "C",
+        "explanation": "The Xinjiang province in western China shares a direct border with Pakistan."
+    },
+    {
+        "Question": "How many countries are members of NATO (North Atlantic Treaty Organization)?",
+        "options": {
+            "A": "28",
+            "B": "30",
+            "C": "32",
+            "D": "35"
+        },
+        "correct": "C",
+        "explanation": "According to the transcript, there are currently 32 member countries in NATO."
+    },
+    {
+        "Question": "What is the currency used in Egypt?",
+        "options": {
+            "A": "Egyptian Dinar",
+            "B": "Egyptian Dirham",
+            "C": "Egyptian Lira",
+            "D": "Egyptian Pound"
+        },
+        "correct": "D",
+        "explanation": "The official currency used in Egypt is the Egyptian Pound."
+    },
+    {
+        "Question": "Who painted the famous artwork \"The Last Supper\"?",
+        "options": {
+            "A": "Vincent van Gogh",
+            "B": "Leonardo da Vinci",
+            "C": "Pablo Picasso",
+            "D": "Michelangelo"
+        },
+        "correct": "B",
+        "explanation": "The famous late 15th-century mural painting \"The Last Supper\" was created by Leonardo da Vinci."
+    },
+    {
+        "Question": "Which is the longest river in China?",
+        "options": {
+            "A": "Yellow River",
+            "B": "Mekong River",
+            "C": "Yangtze River",
+            "D": "Pearl River"
+        },
+        "correct": "C",
+        "explanation": "The Yangtze River is the longest river in China and the third-longest in the world."
+    },
+    {
+        "Question": "What is the maximum speed limit for cars on the Motorways in Pakistan?",
+        "options": {
+            "A": "100 km/h",
+            "B": "110 km/h",
+            "C": "120 km/h",
+            "D": "130 km/h"
+        },
+        "correct": "C",
+        "explanation": "The maximum allowed speed limit for light vehicles (cars) on Pakistan's motorways is 120 km/hr."
+    },
+    {
+        "Question": "Which organization operates the NHMP (National Highways & Motorway Police)?",
+        "options": {
+            "A": "Ministry of Interior",
+            "B": "Ministry of Defence",
+            "C": "Ministry of Communications",
+            "D": "Ministry of Transport"
+        },
+        "correct": "C",
+        "explanation": "The National Highways and Motorway Police operates under the jurisdiction of the Ministry of Communications."
+    },
+    {
+        "Question": "What is the emergency helpline number for the NHMP?",
+        "options": {
+            "A": "112",
+            "B": "115",
+            "C": "130",
+            "D": "911"
+        },
+        "correct": "C",
+        "explanation": "The official emergency helpline number for the National Highways & Motorway Police is 130."
+    },
+    {
+        "Question": "Which motorway connects Karachi to Hyderabad?",
+        "options": {
+            "A": "M5",
+            "B": "M7",
+            "C": "M9",
+            "D": "M11"
+        },
+        "correct": "C",
+        "explanation": "The M9 motorway is the route that directly connects the cities of Karachi and Hyderabad."
+    },
+    {
+        "Question": "When was the Pakistan National Highways & Motorway Police established?",
+        "options": {
+            "A": "1993",
+            "B": "1995",
+            "C": "1997",
+            "D": "1999"
+        },
+        "correct": "C",
+        "explanation": "The National Highways and Motorway Police was officially established in the year 1997."
+    },
+    {
+        "Question": "What does GT Road stand for?",
+        "options": {
+            "A": "General Transport Road",
+            "B": "Grand Trunk Road",
+            "C": "Great Transit Road",
+            "D": "Global Trade Road"
+        },
+        "correct": "B",
+        "explanation": "GT Road stands for the Grand Trunk Road, one of Asia's oldest and longest major roads."
+    },
+    {
+        "Question": "Lake Baikal, the deepest lake in the world, is located in which country?",
+        "options": {
+            "A": "Canada",
+            "B": "USA",
+            "C": "Russia",
+            "D": "China"
+        },
+        "correct": "C",
+        "explanation": "Lake Baikal is located in Russia and is recognized as the deepest and oldest freshwater lake globally."
+    },
+    {
+        "Question": "Who was the first Secretary-General of the United Nations?",
+        "options": {
+            "A": "Trygve Lie",
+            "B": "Dag Hammarskjöld",
+            "C": "U Thant",
+            "D": "Kurt Waldheim"
+        },
+        "correct": "A",
+        "explanation": "Trygve Lie was a Norwegian politician who was elected as the very first Secretary-General of the UN on February 1, 1946."
+    },
+    {
+        "Question": "The Earth's second-largest ocean is the?",
+        "options": {
+            "A": "Indian Ocean",
+            "B": "Atlantic Ocean",
+            "C": "Pacific Ocean",
+            "D": "Arctic Ocean"
+        },
+        "correct": "B",
+        "explanation": "The Atlantic Ocean is the second-largest ocean in the world, following the Pacific Ocean."
+    },
+    {
+        "Question": "What does PEMRA stand for?",
+        "options": {
+            "A": "Pakistan Electronic Media Regulatory Authority",
+            "B": "Pakistan Entertainment and Media Regulatory Agency",
+            "C": "Punjab Electronic Media Regulating Authority",
+            "D": "Pakistan Electrical Media Regulating Agency"
+        },
+        "correct": "A",
+        "explanation": "PEMRA stands for Pakistan Electronic Media Regulatory Authority. It was established in 2002 to regulate electronic media in Pakistan."
+    },
+    {
+        "Question": "Who is the current Speaker of the Khyber Pakhtunkhwa (KPK) Assembly?",
+        "options": {
+            "A": "Asad Qaiser",
+            "B": "Mushtaq Ghani",
+            "C": "Babar Saleem Swati",
+            "D": "Pervez Khattak"
+        },
+        "correct": "C",
+        "explanation": "Babar Saleem Swati was mentioned as the current Speaker of the KPK Assembly."
+    },
+    {
+        "Question": "In which year was PIA (Pakistan International Airlines) established?",
+        "options": {
+            "A": "1947",
+            "B": "1951",
+            "C": "1955",
+            "D": "1960"
+        },
+        "correct": "C",
+        "explanation": "Pakistan International Airlines (PIA), the national flag carrier of Pakistan, was established in 1955."
+    },
+    {
+        "Question": "What is the numerical sequence of Qazi Faez Isa as the Chief Justice of Pakistan?",
+        "options": {
+            "A": "27th",
+            "B": "28th",
+            "C": "29th",
+            "D": "30th"
+        },
+        "correct": "C",
+        "explanation": "Qazi Faez Isa assumed office as the 29th Chief Justice of Pakistan."
+    },
+    {
+        "Question": "Which team won the PSL (Pakistan Super League) title in 2022?",
+        "options": {
+            "A": "Multan Sultans",
+            "B": "Karachi Kings",
+            "C": "Peshawar Zalmi",
+            "D": "Lahore Qalandars"
+        },
+        "correct": "D",
+        "explanation": "Lahore Qalandars won the PSL title in 2022 by defeating Multan Sultans in the final."
+    },
+    {
+        "Question": "The Nehru Report was published in which year?",
+        "options": {
+            "A": "1925",
+            "B": "1928",
+            "C": "1930",
+            "D": "1935"
+        },
+        "correct": "B",
+        "explanation": "The Nehru Report, a memorandum to appeal for a new dominion status and a federal set-up for the constitution of India, was published in 1928."
+    },
+    {
+        "Question": "When did Pakistan become an Islamic Republic?",
+        "options": {
+            "A": "1947",
+            "B": "1956",
+            "C": "1962",
+            "D": "1973"
+        },
+        "correct": "B",
+        "explanation": "Pakistan officially became an Islamic Republic following the implementation of its first constitution in 1956."
+    },
+    {
+        "Question": "Where is the Shah Jahan Mosque located?",
+        "options": {
+            "A": "Lahore",
+            "B": "Multan",
+            "C": "Thatta",
+            "D": "Peshawar"
+        },
+        "correct": "C",
+        "explanation": "The historic Shah Jahan Mosque, built during the reign of Mughal Emperor Shah Jahan, is located in Thatta, Sindh."
+    },
+    {
+        "Question": "In which language is Pakistan's National Anthem written?",
+        "options": {
+            "A": "Urdu",
+            "B": "Persian",
+            "C": "Arabic",
+            "D": "Pashto"
+        },
+        "correct": "B",
+        "explanation": "Pakistan's national anthem is written in a highly Persianized form of Urdu, making it predominantly Persian. It was written by Hafeez Jalandhari, musically composed by Ahmed Ghulam Ali Chagla in 1949, uses 21 musical instruments, 38 different tones, and has a duration of 80 seconds."
+    },
+    {
+        "Question": "Pakistan became a member of the World Trade Organization (WTO) in which year?",
+        "options": {
+            "A": "January 1993",
+            "B": "January 1995",
+            "C": "August 1998",
+            "D": "March 2001"
+        },
+        "correct": "B",
+        "explanation": "Pakistan became an official member of the World Trade Organization in January 1995."
+    },
+    {
+        "Question": "Which continent has no desert?",
+        "options": {
+            "A": "Australia",
+            "B": "Europe",
+            "C": "South America",
+            "D": "North America"
+        },
+        "correct": "B",
+        "explanation": "Europe is the only continent in the world that does not have a single desert."
+    },
+    {
+        "Question": "The world's largest bird is?",
+        "options": {
+            "A": "Emu",
+            "B": "Albatross",
+            "C": "Common Ostrich",
+            "D": "Emperor Penguin"
+        },
+        "correct": "C",
+        "explanation": "The Common Ostrich is the largest living bird in the world. (The smallest is the Bee Hummingbird)."
+    },
+    {
+        "Question": "The USA consists of how many states?",
+        "options": {
+            "A": "48",
+            "B": "50",
+            "C": "52",
+            "D": "54"
+        },
+        "correct": "B",
+        "explanation": "The United States of America is a federal republic consisting of 50 states. Its capital is Washington D.C., and its currency is the Dollar."
+    },
+    {
+        "Question": "What is the world's largest living mammal?",
+        "options": {
+            "A": "African Elephant",
+            "B": "Sperm Whale",
+            "C": "Blue Whale",
+            "D": "Rhinoceros"
+        },
+        "correct": "C",
+        "explanation": "The Blue Whale (referred to as Blue Mammal in the transcript) is the largest living mammal and animal on Earth."
+    },
+    {
+        "Question": "Which country has three capital cities?",
+        "options": {
+            "A": "Nigeria",
+            "B": "South Africa",
+            "C": "Bolivia",
+            "D": "Netherlands"
+        },
+        "correct": "B",
+        "explanation": "South Africa is unique for having three capital cities: Pretoria (executive), Cape Town (legislative), and Bloemfontein (judicial)."
+    },
+    {
+        "Question": "The Asian Development Bank (ADB) was founded in which year?",
+        "options": {
+            "A": "December 1966",
+            "B": "August 1970",
+            "C": "January 1960",
+            "D": "March 1975"
+        },
+        "correct": "A",
+        "explanation": "The Asian Development Bank was established in December 1966 to promote social and economic development in Asia."
+    },
+    {
+        "Question": "Nelson Mandela was awarded the Nobel Peace Prize in which year?",
+        "options": {
+            "A": "1990",
+            "B": "1993",
+            "C": "1995",
+            "D": "1999"
+        },
+        "correct": "B",
+        "explanation": "Nelson Mandela was awarded the Nobel Peace Prize in 1993. He was also awarded the Bharat Ratna, India's highest civilian award."
+    },
+    {
+        "Question": "The world's longest land border is between which two countries?",
+        "options": {
+            "A": "Russia and China",
+            "B": "USA and Mexico",
+            "C": "Canada and USA",
+            "D": "India and Pakistan"
+        },
+        "correct": "C",
+        "explanation": "The border between Canada and the United States is the longest international land border in the world."
+    },
+    {
+        "Question": "\"10 Downing Street\" is the official residence of?",
+        "options": {
+            "A": "US President",
+            "B": "French President",
+            "C": "British Prime Minister",
+            "D": "Australian Prime Minister"
+        },
+        "correct": "C",
+        "explanation": "10 Downing Street in London is the official residence and the office of the Prime Minister of the United Kingdom."
+    },
+    {
+        "Question": "International Anti-Corruption Day is observed on?",
+        "options": {
+            "A": "9 December",
+            "B": "1 December",
+            "C": "10 November",
+            "D": "24 October"
+        },
+        "correct": "A",
+        "explanation": "International Anti-Corruption Day is observed annually on December 9th."
+    },
+    {
+        "Question": "Who is known as the \"Poet of Nature\"?",
+        "options": {
+            "A": "John Keats",
+            "B": "Robert Frost",
+            "C": "William Shakespeare",
+            "D": "William Wordsworth"
+        },
+        "correct": "D",
+        "explanation": "William Wordsworth, a major English Romantic poet, is famously known as the Poet of Nature."
+    },
+    {
+        "Question": "Both parties must adhere _____ the terms of the contract. (Fill in the blank)",
+        "options": {
+            "A": "with",
+            "B": "by",
+            "C": "to",
+            "D": "on"
+        },
+        "correct": "C",
+        "explanation": "The correct preposition to use after \"adhere\" is \"to\"."
+    },
+    {
+        "Question": "I was alarmed _____ his death. (Fill in the blank)",
+        "options": {
+            "A": "by",
+            "B": "at",
+            "C": "on",
+            "D": "with"
+        },
+        "correct": "B",
+        "explanation": "The correct preposition to use after \"alarmed\" in this context is \"at\"."
+    },
+    {
+        "Question": "He is averse _____ hard work. (Fill in the blank)",
+        "options": {
+            "A": "against",
+            "B": "from",
+            "C": "to",
+            "D": "on"
+        },
+        "correct": "C",
+        "explanation": "The correct preposition to use after \"averse\" is \"to\"."
+    },
+    {
+        "Question": "The synonym of \"Puerile\" is?",
+        "options": {
+            "A": "Mature",
+            "B": "Immature",
+            "C": "Serious",
+            "D": "Sensible"
+        },
+        "correct": "B",
+        "explanation": "\"Puerile\" means childishly silly and trivial, making \"immature\" its correct synonym."
+    },
+    {
+        "Question": "The synonym of \"Benchmark\" is?",
+        "options": {
+            "A": "Failure",
+            "B": "Reference point",
+            "C": "Estimation",
+            "D": "Boundary"
+        },
+        "correct": "B",
+        "explanation": "A benchmark is a standard or reference point against which things may be compared or assessed."
+    },
+    {
+        "Question": "The idiom \"Drop a dime\" means?",
+        "options": {
+            "A": "To lose money",
+            "B": "To buy something cheap",
+            "C": "To be an informant",
+            "D": "To give up"
+        },
+        "correct": "C",
+        "explanation": "\"Drop a dime\" is a slang idiom that means to inform on someone or to be an informant (snitch)."
+    },
+    {
+        "Question": "The phrase \"Never-never land\" means?",
+        "options": {
+            "A": "A scary place",
+            "B": "An ideal place",
+            "C": "An undiscovered country",
+            "D": "A barren wasteland"
+        },
+        "correct": "B",
+        "explanation": "\"Never-never land\" refers to an imaginary, ideal, or utopian place."
+    },
+    {
+        "Question": "Masjid Qiblatain is located in?",
+        "options": {
+            "A": "Makkah",
+            "B": "Madinah",
+            "C": "Jerusalem",
+            "D": "Taif"
+        },
+        "correct": "B",
+        "explanation": "Masjid Qiblatain (The Mosque of the Two Qiblas) is located in the holy city of Madinah."
+    },
+    {
+        "Question": "What was the relationship between Prophet Musa (AS) and Prophet Haroon (AS)?",
+        "options": {
+            "A": "Father and Son",
+            "B": "Cousins",
+            "C": "Brothers",
+            "D": "Uncle and Nephew"
+        },
+        "correct": "C",
+        "explanation": "Prophet Musa (AS) and Prophet Haroon (AS) were brothers."
+    },
+    {
+        "Question": "How many Muslims fought in the Battle of Badr (Ghazwa-e-Badr)?",
+        "options": {
+            "A": "300",
+            "B": "313",
+            "C": "1000",
+            "D": "70"
+        },
+        "correct": "B",
+        "explanation": "The Muslim army in the first major battle of Islam, Ghazwa-e-Badr, consisted of exactly 313 companions."
+    },
+    {
+        "Question": "Who led the Muslim army in the Battle of Yarmouk?",
+        "options": {
+            "A": "Hazrat Abu Ubaidah (RA)",
+            "B": "Hazrat Khalid bin Waleed (RA)",
+            "C": "Hazrat Ali (RA)",
+            "D": "Hazrat Umar (RA)"
+        },
+        "correct": "B",
+        "explanation": "The brilliant military commander Hazrat Khalid bin Waleed (RA) led the Muslim forces to a decisive victory in the Battle of Yarmouk."
+    },
+    {
+        "Question": "In a computer, what does the shortcut \"Shift + Alt + D\" do?",
+        "options": {
+            "A": "Deletes a file",
+            "B": "Inserts the current date",
+            "C": "Opens a new document",
+            "D": "Duplicates a tab"
+        },
+        "correct": "B",
+        "explanation": "In Microsoft Word and similar applications, pressing \"Shift + Alt + D\" automatically inserts the current date."
+    },
+    {
+        "Question": "In a computer, what does the shortcut \"Ctrl + Backspace\" do?",
+        "options": {
+            "A": "Deletes the entire line",
+            "B": "Deletes the word to the right of the cursor",
+            "C": "Deletes the word to the left of the cursor",
+            "D": "Undoes the last action"
+        },
+        "correct": "C",
+        "explanation": "Pressing \"Ctrl + Backspace\" deletes the entire word immediately to the left of the text cursor."
+    },
+    {
+        "Question": "In a computer, what does the shortcut \"Ctrl + Y\" do?",
+        "options": {
+            "A": "Undo previous action",
+            "B": "Redo previously undone action",
+            "C": "Copy text",
+            "D": "Paste text"
+        },
+        "correct": "B",
+        "explanation": "While \"Ctrl + Z\" undoes an action, \"Ctrl + Y\" is used to redo an action that was previously undone."
+    },
+    {
+        "Question": "The term \"DFA\" stands for?",
+        "options": {
+            "A": "Draft For Approval",
+            "B": "Data Flow Analysis",
+            "C": "Direct File Access",
+            "D": "Department of Foreign Affairs"
+        },
+        "correct": "A",
+        "explanation": "In general administrative and office contexts, DFA stands for Draft For Approval."
+    },
+    {
+        "Question": "K2 peak is located in which province/territory of Pakistan?",
+        "options": {
+            "A": "Khyber Pakhtunkhwa",
+            "B": "Azad Kashmir",
+            "C": "Gilgit-Baltistan",
+            "D": "Balochistan"
+        },
+        "correct": "C",
+        "explanation": "K2 (also known as Godwin-Austen or Chogori) is located in the Karakoram range in the Gilgit-Baltistan region of Pakistan."
+    },
+    {
+        "Question": "The synonym of \"Peer\" is?",
+        "options": {
+            "A": "Enemy",
+            "B": "Leader",
+            "C": "Fellow/Companion",
+            "D": "Follower"
+        },
+        "correct": "C",
+        "explanation": "\"Peer\" generally means someone at the same level as you, such as a fellow, companion, or equal. (Note: The transcript says the synonym is \"Follower\", which is linguistically incorrect, but based strictly on the provided text, the speaker says \"Follower\". However, they define it in Urdu as \"sathi\" (companion). A standard synonym would be fellow/companion)."
+    },
+    {
+        "Question": "A doctor who treats children is called a?",
+        "options": {
+            "A": "Cardiologist",
+            "B": "Pediatrician",
+            "C": "Dermatologist",
+            "D": "Neurologist"
+        },
+        "correct": "B",
+        "explanation": "A pediatrician is a medical doctor who specializes in the care of infants, children, and adolescents."
+    },
+    {
+        "Question": "A person who is unable to pay his debts is called?",
+        "options": {
+            "A": "Miserly",
+            "B": "Wealthy",
+            "C": "Insolvent",
+            "D": "Frugal"
+        },
+        "correct": "C",
+        "explanation": "An insolvent person (or bankrupt) is someone who does not have enough assets or cash to pay off their financial debts."
+    },
+    {
+        "Question": "The First Afghan War took place in which year?",
+        "options": {
+            "A": "1839",
+            "B": "1857",
+            "C": "1878",
+            "D": "1919"
+        },
+        "correct": "A",
+        "explanation": "The First Anglo-Afghan War began in 1839 between the British East India Company and the Emirate of Afghanistan."
+    },
+    {
+        "Question": "The headquarters of the International Civil Aviation Organization (ICAO) is in?",
+        "options": {
+            "A": "Geneva",
+            "B": "New York",
+            "C": "Montreal",
+            "D": "London"
+        },
+        "correct": "C",
+        "explanation": "The ICAO, a specialized agency of the United Nations, is headquartered in Montreal, Canada."
+    },
+    {
+        "Question": "How many players are there in a baseball game on each team?",
+        "options": {
+            "A": "7",
+            "B": "9",
+            "C": "11",
+            "D": "15"
+        },
+        "correct": "B",
+        "explanation": "In a standard game of baseball, each team has 9 players on the field at a time."
+    },
+    {
+        "Question": "The name \"United Nations\" (UNO) was coined by?",
+        "options": {
+            "A": "Winston Churchill",
+            "B": "Joseph Stalin",
+            "C": "Franklin D. Roosevelt",
+            "D": "Woodrow Wilson"
+        },
+        "correct": "C",
+        "explanation": "The name \"United Nations\" was coined by United States President Franklin D. Roosevelt during World War II."
+    },
+    {
+        "Question": "The Mujibur Rahman formula (Six-Point Movement) was proposed in which year?",
+        "options": {
+            "A": "1966",
+            "B": "1970",
+            "C": "1971",
+            "D": "1973"
+        },
+        "correct": "A",
+        "explanation": "Sheikh Mujibur Rahman announced his famous Six-Point formula in 1966, demanding greater autonomy for East Pakistan."
+    },
+    {
+        "Question": "Who was the last Viceroy of India?",
+        "options": {
+            "A": "Lord Wavell",
+            "B": "Lord Mountbatten",
+            "C": "Lord Curzon",
+            "D": "Lord Minto"
+        },
+        "correct": "B",
+        "explanation": "Lord Louis Mountbatten was the last Viceroy of British India, overseeing the partition of India and Pakistan."
+    },
+    {
+        "Question": "Who was the Governor-General (Viceroy) of India during the partition of Bengal in 1905?",
+        "options": {
+            "A": "Lord Mountbatten",
+            "B": "Lord Hardinge",
+            "C": "Lord Curzon",
+            "D": "Lord Hastings"
+        },
+        "correct": "C",
+        "explanation": "Lord Curzon was the Viceroy of India who ordered the controversial Partition of Bengal in 1905."
+    },
+    {
+        "Question": "The Lal Masjid (Red Mosque) operation took place in which year?",
+        "options": {
+            "A": "2005",
+            "B": "2007",
+            "C": "2009",
+            "D": "2014"
+        },
+        "correct": "B",
+        "explanation": "The military operation against the Lal Masjid in Islamabad took place in July 2007."
+    },
+    {
+        "Question": "The \"Eden of Sindh\" is called?",
+        "options": {
+            "A": "Karachi",
+            "B": "Hyderabad",
+            "C": "Larkana",
+            "D": "Sukkur"
+        },
+        "correct": "C",
+        "explanation": "Larkana, a city in the Sindh province, is historically referred to as the \"Eden of Sindh\"."
+    },
+    {
+        "Question": "\"Bernama\" is the news agency of which country?",
+        "options": {
+            "A": "Indonesia",
+            "B": "Malaysia",
+            "C": "Brunei",
+            "D": "Thailand"
+        },
+        "correct": "B",
+        "explanation": "Bernama is the national news agency of the government of Malaysia."
+    },
+    {
+        "Question": "What is the currency of France?",
+        "options": {
+            "A": "Franc",
+            "B": "Pound",
+            "C": "Dollar",
+            "D": "Euro"
+        },
+        "correct": "D",
+        "explanation": "As a member of the European Union and the Eurozone, the official currency of France is the Euro (replacing the French Franc)."
+    },
+    {
+        "Question": "Asiana Airlines belongs to which country?",
+        "options": {
+            "A": "Japan",
+            "B": "China",
+            "C": "South Korea",
+            "D": "Singapore"
+        },
+        "correct": "C",
+        "explanation": "Asiana Airlines is one of South Korea's two major airlines, alongside Korean Air."
+    },
+    {
+        "Question": "A group of elephants is called a?",
+        "options": {
+            "A": "Flock",
+            "B": "Herd",
+            "C": "Pack",
+            "D": "Swarm"
+        },
+        "correct": "B",
+        "explanation": "A group of elephants (as well as cows, deer, etc.) is collectively referred to as a herd."
+    },
+    {
+        "Question": "The antonym of \"Pacific\" (meaning peaceful) is?",
+        "options": {
+            "A": "Calm",
+            "B": "Aggressive",
+            "C": "Quiet",
+            "D": "Gentle"
+        },
+        "correct": "B",
+        "explanation": "\"Pacific\" means peace-making or calm (Aman pilane wala/Sulah jo). Its antonym is \"Aggressive\" (Jarehana). (Note: The transcript misspells the word as \"Specific\", but the Urdu definition provided clearly indicates the word is \"Pacific\")."
+    },
+    {
+        "Question": "The idiom \"Keep at bay\" means?",
+        "options": {
+            "A": "To welcome warmly",
+            "B": "To keep at a distance",
+            "C": "To travel by sea",
+            "D": "To surrender"
+        },
+        "correct": "B",
+        "explanation": "To \"keep someone or something at bay\" means to control them and prevent them from causing you problems, effectively keeping them at a distance."
+    },
+    {
+        "Question": "Who was the first female martyr (Shaheed) of Islam?",
+        "options": {
+            "A": "Hazrat Khadija (RA)",
+            "B": "Hazrat Ayesha (RA)",
+            "C": "Hazrat Sumayya bint Khayyat (RA)",
+            "D": "Hazrat Fatima (RA)"
+        },
+        "correct": "C",
+        "explanation": "Hazrat Sumayya bint Khayyat (RA) was the first person, and specifically the first female, to be martyred for embracing Islam."
+    },
+    {
+        "Question": "What is the Fourth Kalima of Islam?",
+        "options": {
+            "A": "Kalima Tayyab",
+            "B": "Kalima Shahadat",
+            "C": "Kalima Tamjeed",
+            "D": "Kalima Tauheed"
+        },
+        "correct": "D",
+        "explanation": "The Fourth Kalima in Islam is known as Kalima Tauheed (The word of Oneness of Allah)."
+    },
+    {
+        "Question": "When did Hazrat Hamza (RA) embrace Islam?",
+        "options": {
+            "A": "4th year of Prophethood",
+            "B": "6th year of Prophethood",
+            "C": "1st Hijri",
+            "D": "6th Hijri"
+        },
+        "correct": "B",
+        "explanation": "(Note: The transcript erroneously says \"6 Hijri\", but historically he embraced Islam in the 6th year of Nabawat/Prophethood. Based strictly on the video text provided, the answer given is 6 Hijri). According to the speaker in the transcript, Hazrat Hamza (RA) embraced Islam in 6 Hijri."
+    },
+    {
+        "Question": "How many Sahifas (Divine Scriptures) were revealed to Hazrat Idrees (AS)?",
+        "options": {
+            "A": "10",
+            "B": "30",
+            "C": "50",
+            "D": "100"
+        },
+        "correct": "B",
+        "explanation": "According to Islamic tradition, 30 Sahifas (scrolls/scriptures) were revealed to Prophet Idrees (AS)."
+    },
+    {
+        "Question": "Laws about orphans were revealed in which year?",
+        "options": {
+            "A": "1st Hijri",
+            "B": "3rd Hijri",
+            "C": "5th Hijri",
+            "D": "8th Hijri"
+        },
+        "correct": "B",
+        "explanation": "The specific Islamic laws and commandments regarding the rights and protection of orphans were revealed in the 3rd year of Hijri."
+    },
+    {
+        "Question": "What does \"GT Road\" stand for?",
+        "options": {
+            "A": "Global Trade Road",
+            "B": "General Transport Road",
+            "C": "Grand Trunk Road",
+            "D": "Great Transit Road"
+        },
+        "correct": "C",
+        "explanation": "GT Road stands for the Grand Trunk Road, one of Asia's oldest and longest roads, built by Sher Shah Suri."
+    }
+]

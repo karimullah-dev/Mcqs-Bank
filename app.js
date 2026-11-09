@@ -3,6 +3,7 @@ const DATA_URLS = {
   geography: "data/Geography_of_Pakistan_MCQs.json",
   dailydose: "data/dailydose.json",
   pastpapers: "data/Pastpapers.json",
+  motorway: "data/Motorway.json",
 };
 
 const state = {
@@ -63,9 +64,19 @@ async function loadQuiz() {
 
 function normalizeQuiz(subject, rawData) {
   if (subject === "pakistan" || subject === "dailydose") return rawData;
+  const titles = {
+    geography: "Geography of Pakistan MCQs",
+    pastpapers: "Past Papers MCQs",
+    motorway: "Motorway MCQs",
+  };
+  const topics = {
+    geography: "Geography of Pakistan",
+    pastpapers: "Past Papers",
+    motorway: "Motorway",
+  };
   return {
-    title: subject === "pastpapers" ? "Past Papers MCQs" : "Geography of Pakistan MCQs",
-    topics: [subject === "pastpapers" ? "Past Papers" : "Geography of Pakistan"],
+    title: titles[subject],
+    topics: [topics[subject]],
     questions: rawData.map((question, index) => ({
       id: index + 1,
       question: question.Question,
