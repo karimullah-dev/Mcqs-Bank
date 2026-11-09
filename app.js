@@ -145,6 +145,39 @@ function selectAnswer(letter) {
   render();
 }
 
+function focusOption(offset) {
+  const options = [...elements.options.querySelectorAll(".option:not(:disabled)")];
+  if (!options.length) return;
+
+  const currentIndex = options.indexOf(document.activeElement);
+  const nextIndex = currentIndex === -1
+    ? offset > 0 ? 0 : options.length - 1
+    : (currentIndex + offset + options.length) % options.length;
+  options[nextIndex].focus();
+}
+
+function handleKeyboard(event) {
+  if (elements.questionCard.classList.contains("hidden")) return;
+  if (event.target instanceof HTMLInputElement || event.target instanceof HTMLTextAreaElement) return;
+
+  if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+    event.preventDefault();
+    focusOption(event.key === "ArrowDown" ? 1 : -1);
+    return;
+  }
+
+  if (event.key === " " && document.activeElement?.classList.contains("option")) {
+    event.preventDefault();
+    document.activeElement.click();
+    return;
+  }
+
+  if (event.key === "Enter" && getAnswers()[state.currentIndex]) {
+    event.preventDefault();
+    nextQuestion();
+  }
+}
+
 function nextQuestion() {
   if (!getAnswers()[state.currentIndex]) return;
   if (state.currentIndex === getQuiz().questions.length - 1) {
@@ -198,4 +231,5 @@ elements.restartButton.addEventListener("click", resetQuiz);
 elements.subjectButtons.forEach((button) => {
   button.addEventListener("click", () => switchSubject(button.dataset.subject));
 });
+document.addEventListener("keydown", handleKeyboard);
 loadQuiz();
