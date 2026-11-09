@@ -37,6 +37,7 @@ h1 { margin-bottom: 0; color: #111827; font-size: clamp(24px, 4vw, 36px); letter
 .tile-orange { color: #4a2d0b; background: #ffd18a; }
 .tile-purple { color: #32174d; background: #d7b8ed; }
 .tile-teal { color: #103c43; background: #a7dfe0; }
+.tile-slate { color: #eaf3ff; background: linear-gradient(135deg, #2d4d77, #4b6b8d); }
 .tile-content { display: flex; flex: 1; flex-direction: column; gap: 7px; }
 .tile-content strong { font-size: 18px; line-height: 1.2; }
 .tile-content span { font-size: 13px; opacity: .78; }

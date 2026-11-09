@@ -1,0 +1,1102 @@
+[
+    {
+        "Question": "What name is given to the programs run by a computer, as opposed to the hardware?",
+        "options": {
+            "A": "Program",
+            "B": "Software",
+            "C": "Input",
+            "D": "Output"
+        },
+        "correct": "B",
+        "explanation": "Software is the general term given to the various programs and instructions run by a computer, contrasting with the physical hardware."
+    },
+    {
+        "Question": "UNIX operating system has been developed in which programming language?",
+        "options": {
+            "A": "FORTRAN",
+            "B": "COBOL",
+            "C": "C",
+            "D": "Assembly"
+        },
+        "correct": "C",
+        "explanation": "The UNIX operating system was originally written in assembly language, but was famously rewritten in the C programming language by Dennis Ritchie and Ken Thompson."
+    },
+    {
+        "Question": "The BCPL language was developed in 1967 by ___________?",
+        "options": {
+            "A": "Martin Richards",
+            "B": "Ken Thompson",
+            "C": "Dennis Ritchie",
+            "D": "Bjarne Stroustrup"
+        },
+        "correct": "A",
+        "explanation": "BCPL (Basic Combined Programming Language) was designed by Martin Richards at the University of Cambridge in 1967, serving as a precursor to B and C."
+    },
+    {
+        "Question": "Who is known as the Father of Computer Science?",
+        "options": {
+            "A": "Charles Babbage",
+            "B": "Alan Turing",
+            "C": "John McCarthy",
+            "D": "Blaise Pascal"
+        },
+        "correct": "B",
+        "explanation": "In competitive exams, Alan Turing is recognized as the Father of Computer Science, whereas Charles Babbage is the Father of the Computer."
+    },
+    {
+        "Question": "A combination of 4 bits is called a ______?",
+        "options": {
+            "A": "Byte",
+            "B": "Nibble",
+            "C": "Word",
+            "D": "Kilobyte"
+        },
+        "correct": "B",
+        "explanation": "In computing, 4 bits make 1 Nibble, and 8 bits make 1 Byte."
+    },
+    {
+        "Question": "What does NOS stand for in computer networking?",
+        "options": {
+            "A": "New Operating System",
+            "B": "Network Operating Source",
+            "C": "Network Operating System",
+            "D": "Network Original System"
+        },
+        "correct": "C",
+        "explanation": "NOS stands for Network Operating System, which is specialized software designed to support workstations, database sharing, and application sharing on a network."
+    },
+    {
+        "Question": "ISDN stands for ________?",
+        "options": {
+            "A": "Integrated Service Digital Network",
+            "B": "Internal Service Digital Network",
+            "C": "Integrated Service Double Network",
+            "D": "Integrated Secure Digital Network"
+        },
+        "correct": "A",
+        "explanation": "ISDN (Integrated Services Digital Network) is a set of communication standards for simultaneous digital transmission of voice, video, data, and other network services."
+    },
+    {
+        "Question": "ASCII stands for ________?",
+        "options": {
+            "A": "American Standard Code for Inked Information",
+            "B": "American Standard Code for Information Inked",
+            "C": "American Standard Code for Information Interchange",
+            "D": "Asian Standard Code for Information Interchange"
+        },
+        "correct": "C",
+        "explanation": "ASCII is a character encoding standard for electronic communication representing text in computers."
+    },
+    {
+        "Question": "In peer-to-peer networking:",
+        "options": {
+            "A": "There is only one server and many clients",
+            "B": "There is only one client and many servers",
+            "C": "Every computer is capable of playing the role of server",
+            "D": "Every computer is capable of playing the role of client, server or both at the same time"
+        },
+        "correct": "D",
+        "explanation": "In a Peer-to-Peer (P2P) network architecture, each node (computer) has equal privileges and can act as both a client and a server simultaneously."
+    },
+    {
+        "Question": "The agency that sits between the user and the UNIX system is called the ________________?",
+        "options": {
+            "A": "Logic",
+            "B": "Profile",
+            "C": "Shell",
+            "D": "Erxc"
+        },
+        "correct": "C",
+        "explanation": "In UNIX/Linux, the Shell acts as the command interpreter and interface between the user and the kernel."
+    },
+    {
+        "Question": "Which of the following commands is used to absolutely assign all permissions to the owner, read and write permissions to the group, and only executable permission to the others of the file 'note'?",
+        "options": {
+            "A": "chmod 761 note",
+            "B": "chmod 671 note",
+            "C": "chmod 167 note",
+            "D": "chmod 4=rwx, g=rw note"
+        },
+        "correct": "A",
+        "explanation": "In Linux octal permission notation, Read=4, Write=2, Execute=1. All permissions (4+2+1=7), Read+Write (4+2=6), Execute only (1). Thus, 761."
+    },
+    {
+        "Question": "Which command is used to display the top lines of a file in Linux?",
+        "options": {
+            "A": "cat",
+            "B": "head",
+            "C": "more",
+            "D": "grep"
+        },
+        "correct": "B",
+        "explanation": "The 'head' command outputs the first part (by default, the first 10 lines) of files given to it."
+    },
+    {
+        "Question": "Which option is used with the chmod command recursively to apply changes to all files and sub-directories in a directory?",
+        "options": {
+            "A": "-l",
+            "B": "-a",
+            "C": "-R",
+            "D": "-r"
+        },
+        "correct": "C",
+        "explanation": "The '-R' (uppercase) flag in chmod stands for recursive, changing permissions of the directory and everything inside it."
+    },
+    {
+        "Question": "Which command is used to terminate a running process in Linux?",
+        "options": {
+            "A": "shutdown",
+            "B": "halting",
+            "C": "kill",
+            "D": "cancel"
+        },
+        "correct": "C",
+        "explanation": "The 'kill' command sends a signal to a specified process to terminate it cleanly or forcefully."
+    },
+    {
+        "Question": "Which type of computers uses the 8-bit code called EBCDIC?",
+        "options": {
+            "A": "Minicomputers",
+            "B": "Microcomputers",
+            "C": "Mainframe computers",
+            "D": "Super computers"
+        },
+        "correct": "C",
+        "explanation": "EBCDIC (Extended Binary Coded Decimal Interchange Code) is an eight-bit character encoding used mainly on IBM mainframe and IBM midrange computer operating systems."
+    },
+    {
+        "Question": "The ALU of a computer responds to the commands coming from:",
+        "options": {
+            "A": "Primary memory",
+            "B": "Control section",
+            "C": "External memory",
+            "D": "Cache memory"
+        },
+        "correct": "B",
+        "explanation": "The Control Unit (Control section) directs the operation of the processor, telling the ALU what operations to perform on data."
+    },
+    {
+        "Question": "A technique used by codes to convert an analog signal into a digital bit stream is known as:",
+        "options": {
+            "A": "Pulse code modulation",
+            "B": "Pulse stretcher",
+            "C": "Query processing",
+            "D": "Queue management"
+        },
+        "correct": "A",
+        "explanation": "Pulse-Code Modulation (PCM) is the standard method used to digitally represent sampled analog signals."
+    },
+    {
+        "Question": "What type of control pins are needed in a microprocessor to regulate traffic on the bus, in order to prevent two devices from trying to use it at the same time?",
+        "options": {
+            "A": "Bus control",
+            "B": "Interrupts",
+            "C": "Bus arbitration",
+            "D": "Status"
+        },
+        "correct": "C",
+        "explanation": "Bus arbitration is the process by which the next device to become the bus master is selected and bus mastership is transferred to it to prevent bus contention."
+    },
+    {
+        "Question": "Which of the following memory medium is NOT used as a main memory system?",
+        "options": {
+            "A": "Magnetic core",
+            "B": "Semiconductor",
+            "C": "Magnetic tape",
+            "D": "Both semiconductor and magnetic"
+        },
+        "correct": "C",
+        "explanation": "Magnetic tape is a sequential-access secondary storage medium used for backups and archival, never as main memory."
+    },
+    {
+        "Question": "What component in a computer is capable of storing a single binary bit?",
+        "options": {
+            "A": "Capacitor",
+            "B": "Flip-flop",
+            "C": "Register",
+            "D": "Inductor"
+        },
+        "correct": "B",
+        "explanation": "A flip-flop is a sequential digital electronic circuit having two stable states that can be used to store one bit of binary data."
+    },
+    {
+        "Question": "What does the acronym DMA stand for in computer architecture?",
+        "options": {
+            "A": "Distinct Memory Access",
+            "B": "Direct Memory Access",
+            "C": "Direct Module Access",
+            "D": "Direct Memory Allocation"
+        },
+        "correct": "B",
+        "explanation": "Direct Memory Access (DMA) is a feature of computer systems that allows certain hardware subsystems to access main system memory independently of the CPU."
+    },
+    {
+        "Question": "Which of the following processors use RISC technology?",
+        "options": {
+            "A": "80486",
+            "B": "Power PC",
+            "C": "Pentium",
+            "D": "6340"
+        },
+        "correct": "B",
+        "explanation": "PowerPC (Performance Optimization With Enhanced RISC – Performance Computing) is a Reduced Instruction Set Computer (RISC) instruction set architecture."
+    },
+    {
+        "Question": "Fifth generation computers are also known by what name?",
+        "options": {
+            "A": "Knowledge Information Processing System (KIPS)",
+            "B": "Very Large Scale Integration (VLSI)",
+            "C": "Both of above",
+            "D": "None of above"
+        },
+        "correct": "A",
+        "explanation": "Fifth generation computing devices, based on artificial intelligence, are often referred to as Knowledge Information Processing Systems (KIPS)."
+    },
+    {
+        "Question": "What is the informal name for a 'Number Cruncher' computer?",
+        "options": {
+            "A": "Mini computer",
+            "B": "Super computer",
+            "C": "Microcomputer",
+            "D": "Mainframe computer"
+        },
+        "correct": "B",
+        "explanation": "Supercomputers are informally called 'number crunchers' because they are designed to perform vast amounts of numerical calculations at extremely high speeds."
+    },
+    {
+        "Question": "TCP/IP model does NOT have ______ layer, but OSI model has this layer.",
+        "options": {
+            "A": "Session layer",
+            "B": "Transport layer",
+            "C": "Network layer",
+            "D": "Application layer"
+        },
+        "correct": "A",
+        "explanation": "In the TCP/IP suite, the functions of the Session and Presentation layers are merged into the Application layer."
+    },
+    {
+        "Question": "Which number system is usually followed in a typical 32-bit computer?",
+        "options": {
+            "A": "Binary",
+            "B": "Decimal",
+            "C": "Hexadecimal",
+            "D": "Octal"
+        },
+        "correct": "A",
+        "explanation": "All digital computers fundamentally follow the binary number system (0s and 1s) at the hardware architecture level."
+    },
+    {
+        "Question": "What do you call a single point on a computer screen?",
+        "options": {
+            "A": "Cell",
+            "B": "Element",
+            "C": "Pixel",
+            "D": "Bit"
+        },
+        "correct": "C",
+        "explanation": "A pixel (picture element) is the smallest controllable element of a picture represented on the screen."
+    },
+    {
+        "Question": "When a key is pressed on the keyboard, which standard is used for converting the keystroke into the corresponding bits?",
+        "options": {
+            "A": "ANSI",
+            "B": "ASCII",
+            "C": "EBCDIC",
+            "D": "ISO"
+        },
+        "correct": "B",
+        "explanation": "Standard personal computer keyboards use ASCII (or extended Unicode mappings derived from ASCII) to convert keystrokes into binary bit representations."
+    },
+    {
+        "Question": "The MVC pattern was originally proposed in the 1980s as an approach to ________________?",
+        "options": {
+            "A": "System infrastructure",
+            "B": "Session management",
+            "C": "Web application frameworks",
+            "D": "GUI design"
+        },
+        "correct": "D",
+        "explanation": "Model-View-Controller (MVC) was originally introduced by Trygve Reenskaug in Smalltalk-79 as a software design pattern for developing graphical user interfaces (GUIs)."
+    },
+    {
+        "Question": "What are generic application systems that may be designed to support a particular business type, activity, or sometimes a complete enterprise?",
+        "options": {
+            "A": "COTS-solution systems",
+            "B": "COTS-integrated systems",
+            "C": "ERP systems",
+            "D": "Middleware systems"
+        },
+        "correct": "C",
+        "explanation": "Enterprise Resource Planning (ERP) systems are generic off-the-shelf systems designed to manage and integrate the core parts of a complete business."
+    },
+    {
+        "Question": "A function inside another function is called a _________ function.",
+        "options": {
+            "A": "Nested",
+            "B": "Round",
+            "C": "Sum",
+            "D": "Text"
+        },
+        "correct": "A",
+        "explanation": "In both programming and spreadsheet tools like Excel, placing one function inside another is referred to as a Nested function."
+    },
+    {
+        "Question": "Which of the following is a historical common language specifically developed for Artificial Intelligence?",
+        "options": {
+            "A": "COBOL",
+            "B": "FORTRAN",
+            "C": "LISP",
+            "D": "C"
+        },
+        "correct": "C",
+        "explanation": "LISP (List Processing), invented by John McCarthy in 1958, is the classic programming language historically associated with AI in Pakistani past papers."
+    },
+    {
+        "Question": "When does a process issue an I/O request?",
+        "options": {
+            "A": "When it is in the Ready queue",
+            "B": "When it is currently executing in the CPU",
+            "C": "When it is suspended",
+            "D": "Before being loaded into RAM"
+        },
+        "correct": "B",
+        "explanation": "A running process executing on the CPU issues an I/O request, which transitions its state from 'Running' to 'Waiting' (or Blocked)."
+    },
+    {
+        "Question": "In C++, what does MFC stand for?",
+        "options": {
+            "A": "Memory Format Cache",
+            "B": "Microsoft Foundation Classes",
+            "C": "Main Function Call",
+            "D": "Multiple File Compiler"
+        },
+        "correct": "B",
+        "explanation": "Microsoft Foundation Class Library (MFC) is a C++ object-oriented library for developing desktop applications for Windows."
+    },
+    {
+        "Question": "In which type of computer are data represented as discrete signals?",
+        "options": {
+            "A": "Analog computer",
+            "B": "Digital computer",
+            "C": "Hybrid computer",
+            "D": "Optical computer"
+        },
+        "correct": "B",
+        "explanation": "Digital computers process data represented in discrete values (0 and 1), whereas analog computers use continuous physical quantities."
+    },
+    {
+        "Question": "_____________ are set of rules and procedures to control the data transmission over the internet.",
+        "options": {
+            "A": "Domains",
+            "B": "Gateways",
+            "C": "IP addresses",
+            "D": "Protocols"
+        },
+        "correct": "D",
+        "explanation": "Network protocols are formal standards and rules that define how data is formatted, transmitted, and received across a network."
+    },
+    {
+        "Question": "What command is used with a file named 'letter' to remove the executable permission from the user and assign read permission to the group and others?",
+        "options": {
+            "A": "chmod go+x, u-x letter",
+            "B": "chmod g-x, uo+r letter",
+            "C": "chmod go+r, u+x letter",
+            "D": "chmod u-x, go+r letter"
+        },
+        "correct": "D",
+        "explanation": "'u-x' removes execute permission from the user (owner), and 'go+r' adds read permission to the group (g) and others (o)."
+    },
+    {
+        "Question": "Which of the following files will be displayed by this Linux command: cat *ch* ?",
+        "options": {
+            "A": "patch",
+            "B": "catch",
+            "C": "ch.c",
+            "D": "All of the above"
+        },
+        "correct": "D",
+        "explanation": "The wildcard '*ch*' matches any filename that contains the substring 'ch' anywhere in its name (beginning, middle, or end)."
+    },
+    {
+        "Question": "In Object-Oriented Programming, a function that is called automatically when an object is destroyed is a:",
+        "options": {
+            "A": "Constructor",
+            "B": "Virtual Function",
+            "C": "Destructor",
+            "D": "Friend Function"
+        },
+        "correct": "C",
+        "explanation": "A destructor is a special member function preceded by a tilde (~) in C++ that executes automatically when an object goes out of scope or is deleted."
+    },
+    {
+        "Question": "Which feature of OOP indicates code reusability?",
+        "options": {
+            "A": "Encapsulation",
+            "B": "Abstraction",
+            "C": "Polymorphism",
+            "D": "Inheritance"
+        },
+        "correct": "D",
+        "explanation": "Inheritance allows a new class (derived class) to reuse the properties and methods of an existing class (base class) without rewriting code."
+    },
+    {
+        "Question": "Which type of polymorphism is achieved by Function Overriding using Virtual Functions?",
+        "options": {
+            "A": "Compile-time polymorphism",
+            "B": "Runtime polymorphism",
+            "C": "Static binding",
+            "D": "Early binding"
+        },
+        "correct": "B",
+        "explanation": "Virtual functions use dynamic (late) binding to resolve function calls at runtime, achieving Runtime Polymorphism."
+    },
+    {
+        "Question": "In C++, a pure virtual function is declared by assigning what value to the function declaration?",
+        "options": {
+            "A": "NULL",
+            "B": "0",
+            "C": "1",
+            "D": "void"
+        },
+        "correct": "B",
+        "explanation": "A pure virtual function has no body in the base class and is declared by ending the signature with '= 0;' (e.g., virtual void show() = 0;)."
+    },
+    {
+        "Question": "Which access specifier in C++ allows class members to be accessed in the same class and in derived classes, but not outside?",
+        "options": {
+            "A": "Public",
+            "B": "Private",
+            "C": "Protected",
+            "D": "Friend"
+        },
+        "correct": "C",
+        "explanation": "Protected members are inaccessible from outside the class, but they can be accessed by any subclass (derived class) of that class."
+    },
+    {
+        "Question": "Which of the following cannot be declared as 'virtual' in C++?",
+        "options": {
+            "A": "Destructor",
+            "B": "Member function",
+            "C": "Constructor",
+            "D": "None of these"
+        },
+        "correct": "C",
+        "explanation": "Constructors cannot be virtual in C++ because the virtual table (vtable) pointer is not yet initialized until the constructor executes."
+    },
+    {
+        "Question": "Data Encryption Standard (DES) is an example of a:",
+        "options": {
+            "A": "Stream Cipher",
+            "B": "Block Cipher",
+            "C": "Asymmetric Key Algorithm",
+            "D": "Hashing Algorithm"
+        },
+        "correct": "B",
+        "explanation": "DES is a symmetric-key block cipher that takes a fixed-length string of plaintext bits (64-bit blocks) and transforms it into ciphertext."
+    },
+    {
+        "Question": "What is the block size of the AES (Advanced Encryption Standard) algorithm?",
+        "options": {
+            "A": "64 bits",
+            "B": "128 bits",
+            "C": "192 bits",
+            "D": "256 bits"
+        },
+        "correct": "B",
+        "explanation": "While AES supports key sizes of 128, 192, and 256 bits, its data block size is strictly fixed at 128 bits."
+    },
+    {
+        "Question": "Which of the following VPN protocols was developed by Microsoft along with Cisco?",
+        "options": {
+            "A": "IPSec",
+            "B": "OpenVPN",
+            "C": "L2TP",
+            "D": "PPTP"
+        },
+        "correct": "D",
+        "explanation": "Point-to-Point Tunneling Protocol (PPTP) was developed by a vendor consortium founded by Microsoft, Ascend Communications, and 3Com."
+    },
+    {
+        "Question": "Which VPN protocol operates at the Network Layer (Layer 3) of the OSI model to secure IP communications?",
+        "options": {
+            "A": "SSL/TLS",
+            "B": "SSH",
+            "C": "IPSec",
+            "D": "PPTP"
+        },
+        "correct": "C",
+        "explanation": "Internet Protocol Security (IPSec) is a secure network protocol suite that authenticates and encrypts packets of data at the IP (Network) layer."
+    },
+    {
+        "Question": "In ethical hacking, testing a system with zero prior knowledge of its internal structure or source code is called:",
+        "options": {
+            "A": "White-box testing",
+            "B": "Black-box testing",
+            "C": "Grey-box testing",
+            "D": "Red-team testing"
+        },
+        "correct": "B",
+        "explanation": "Black-box penetration testing simulates an external cyberattack where the ethical hacker has no insider information about the target system."
+    },
+    {
+        "Question": "What is the term used when an authorized security professional hacks into a system to identify and patch vulnerabilities?",
+        "options": {
+            "A": "Phreaking",
+            "B": "Penetration Testing",
+            "C": "Spoofing",
+            "D": "Shoulder Surfing"
+        },
+        "correct": "B",
+        "explanation": "Penetration testing (Pen testing) or Ethical Hacking is an authorized simulated cyberattack on a computer system, performed to evaluate its security."
+    },
+    {
+        "Question": "Which type of attack involves intercepting and potentially altering communication between two parties who believe they are directly communicating with each other?",
+        "options": {
+            "A": "Denial of Service (DoS)",
+            "B": "SQL Injection",
+            "C": "Man-in-the-Middle (MitM)",
+            "D": "Cross-Site Scripting (XSS)"
+        },
+        "correct": "C",
+        "explanation": "In a Man-in-the-Middle (MitM) attack, the attacker secretly relays and possibly alters the communications between two parties."
+    },
+    {
+        "Question": "Which protocol is used to resolve a known IP address to a physical MAC address?",
+        "options": {
+            "A": "RARP",
+            "B": "DHCP",
+            "C": "ARP",
+            "D": "DNS"
+        },
+        "correct": "C",
+        "explanation": "Address Resolution Protocol (ARP) translates 32-bit IPv4 addresses into 48-bit MAC (physical hardware) addresses."
+    },
+    {
+        "Question": "In the OSI model, encryption and compression of data are handled by which layer?",
+        "options": {
+            "A": "Application Layer",
+            "B": "Presentation Layer",
+            "C": "Session Layer",
+            "D": "Transport Layer"
+        },
+        "correct": "B",
+        "explanation": "The Presentation Layer (Layer 6) acts as the data translator for the network, handling character code translation, data compression, and encryption/decryption."
+    },
+    {
+        "Question": "What is the protocol data unit (PDU) of the Data Link Layer?",
+        "options": {
+            "A": "Bit",
+            "B": "Packet",
+            "C": "Segment",
+            "D": "Frame"
+        },
+        "correct": "D",
+        "explanation": "In the OSI model: Physical = Bits, Data Link = Frames, Network = Packets, Transport = Segments (TCP) or Datagrams (UDP)."
+    },
+    {
+        "Question": "Which IPv4 address class provides a maximum of only 254 usable host addresses per network?",
+        "options": {
+            "A": "Class A",
+            "B": "Class B",
+            "C": "Class C",
+            "D": "Class D"
+        },
+        "correct": "C",
+        "explanation": "Class C networks use 8 bits for the host portion ($2^8 - 2 = 254$ usable hosts, subtracting network and broadcast addresses)."
+    },
+    {
+        "Question": "How are IPv6 addresses typically represented for human readability?",
+        "options": {
+            "A": "Dotted-decimal notation",
+            "B": "Eight groups of four hexadecimal digits separated by colons",
+            "C": "Six groups of two octal digits separated by hyphens",
+            "D": "Binary strings separated by periods"
+        },
+        "correct": "B",
+        "explanation": "IPv6 addresses are 128 bits long and written as eight groups of four hexadecimal digits separated by colons (e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334)."
+    },
+    {
+        "Question": "Which networking device operates at the Physical Layer (Layer 1) and simply broadcasts incoming data to all ports?",
+        "options": {
+            "A": "Switch",
+            "B": "Router",
+            "C": "Hub",
+            "D": "Bridge"
+        },
+        "correct": "C",
+        "explanation": "An Ethernet Hub is an unintelligent Layer 1 device that repeats incoming electrical signals out to all connected ports."
+    },
+    {
+        "Question": "In Operating Systems, 'Banker's Algorithm' is used for:",
+        "options": {
+            "A": "Deadlock Prevention",
+            "B": "Deadlock Avoidance",
+            "C": "Deadlock Detection",
+            "D": "Page Replacement"
+        },
+        "correct": "B",
+        "explanation": "Designed by Edsger Dijkstra, the Banker's algorithm is a resource allocation and deadlock avoidance algorithm that tests for safety by simulating allocation."
+    },
+    {
+        "Question": "Which CPU scheduling algorithm suffers from the 'Convoy Effect'?",
+        "options": {
+            "A": "Shortest Job Next (SJN)",
+            "B": "Round Robin (RR)",
+            "C": "First-Come, First-Served (FCFS)",
+            "D": "Priority Scheduling"
+        },
+        "correct": "C",
+        "explanation": "In FCFS scheduling, if a CPU-bound process with a very long burst time arrives first, many shorter I/O-bound processes get stuck waiting behind it (Convoy Effect)."
+    },
+    {
+        "Question": "What is 'Belady's Anomaly' in Operating Systems?",
+        "options": {
+            "A": "CPU utilization decreases as multiprogramming increases",
+            "B": "Page fault rate increases even when the number of allocated frames increases",
+            "C": "A low-priority process waits indefinitely for the CPU",
+            "D": "Disk head moves from one end to the other unnecessarily"
+        },
+        "correct": "B",
+        "explanation": "Belady's anomaly is the phenomenon in which increasing the number of page frames results in an increase in the number of page faults (commonly seen in FIFO page replacement)."
+    },
+    {
+        "Question": "An integer variable that, apart from initialization, is accessed only through two standard atomic operations 'wait()' and 'signal()' is called a:",
+        "options": {
+            "A": "Mutex",
+            "B": "Semaphore",
+            "C": "Monitor",
+            "D": "Condition Variable"
+        },
+        "correct": "B",
+        "explanation": "Proposed by Dijkstra, a semaphore is a synchronization tool used to control access to a common resource by multiple processes in a concurrent system."
+    },
+    {
+        "Question": "Where is the swap space (virtual memory extension) located?",
+        "options": {
+            "A": "In the CPU Registers",
+            "B": "In the L1 Cache",
+            "C": "On the Hard Disk / Secondary Storage",
+            "D": "In the ROM chip"
+        },
+        "correct": "C",
+        "explanation": "Swap space is a dedicated area on a hard disk or SSD used by the OS to hold inactive pages of RAM when physical RAM is full."
+    },
+    {
+        "Question": "In Digital Logic Design, how many select lines are required for an 8-to-1 Multiplexer?",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "8"
+        },
+        "correct": "B",
+        "explanation": "For a $2^n$-to-1 multiplexer, $n$ select lines are needed. Since $8 = 2^3$, 3 select lines are required."
+    },
+    {
+        "Question": "A combinational circuit that converts binary information from $n$ coded inputs to a maximum of $2^n$ unique outputs is called a:",
+        "options": {
+            "A": "Multiplexer",
+            "B": "Encoder",
+            "C": "Decoder",
+            "D": "Flip-Flop"
+        },
+        "correct": "C",
+        "explanation": "A decoder takes $n$ input lines and activates one of the $2^n$ output lines corresponding to the binary value of the inputs."
+    },
+    {
+        "Question": "Which flip-flop eliminates the invalid/indeterminate state problem of the SR flip-flop?",
+        "options": {
+            "A": "Latch",
+            "B": "JK Flip-Flop",
+            "C": "Master-Slave SR",
+            "D": "Clocked SR"
+        },
+        "correct": "B",
+        "explanation": "In an SR flip-flop, S=1 and R=1 is invalid. The JK flip-flop refines this so that when J=1 and K=1, the output simply toggles to its complement state."
+    },
+    {
+        "Question": "What is the 2's complement of the binary number 1010?",
+        "options": {
+            "A": "0101",
+            "B": "0110",
+            "C": "1011",
+            "D": "0100"
+        },
+        "correct": "B",
+        "explanation": "To find 2's complement: invert the bits of 1010 to get 0101 (1's complement), then add 1: 0101 + 1 = 0110."
+    },
+    {
+        "Question": "A Karnaugh Map (K-Map) with 4 variables has how many cells (squares)?",
+        "options": {
+            "A": "8",
+            "B": "12",
+            "C": "16",
+            "D": "32"
+        },
+        "correct": "C",
+        "explanation": "A K-map for $n$ variables consists of $2^n$ cells. For 4 variables, $2^4 = 16$ cells."
+    },
+    {
+        "Question": "The difference between a Half Adder and a Full Adder is that a Full Adder:",
+        "options": {
+            "A": "Can add 4 bits at once",
+            "B": "Has an additional input for Carry-In from a previous stage",
+            "C": "Does not use XOR gates",
+            "D": "Only produces a Carry output, not a Sum"
+        },
+        "correct": "B",
+        "explanation": "A Half Adder adds two bits (A and B). A Full Adder adds three bits: A, B, and a Carry-In ($C_{in}$) from a lower-order bit addition."
+    },
+    {
+        "Question": "In Relational Databases, a 'Tuple' refers to a:",
+        "options": {
+            "A": "Column / Attribute",
+            "B": "Row / Record",
+            "C": "Table / Relation",
+            "D": "Primary Key"
+        },
+        "correct": "B",
+        "explanation": "In formal relational database terminology: Relation = Table, Tuple = Row (Record), and Attribute = Column (Field)."
+    },
+    {
+        "Question": "Which SQL clause is used to filter groups created by the GROUP BY clause?",
+        "options": {
+            "A": "WHERE",
+            "B": "HAVING",
+            "C": "ORDER BY",
+            "D": "DISTINCT"
+        },
+        "correct": "B",
+        "explanation": "The WHERE clause filters individual rows before grouping, whereas the HAVING clause filters aggregated groups created by GROUP BY."
+    },
+    {
+        "Question": "What does the 'A' in the ACID properties of database transactions stand for?",
+        "options": {
+            "A": "Availability",
+            "B": "Authentication",
+            "C": "Atomicity",
+            "D": "Accuracy"
+        },
+        "correct": "C",
+        "explanation": "Atomicity (all or nothing) guarantees that each transaction is treated as a single unit, which either succeeds completely or fails completely."
+    },
+    {
+        "Question": "A relation is in Third Normal Form (3NF) if it is in 2NF and contains no:",
+        "options": {
+            "A": "Multivalued dependencies",
+            "B": "Partial dependencies",
+            "C": "Transitive dependencies",
+            "D": "Foreign keys"
+        },
+        "correct": "C",
+        "explanation": "1NF removes repeating groups, 2NF removes partial dependencies, and 3NF removes transitive dependencies (where a non-key attribute depends on another non-key attribute)."
+    },
+    {
+        "Question": "Which SQL command is part of DCL (Data Control Language)?",
+        "options": {
+            "A": "INSERT",
+            "B": "COMMIT",
+            "C": "GRANT",
+            "D": "ALTER"
+        },
+        "correct": "C",
+        "explanation": "GRANT and REVOKE are DCL commands used to control user access and permissions in a database."
+    },
+    {
+        "Question": "In an Entity-Relationship (ER) diagram, a 'Double Ellipse' represents a:",
+        "options": {
+            "A": "Weak Entity",
+            "B": "Key Attribute",
+            "C": "Multivalued Attribute",
+            "D": "Derived Attribute"
+        },
+        "correct": "C",
+        "explanation": "In ER notation: Ellipse = Attribute, Dashed Ellipse = Derived Attribute, Double Ellipse = Multivalued Attribute (e.g., Phone Numbers)."
+    },
+    {
+        "Question": "Which Software Development Life Cycle (SDLC) model explicitly incorporates 'Risk Analysis' at every iteration?",
+        "options": {
+            "A": "Waterfall Model",
+            "B": "V-Model",
+            "C": "Spiral Model",
+            "D": "RAD Model"
+        },
+        "correct": "C",
+        "explanation": "Proposed by Barry Boehm, the Spiral Model is a risk-driven software development process model that includes a dedicated risk analysis quadrant in every loop."
+    },
+    {
+        "Question": "In Software Engineering, ideally, modules should have:",
+        "options": {
+            "A": "High Cohesion and High Coupling",
+            "B": "Low Cohesion and Low Coupling",
+            "C": "High Cohesion and Low Coupling",
+            "D": "Low Cohesion and High Coupling"
+        },
+        "correct": "C",
+        "explanation": "Good software design aims for High Cohesion (a module focuses on a single, well-defined task) and Low Coupling (minimal interdependence between different modules)."
+    },
+    {
+        "Question": "Testing of software conducted by end-users at the customer's site without the presence of developers is known as:",
+        "options": {
+            "A": "Alpha Testing",
+            "B": "Beta Testing",
+            "C": "Unit Testing",
+            "D": "White-box Testing"
+        },
+        "correct": "B",
+        "explanation": "Alpha testing is performed at the developer's site, while Beta testing is conducted by real users in a real environment at the customer's end."
+    },
+    {
+        "Question": "COCOMO (Constructive Cost Model) is used in Software Engineering for:",
+        "options": {
+            "A": "Automated Bug Detection",
+            "B": "Software Effort and Cost Estimation",
+            "C": "Database Schema Design",
+            "D": "Network Load Balancing"
+        },
+        "correct": "B",
+        "explanation": "Developed by Barry Boehm, COCOMO is an algorithmic software cost estimation model that uses regression formulas based on lines of code (KLOC)."
+    },
+    {
+        "Question": "In x86 Assembly Language, which register keeps track of the memory address of the NEXT instruction to be executed?",
+        "options": {
+            "A": "Accumulator (AX)",
+            "B": "Stack Pointer (SP)",
+            "C": "Instruction Pointer (IP) / Program Counter (PC)",
+            "D": "Base Register (BX)"
+        },
+        "correct": "C",
+        "explanation": "The Instruction Pointer (IP) in x86 (commonly called Program Counter or PC in general architecture) holds the offset address of the next instruction to be fetched."
+    },
+    {
+        "Question": "Which Assembly language instruction is used to push the return address onto the stack and jump to a subroutine?",
+        "options": {
+            "A": "JMP",
+            "B": "CALL",
+            "C": "RET",
+            "D": "INT"
+        },
+        "correct": "B",
+        "explanation": "The CALL instruction saves the current Instruction Pointer on the stack and transfers execution to the target procedure; RET pops it back to return."
+    },
+    {
+        "Question": "In the 8086 microprocessor, the 'Stack' operates on which data structure principle?",
+        "options": {
+            "A": "FIFO (First In, First Out)",
+            "B": "LIFO (Last In, First Out)",
+            "C": "Priority Queue",
+            "D": "Round Robin"
+        },
+        "correct": "B",
+        "explanation": "The hardware stack (managed via PUSH and POP instructions) strictly follows the LIFO (Last In, First Out) principle."
+    },
+    {
+        "Question": "In Cloud Computing, what is the role of a 'Hypervisor' (Virtual Machine Monitor)?",
+        "options": {
+            "A": "It encrypts user passwords in the browser",
+            "B": "It creates and runs virtual machines by abstracting physical hardware",
+            "C": "It cools down data center servers",
+            "D": "It acts as a web search engine"
+        },
+        "correct": "B",
+        "explanation": "A hypervisor (like VMware ESXi, KVM, or Hyper-V) allows one host computer to support multiple guest VMs by virtually sharing its resources."
+    },
+    {
+        "Question": "Which Cloud service model provides developers with a framework, runtime environment, and deployment tools without managing the underlying OS or hardware?",
+        "options": {
+            "A": "Infrastructure as a Service (IaaS)",
+            "B": "Platform as a Service (PaaS)",
+            "C": "Software as a Service (SaaS)",
+            "D": "Network as a Service (NaaS)"
+        },
+        "correct": "B",
+        "explanation": "PaaS (like Heroku, Google App Engine) gives developers a platform to build and deploy apps without worrying about server provisioning or OS patching."
+    },
+    {
+        "Question": "The ability of a cloud environment to dynamically scale computing resources up or down automatically based on traffic demand is called:",
+        "options": {
+            "A": "Latency",
+            "B": "Elasticity",
+            "C": "Redundancy",
+            "D": "Serialization"
+        },
+        "correct": "B",
+        "explanation": "Rapid Elasticity is one of the 5 essential NIST characteristics of cloud computing, allowing automatic scaling in response to workload changes."
+    },
+    {
+        "Question": "In Artificial Intelligence, which search algorithm is guaranteed to find the shortest path if given an 'admissible heuristic'?",
+        "options": {
+            "A": "Depth-First Search (DFS)",
+            "B": "Hill Climbing",
+            "C": "A* (A-Star) Search",
+            "D": "Greedy Best-First Search"
+        },
+        "correct": "C",
+        "explanation": "A* search evaluates nodes by combining $g(n)$ (the cost to reach the node) and $h(n)$ (the estimated cost to the goal), making it both complete and optimal."
+    },
+    {
+        "Question": "In Machine Learning, training a model using 'labeled data' (where both input and desired output are provided) is called:",
+        "options": {
+            "A": "Unsupervised Learning",
+            "B": "Supervised Learning",
+            "C": "Reinforcement Learning",
+            "D": "Clustering"
+        },
+        "correct": "B",
+        "explanation": "Supervised learning algorithms learn a mapping from inputs to outputs using a labeled dataset (e.g., Classification and Regression)."
+    },
+    {
+        "Question": "Which programming language is alongside LISP famous in past papers for logic programming and AI rule-based systems?",
+        "options": {
+            "A": "Pascal",
+            "B": "PROLOG",
+            "C": "COBOL",
+            "D": "Ada"
+        },
+        "correct": "B",
+        "explanation": "PROLOG (Programming in Logic) is a declarative logic programming language heavily used in AI, computational linguistics, and expert systems."
+    },
+    {
+        "Question": "In Computer Architecture, the time taken by a hard disk's read/write head to move to the correct concentric track is called:",
+        "options": {
+            "A": "Rotational Latency",
+            "B": "Seek Time",
+            "C": "Transfer Time",
+            "D": "Access Delay"
+        },
+        "correct": "B",
+        "explanation": "Seek time is the time taken for the disk arm to position the head over the required track; Rotational latency is the time waiting for the sector to spin under the head."
+    },
+    {
+        "Question": "Which type of RAM does NOT need to be refreshed periodically and is used to build CPU Cache memory?",
+        "options": {
+            "A": "DRAM (Dynamic RAM)",
+            "B": "SRAM (Static RAM)",
+            "C": "SDRAM",
+            "D": "ROM"
+        },
+        "correct": "B",
+        "explanation": "SRAM uses flip-flop latching circuitry to store each bit, making it much faster than DRAM (which uses capacitors that leak charge and require refreshing)."
+    },
+    {
+        "Question": "What is the purpose of the ' Program Status Word' (PSW) or Flag Register in a CPU?",
+        "options": {
+            "A": "To store the user's login password",
+            "B": "To hold condition code bits (like Zero, Carry, Overflow) resulting from ALU operations",
+            "C": "To count the number of connected USB devices",
+            "D": "To store the BIOS boot sequence"
+        },
+        "correct": "B",
+        "explanation": "The Flag register (or PSW) contains status bits that reflect the current state of the CPU and the outcomes of arithmetic/logical instructions."
+    },
+    {
+        "Question": "Which Linux file stores user account information (such as username, UID, GID, home directory, and login shell)?",
+        "options": {
+            "A": "/etc/shadow",
+            "B": "/etc/passwd",
+            "C": "/bin/bash",
+            "D": "/var/log/users"
+        },
+        "correct": "B",
+        "explanation": "'/etc/passwd' stores essential user account details, whereas the actual encrypted password hashes are stored in '/etc/shadow'."
+    },
+    {
+        "Question": "In Linux, which command is used to change the ownership of a file or directory?",
+        "options": {
+            "A": "chmod",
+            "B": "chown",
+            "C": "chusr",
+            "D": "usermod"
+        },
+        "correct": "B",
+        "explanation": "'chown' (change owner) changes the user and/or group ownership of a given file, directory, or symbolic link."
+    },
+    {
+        "Question": "What is the Process ID (PID) of the first process ('init' or 'systemd') started by the Linux kernel during booting?",
+        "options": {
+            "A": "0",
+            "B": "1",
+            "C": "100",
+            "D": "255"
+        },
+        "correct": "B",
+        "explanation": "The 'init' (or 'systemd') process is the parent of all processes on a Linux system and is always assigned PID 1."
+    },
+    {
+        "Question": "Which network topology requires a 'Multipoint' connection where all devices share a single backbone cable?",
+        "options": {
+            "A": "Star Topology",
+            "B": "Mesh Topology",
+            "C": "Bus Topology",
+            "D": "Ring Topology"
+        },
+        "correct": "C",
+        "explanation": "In a Bus topology, a single coaxial cable acts as the backbone to link all the devices in a network via drop lines and taps."
+    },
+    {
+        "Question": "What is the default subnet mask for a Class B IPv4 address?",
+        "options": {
+            "A": "255.0.0.0",
+            "B": "255.255.0.0",
+            "C": "255.255.255.0",
+            "D": "255.255.255.255"
+        },
+        "correct": "B",
+        "explanation": "Class A is 255.0.0.0 (/8), Class B is 255.255.0.0 (/16), and Class C is 255.255.255.0 (/24)."
+    },
+    {
+        "Question": "Which protocol is used for sending emails from a client to a mail server or between mail servers?",
+        "options": {
+            "A": "POP3",
+            "B": "IMAP",
+            "C": "SMTP",
+            "D": "SNMP"
+        },
+        "correct": "C",
+        "explanation": "Simple Mail Transfer Protocol (SMTP) is a push protocol used to send emails, while POP3 and IMAP are used to retrieve/read emails."
+    },
+    {
+        "Question": "In Cyber Security, injecting malicious SQL statements into an entry field for execution by the backend database is called:",
+        "options": {
+            "A": "Buffer Overflow",
+            "B": "Cross-Site Request Forgery",
+            "C": "SQL Injection (SQLi)",
+            "D": "DNS Poisoning"
+        },
+        "correct": "C",
+        "explanation": "SQL Injection is a code injection technique where an attacker executes malicious SQL statements that control a web application's database server."
+    },
+    {
+        "Question": "Which cryptographic approach uses a pair of keys—a Public Key for encryption and a Private Key for decryption?",
+        "options": {
+            "A": "Symmetric Encryption",
+            "B": "Asymmetric Encryption",
+            "C": "Hashing",
+            "D": "Steganography"
+        },
+        "correct": "B",
+        "explanation": "Asymmetric cryptography (Public-key cryptography), such as RSA, uses two mathematically linked keys: a public key and a private key."
+    },
+    {
+        "Question": "In C++, which operator cannot be overloaded?",
+        "options": {
+            "A": "+",
+            "B": "==",
+            "C": ":: (Scope Resolution Operator)",
+            "D": "[]"
+        },
+        "correct": "C",
+        "explanation": "In C++, operators like Scope Resolution (::), Member Access (.), Ternary (?:), and sizeof cannot be overloaded."
+    },
+    {
+        "Question": "What is the time complexity of binary search on a sorted array of $n$ elements?",
+        "options": {
+            "A": "O(n)",
+            "B": "O(n log n)",
+            "C": "O(log n)",
+            "D": "O(1)"
+        },
+        "correct": "C",
+        "explanation": "Binary search divides the search interval in half repeatedly, yielding a logarithmic time complexity of $O(\\log n)$."
+    }
+]

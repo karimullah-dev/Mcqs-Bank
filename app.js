@@ -4,6 +4,7 @@ const DATA_URLS = {
   dailydose: "data/dailydose.json",
   pastpapers: "data/Pastpapers.json",
   motorway: "data/Motorway.json",
+  computer: "data/Computer.json",
 };
 
 const state = {
