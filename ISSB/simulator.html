@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f4f7fb" />
     <title>ISSB Psychological Simulator</title>
+    <script>
+      (function(){try{var t=localStorage.getItem("exam-portal-theme")||(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t);}catch(e){}})();
+    </script>
     <link rel="stylesheet" href="../styles.css" />
+    <script src="../theme.js" defer></script>
   </head>
   <body class="quiz-page issb-simulator-page">
     <main class="app-shell issb-shell">
@@ -17,6 +21,10 @@
         </div>
 
         <div class="issb-actions">
+          <button class="theme-toggle-button" id="theme-toggle" type="button" aria-label="Toggle dark theme" title="Toggle dark mode">
+            <span class="theme-icon" aria-hidden="true">🌙</span>
+            <span class="theme-text">Dark</span>
+          </button>
           <button class="report-trigger-button" id="toggle-report-button" type="button">
             AI Report &amp; Export
           </button>

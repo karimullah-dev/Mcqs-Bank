@@ -135,6 +135,7 @@ const state = {
   completed: false,
   autoAdvance: false,
   soundEnabled: true,
+  warningAlarmEnabled: true,
   mapOpen: false,
   reportOpen: false,
   onlyAnsweredInReport: true,
@@ -217,23 +218,185 @@ function countWords(text) {
   return trimmed.split(/\s+/).length;
 }
 
-function playFlashBeep() {
+// ============================================================================
+// Real-world ISSB Audio Engine (Web Audio API with Dynamics Compression)
+// ============================================================================
+let audioCtx = null;
+
+function getAudioContext() {
+  if (!audioCtx) {
+    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+    if (AudioContextClass) {
+      audioCtx = new AudioContextClass();
+    }
+  }
+  if (audioCtx && audioCtx.state === "suspended") {
+    audioCtx.resume().catch(() => {});
+  }
+  return audioCtx;
+}
+
+if (typeof window !== "undefined") {
+  ["click", "keydown", "touchstart"].forEach((evt) => {
+    document.addEventListener(evt, () => getAudioContext(), { once: true, passive: true });
+  });
+}
+
+/**
+ * Creates a loudness-maximizing compressor node connected to the destination.
+ * Brings perceived volume to maximum level without speaker distortion or clipping.
+ */
+function createLoudAudioOutput(ctx) {
+  const compressor = ctx.createDynamicsCompressor();
+  compressor.threshold.setValueAtTime(-4, ctx.currentTime);
+  compressor.knee.setValueAtTime(12, ctx.currentTime);
+  compressor.ratio.setValueAtTime(14, ctx.currentTime);
+  compressor.attack.setValueAtTime(0.002, ctx.currentTime);
+  compressor.release.setValueAtTime(0.12, ctx.currentTime);
+  compressor.connect(ctx.destination);
+  return compressor;
+}
+
+/**
+ * LOUD ISSB Transition Buzzer (played at 0s / word transition)
+ * Dual-tone harmonic buzzer with sharp attack and mechanical resonance,
+ * replicating the exact exam hall projector tone used during WAT testing.
+ */
+function playIssbBuzzer(isLoud = true) {
   if (!state.soundEnabled) return;
   try {
-    const AudioCtx = window.AudioContext || window.webkitAudioContext;
-    if (!AudioCtx) return;
-    const ctx = new AudioCtx();
-    const osc = ctx.createOscillator();
-    const gain = ctx.createGain();
-    osc.type = "sine";
-    osc.frequency.setValueAtTime(660, ctx.currentTime);
-    gain.gain.setValueAtTime(0.04, ctx.currentTime);
-    gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.12);
-    osc.connect(gain);
-    gain.connect(ctx.destination);
-    osc.start();
-    osc.stop(ctx.currentTime + 0.12);
-  } catch (_) {}
+    const ctx = getAudioContext();
+    if (!ctx) return;
+
+    const now = ctx.currentTime;
+    const dest = createLoudAudioOutput(ctx);
+
+    const masterGain = ctx.createGain();
+    const peakVolume = isLoud ? 0.95 : 0.6;
+
+    // Dual-tone frequency combination: 880Hz (Sawtooth) + 1175Hz (Square)
+    // Produces the unmistakable projector buzzer resonance heard in military exam halls
+    const osc1 = ctx.createOscillator();
+    const osc2 = ctx.createOscillator();
+    const osc3 = ctx.createOscillator();
+
+    osc1.type = "sawtooth";
+    osc1.frequency.setValueAtTime(880, now);
+
+    osc2.type = "square";
+    osc2.frequency.setValueAtTime(1175, now);
+
+    osc3.type = "sine";
+    osc3.frequency.setValueAtTime(1760, now);
+
+    const filter = ctx.createBiquadFilter();
+    filter.type = "lowpass";
+    filter.frequency.setValueAtTime(3200, now);
+
+    // Sharp attack and sustain envelope
+    masterGain.gain.setValueAtTime(0.001, now);
+    masterGain.gain.linearRampToValueAtTime(peakVolume, now + 0.015);
+    masterGain.gain.setValueAtTime(peakVolume, now + 0.26);
+    masterGain.gain.exponentialRampToValueAtTime(0.001, now + 0.36);
+
+    osc1.connect(filter);
+    osc2.connect(filter);
+    osc3.connect(filter);
+    filter.connect(masterGain);
+    masterGain.connect(dest);
+
+    osc1.start(now);
+    osc2.start(now);
+    osc3.start(now);
+    osc1.stop(now + 0.37);
+    osc2.stop(now + 0.37);
+    osc3.stop(now + 0.37);
+  } catch (err) {
+    console.warn("ISSB Buzzer error:", err);
+  }
+}
+
+/**
+ * Authentic ISSB 2-Second Warning Alarm
+ * Loud double-beep alarm ("BEEP-BEEP!") that alerts candidates at 2s remaining.
+ */
+function playIssbTwoSecAlarm() {
+  if (!state.soundEnabled || !state.warningAlarmEnabled) return;
+  try {
+    const ctx = getAudioContext();
+    if (!ctx) return;
+
+    const now = ctx.currentTime;
+    const dest = createLoudAudioOutput(ctx);
+
+    function triggerBeep(startTime, duration) {
+      const osc = ctx.createOscillator();
+      const oscSub = ctx.createOscillator();
+      const gain = ctx.createGain();
+
+      osc.type = "sawtooth";
+      osc.frequency.setValueAtTime(1450, startTime);
+
+      oscSub.type = "sine";
+      oscSub.frequency.setValueAtTime(1900, startTime);
+
+      const filter = ctx.createBiquadFilter();
+      filter.type = "bandpass";
+      filter.frequency.setValueAtTime(1650, startTime);
+      filter.Q.setValueAtTime(1.8, startTime);
+
+      gain.gain.setValueAtTime(0.001, startTime);
+      gain.gain.linearRampToValueAtTime(0.92, startTime + 0.008);
+      gain.gain.setValueAtTime(0.92, startTime + duration - 0.015);
+      gain.gain.exponentialRampToValueAtTime(0.001, startTime + duration);
+
+      osc.connect(filter);
+      oscSub.connect(filter);
+      filter.connect(gain);
+      gain.connect(dest);
+
+      osc.start(startTime);
+      oscSub.start(startTime);
+      osc.stop(startTime + duration + 0.01);
+      oscSub.stop(startTime + duration + 0.01);
+    }
+
+    // Double beep: Beep 1 (100ms) + 50ms pause + Beep 2 (110ms)
+    triggerBeep(now, 0.1);
+    triggerBeep(now + 0.15, 0.11);
+  } catch (err) {
+    console.warn("2s Alarm error:", err);
+  }
+}
+
+function triggerWatFlash() {
+  if (getTestConfig().mode !== "wat") return;
+  const shell = document.querySelector("#wat-projector-shell") || elements.promptStage;
+  if (!shell) return;
+  shell.classList.remove("wat-flash-active");
+  void shell.offsetWidth; // Force CSS reflow
+  shell.classList.add("wat-flash-active");
+}
+
+function updateWatOnStageTimer() {
+  const config = getTestConfig();
+  if (config.mode !== "wat") return;
+  const itemRemaining = Math.max(0, config.itemTargetSeconds - state.itemElapsed);
+  const numEl = document.querySelector("#wat-stage-timer-num");
+  const pillEl = document.querySelector("#wat-stage-timer-pill");
+  const shellEl = document.querySelector("#wat-projector-shell");
+
+  const is2sAlert = itemRemaining <= 2 && itemRemaining > 0;
+
+  if (numEl) {
+    numEl.textContent = `${String(itemRemaining).padStart(2, "0")}s`;
+  }
+  if (pillEl) {
+    pillEl.classList.toggle("urgent", is2sAlert);
+  }
+  if (shellEl) {
+    shellEl.classList.toggle("urgent", is2sAlert);
+  }
 }
 
 function saveState() {
@@ -246,6 +409,7 @@ function saveState() {
       completed: state.completed,
       autoAdvance: state.autoAdvance,
       soundEnabled: state.soundEnabled,
+      warningAlarmEnabled: state.warningAlarmEnabled,
       aiEvaluation: state.aiEvaluation,
       savedAt: new Date().toISOString(),
     };
@@ -300,6 +464,8 @@ function restoreState(itemCount) {
   state.autoAdvance =
     typeof saved?.autoAdvance === "boolean" ? saved.autoAdvance : config.defaultAutoAdvance;
   state.soundEnabled = typeof saved?.soundEnabled === "boolean" ? saved.soundEnabled : true;
+  state.warningAlarmEnabled =
+    typeof saved?.warningAlarmEnabled === "boolean" ? saved.warningAlarmEnabled : true;
   state.aiEvaluation = saved?.aiEvaluation || null;
   state.itemElapsed = 0;
 }
@@ -431,20 +597,24 @@ function renderModeControls() {
   } else if (config.mode === "wat") {
     const autoLabel = document.createElement("label");
     autoLabel.className = "mode-toggle-pill";
-    autoLabel.innerHTML = `<input type="checkbox" ${state.autoAdvance ? "checked" : ""} /> <span>10s Auto-Flash (Exam Mode)</span>`;
+    autoLabel.innerHTML = `<input type="checkbox" ${state.autoAdvance ? "checked" : ""} /> <span>10s ISSB Auto-Flash</span>`;
     autoLabel.querySelector("input").addEventListener("change", (e) => {
       state.autoAdvance = e.target.checked;
       state.itemElapsed = 0;
       saveState();
       renderProgressHeader();
+      updateWatOnStageTimer();
     });
 
     const soundLabel = document.createElement("label");
     soundLabel.className = "mode-toggle-pill";
-    soundLabel.innerHTML = `<input type="checkbox" ${state.soundEnabled ? "checked" : ""} /> <span>Sound cue</span>`;
+    soundLabel.innerHTML = `<input type="checkbox" ${state.soundEnabled ? "checked" : ""} /> <span>🔊 Loud Buzzer &amp; 2s Alarm</span>`;
     soundLabel.querySelector("input").addEventListener("change", (e) => {
       state.soundEnabled = e.target.checked;
       saveState();
+      if (state.soundEnabled) {
+        playIssbTwoSecAlarm();
+      }
     });
 
     elements.modeControls.append(autoLabel, soundLabel);
@@ -479,7 +649,29 @@ function renderSimulator() {
   elements.testInstruction.textContent = config.instruction;
 
   elements.promptStage.className = `prompt-stage mode-${config.mode}`;
-  elements.promptText.textContent = prompt;
+  if (config.mode === "wat") {
+    const itemRemaining = Math.max(0, config.itemTargetSeconds - state.itemElapsed);
+    const is2sAlert = itemRemaining <= 2 && itemRemaining > 0;
+    elements.promptStage.innerHTML = `
+      <div class="wat-projector-shell ${is2sAlert ? "urgent" : ""}" id="wat-projector-shell">
+        <div class="wat-projector-header">
+          <div class="wat-stage-timer-pill ${is2sAlert ? "urgent" : ""}" id="wat-stage-timer-pill">
+            <span class="wat-timer-icon" aria-hidden="true">⏱</span>
+            <strong class="wat-timer-val" id="wat-stage-timer-num">${String(itemRemaining).padStart(2, "0")}s</strong>
+            <span class="wat-timer-label">REMAINING</span>
+          </div>
+          <div class="wat-header-right">
+            <span class="wat-counter-badge">WORD ${String(state.currentIndex + 1).padStart(2, "0")} / ${total}</span>
+          </div>
+        </div>
+        <h2 id="prompt-text" class="wat-word-display">${escapeHtml(prompt)}</h2>
+      </div>
+    `;
+    elements.promptText = document.querySelector("#prompt-text");
+  } else {
+    elements.promptStage.innerHTML = `<h2 id="prompt-text">${escapeHtml(prompt)}</h2>`;
+    elements.promptText = document.querySelector("#prompt-text");
+  }
   elements.responseStage.replaceChildren();
 
   if (config.mode === "likert") {
@@ -661,20 +853,25 @@ function goToIndex(index, playCue = false) {
   if (index < 0 || index >= state.items.length) return;
   state.currentIndex = index;
   state.itemElapsed = 0;
-  if (playCue) playFlashBeep();
+  if (playCue) {
+    playIssbBuzzer(true);
+  }
   saveState();
   if (state.reportOpen) closeReportView();
   renderSimulator();
+  triggerWatFlash();
 }
 
 function nextItem(fromAutoTimer = false) {
+  const isWat = getTestConfig().mode === "wat";
   if (state.currentIndex >= state.items.length - 1) {
+    if (isWat) playIssbBuzzer(true);
     state.completed = true;
     saveState();
     openReportView();
     return;
   }
-  goToIndex(state.currentIndex + 1, fromAutoTimer && getTestConfig().mode === "wat");
+  goToIndex(state.currentIndex + 1, isWat || fromAutoTimer);
 }
 
 function previousItem() {
@@ -698,6 +895,7 @@ function tick() {
     return;
   }
 
+  // Handle auto-advance for WAT (10s per word) or SCT when autoAdvance is enabled
   if (
     state.autoAdvance &&
     (config.mode === "wat" || config.mode === "sct") &&
@@ -707,7 +905,16 @@ function tick() {
     return;
   }
 
+  // Authentic ISSB 2-Second Warning Alarm
+  if (config.mode === "wat" && state.autoAdvance) {
+    const itemRemaining = config.itemTargetSeconds - state.itemElapsed;
+    if (itemRemaining === 2) {
+      playIssbTwoSecAlarm();
+    }
+  }
+
   renderProgressHeader();
+  updateWatOnStageTimer();
   if (state.elapsedSeconds % 5 === 0) saveState();
 }
 

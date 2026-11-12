@@ -698,24 +698,180 @@ p {
   letter-spacing: -0.03em;
 }
 
-/* WAT Flash Stage */
+/* WAT Flash Stage & ISSB Projector Screen */
 .prompt-stage.mode-wat {
-  display: grid;
-  place-items: center;
-  min-height: 136px;
-  padding: 28px 20px;
-  border: 2px solid #dbeafe;
-  border-radius: 18px;
-  background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%);
-  text-align: center;
+  display: block;
+  width: 100%;
 }
 
-.prompt-stage.mode-wat h2 {
-  color: #1e3a8a;
-  font-size: clamp(32px, 6vw, 52px);
-  font-weight: 900;
+.wat-projector-shell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 30px 24px;
+  border: 2px solid #93c5fd;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f0f7ff 0%, #ffffff 50%, #f0fdf4 100%);
+  box-shadow: 0 10px 30px rgba(37, 99, 235, 0.08);
+  position: relative;
+  transition: all 0.25s ease;
+  overflow: hidden;
+}
+
+.wat-projector-shell.urgent {
+  border-color: #ef4444 !important;
+  background: linear-gradient(135deg, #fff1f2 0%, #ffffff 50%, #fff7ed 100%) !important;
+  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.22), 0 12px 36px rgba(239, 68, 68, 0.16) !important;
+}
+
+.wat-projector-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.wat-stage-timer-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  color: #1d4ed8;
+  font-weight: 700;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.wat-stage-timer-pill.urgent {
+  background: #fee2e2 !important;
+  border-color: #ef4444 !important;
+  color: #b91c1c !important;
+  animation: urgentPulse 0.6s ease infinite;
+}
+
+@keyframes urgentPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.06); }
+}
+
+.wat-timer-icon {
+  font-size: 11px;
+  line-height: 1;
+}
+
+.wat-timer-val {
+  font-size: 12.5px;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+.wat-timer-label {
+  font-size: 8.5px;
+  color: #64748b;
+  font-weight: 800;
   letter-spacing: 0.04em;
+}
+
+.wat-stage-timer-pill.urgent .wat-timer-label {
+  color: #b91c1c;
+}
+
+.wat-header-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wat-counter-badge {
+  padding: 3px 9px;
+  border-radius: 999px;
+  background: #e0f2fe;
+  color: #0369a1;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+}
+
+.wat-word-display {
+  margin: 24px 0 16px;
+  color: #0f172a;
+  font-size: clamp(46px, 9vw, 80px);
+  font-weight: 900;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
+  text-align: center;
+  user-select: none;
+  line-height: 1.15;
+  text-shadow: 0 2px 4px rgba(15, 23, 42, 0.06);
+}
+
+/* Slide Transition Flash Animation */
+@keyframes watProjectorSlide {
+  0% {
+    opacity: 0.15;
+    transform: scale(0.96);
+    filter: brightness(1.8);
+  }
+  50% {
+    opacity: 0.85;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+    filter: brightness(1);
+  }
+}
+
+.wat-flash-active {
+  animation: watProjectorSlide 0.24s cubic-bezier(0.2, 0.9, 0.3, 1) !important;
+}
+
+/* Dark Theme Overrides for WAT Projector */
+html[data-theme="dark"] .wat-projector-shell {
+  border-color: #1e3a8a;
+  background: linear-gradient(135deg, #0f172a 0%, #111827 50%, #0c1a2e 100%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+
+html[data-theme="dark"] .wat-projector-shell.urgent {
+  border-color: #ef4444 !important;
+  background: linear-gradient(135deg, #2b0f14 0%, #171c2b 60%, #111827 100%) !important;
+  box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.25), 0 12px 36px rgba(239, 68, 68, 0.3) !important;
+}
+
+html[data-theme="dark"] .wat-counter-badge {
+  background: #1e293b;
+  color: #93c5fd;
+}
+
+html[data-theme="dark"] .wat-word-display {
+  color: #f8fafc;
+  text-shadow: 0 2px 12px rgba(37, 99, 235, 0.35);
+}
+
+html[data-theme="dark"] .wat-stage-timer-pill {
+  background: #172554;
+  border-color: #1e40af;
+  color: #93c5fd;
+}
+
+html[data-theme="dark"] .wat-stage-timer-pill.urgent {
+  background: #450a0a !important;
+  border-color: #b91c1c !important;
+  color: #fca5a5 !important;
+}
+
+html[data-theme="dark"] .wat-stage-timer-pill.urgent .wat-timer-label {
+  color: #fca5a5;
 }
 
 /* Story & SRT Prompt Stage */
@@ -1667,3 +1823,781 @@ p {
     align-items: stretch;
   }
 }
+
+/* ==========================================================================
+   Theme Toggle Button & Header Actions
+   ========================================================================== */
+.portal-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.theme-toggle-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 7px 14px;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #1e293b;
+  font-size: 13px;
+  font-weight: 750;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.05);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+}
+
+.theme-toggle-button:hover {
+  background: #f8fafc;
+  border-color: #94a3b8;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(15, 23, 42, 0.08);
+}
+
+.theme-toggle-button:active {
+  transform: translateY(0);
+}
+
+.theme-icon {
+  font-size: 14px;
+  line-height: 1;
+  display: inline-block;
+  transition: transform 0.25s ease;
+}
+
+.theme-toggle-button:hover .theme-icon {
+  transform: rotate(15deg) scale(1.1);
+}
+
+.theme-text {
+  font-size: 12.5px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
+   Dark Theme Overrides (html[data-theme="dark"])
+   ========================================================================== */
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+html[data-theme="dark"] body {
+  background: radial-gradient(circle at 50% 0%, #111a2d 0%, #090d16 75%);
+  color: #f1f5f9;
+}
+
+/* Header & Portal Branding */
+html[data-theme="dark"] .portal-header {
+  background: rgba(17, 24, 39, 0.85);
+  border-color: #1f293d;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+html[data-theme="dark"] .portal-title {
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .stat-chip {
+  border-color: #222f47;
+  color: #cbd5e1;
+  background: #131c2e;
+}
+
+html[data-theme="dark"] .stat-chip strong {
+  color: #60a5fa;
+}
+
+html[data-theme="dark"] .theme-toggle-button {
+  background: #162035;
+  border-color: #243350;
+  color: #f1f5f9;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+html[data-theme="dark"] .theme-toggle-button:hover {
+  background: #1c2a44;
+  border-color: #3b82f6;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+
+/* Dashboard Categories */
+html[data-theme="dark"] .category-card {
+  background: #111827;
+  border-color: #1f293d;
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme="dark"] .category-issb {
+  background: linear-gradient(180deg, #111827 0%, #131d33 100%);
+  border-color: #1e3a8a;
+}
+
+html[data-theme="dark"] .category-title {
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .eyebrow,
+html[data-theme="dark"] .muted-label {
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .category-count {
+  color: #93c5fd;
+  background: #1e293b;
+  border-color: #334155;
+}
+
+/* Academic & ISSB Tiles in Dark Mode */
+html[data-theme="dark"] .quiz-tile {
+  border-color: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+html[data-theme="dark"] .quiz-tile:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.45);
+}
+
+html[data-theme="dark"] .tile-blue {
+  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .tile-green {
+  background: linear-gradient(135deg, #064e3b 0%, #047857 100%);
+  color: #ecfdf5;
+}
+
+html[data-theme="dark"] .tile-green .tile-tag,
+html[data-theme="dark"] .tile-green .tile-progress {
+  background: rgba(255, 255, 255, 0.16);
+  color: #ecfdf5;
+}
+
+html[data-theme="dark"] .tile-orange {
+  background: linear-gradient(135deg, #7c2d12 0%, #b45309 100%);
+  color: #fffbeb;
+}
+
+html[data-theme="dark"] .tile-orange .tile-tag,
+html[data-theme="dark"] .tile-orange .tile-progress {
+  background: rgba(255, 255, 255, 0.16);
+  color: #fffbeb;
+}
+
+html[data-theme="dark"] .tile-purple {
+  background: linear-gradient(135deg, #4c1d95 0%, #6d28d9 100%);
+  color: #faf5ff;
+}
+
+html[data-theme="dark"] .tile-purple .tile-tag,
+html[data-theme="dark"] .tile-purple .tile-progress {
+  background: rgba(255, 255, 255, 0.16);
+  color: #faf5ff;
+}
+
+html[data-theme="dark"] .tile-teal {
+  background: linear-gradient(135deg, #134e4a 0%, #0f766e 100%);
+  color: #f0fdfa;
+}
+
+html[data-theme="dark"] .tile-teal .tile-tag,
+html[data-theme="dark"] .tile-teal .tile-progress {
+  background: rgba(255, 255, 255, 0.16);
+  color: #f0fdfa;
+}
+
+html[data-theme="dark"] .tile-slate {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .tile-progress.has-progress {
+  background: rgba(255, 255, 255, 0.95);
+  color: #0f172a;
+}
+
+/* App Shell & Navigation */
+html[data-theme="dark"] .topbar {
+  border-bottom-color: #1f293d;
+}
+
+html[data-theme="dark"] .topbar-divider {
+  color: #475569;
+}
+
+html[data-theme="dark"] .topbar-badge {
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .back-link {
+  background: #1e293b;
+  color: #60a5fa;
+}
+
+html[data-theme="dark"] .back-link:hover {
+  background: #27354f;
+}
+
+html[data-theme="dark"] .reset-button {
+  background: #2b1418;
+  border-color: #551d26;
+  color: #f87171;
+}
+
+html[data-theme="dark"] .reset-button:hover {
+  background: #3b181f;
+}
+
+html[data-theme="dark"] .test-switcher {
+  background: #111827;
+  border-color: #1f293d;
+}
+
+html[data-theme="dark"] .test-tab {
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .test-tab:hover {
+  color: #f8fafc;
+  background: #1f293d;
+}
+
+html[data-theme="dark"] .test-tab.active {
+  color: #ffffff;
+  background: #2563eb;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.35);
+}
+
+html[data-theme="dark"] .report-trigger-button {
+  background: #172554;
+  border-color: #1e40af;
+  color: #93c5fd;
+}
+
+html[data-theme="dark"] .report-trigger-button:hover {
+  background: #1e3a8a;
+}
+
+/* Cards & Stages */
+html[data-theme="dark"] .progress-card,
+html[data-theme="dark"] .question-card,
+html[data-theme="dark"] .complete-card,
+html[data-theme="dark"] .report-card {
+  background: #111827;
+  border-color: #1f293d;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme="dark"] .progress-head strong,
+html[data-theme="dark"] .question-card h2,
+html[data-theme="dark"] .complete-card h2,
+html[data-theme="dark"] .report-header h2 {
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .item-timer-pill,
+html[data-theme="dark"] .total-timer-pill {
+  background: #131c2e;
+  border-color: #1f293d;
+}
+
+html[data-theme="dark"] .item-timer-pill.timer-warning {
+  background: #38161b;
+  border-color: #5c1d24;
+  color: #f87171;
+}
+
+html[data-theme="dark"] .item-timer-pill.timer-warning strong {
+  color: #f87171;
+}
+
+html[data-theme="dark"] .timer-caption {
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .item-timer-pill strong,
+html[data-theme="dark"] .progress-percent {
+  color: #60a5fa;
+}
+
+html[data-theme="dark"] .progress-track {
+  background: #1f293d;
+}
+
+html[data-theme="dark"] .progress-fill {
+  background: linear-gradient(90deg, #3b82f6, #60a5fa);
+}
+
+html[data-theme="dark"] .score-row {
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .score-row strong {
+  color: #f1f5f9;
+}
+
+html[data-theme="dark"] .save-pill {
+  background: #042f2e;
+  color: #5eead4;
+}
+
+html[data-theme="dark"] .map-toggle-button {
+  background: #131c2e;
+  border-color: #243350;
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .map-toggle-button:hover {
+  background: #1c2a44;
+}
+
+html[data-theme="dark"] .question-map {
+  border-top-color: #1f293d;
+}
+
+html[data-theme="dark"] .map-dot {
+  background: #131c2e;
+  border-color: #243350;
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .map-dot:hover {
+  border-color: #3b82f6;
+  color: #93c5fd;
+}
+
+html[data-theme="dark"] .map-dot.answered {
+  background: #064e3b;
+  border-color: #059669;
+  color: #a7f3d0;
+}
+
+html[data-theme="dark"] .map-dot.current {
+  background: #1e3a8a;
+  border-color: #3b82f6;
+  color: #93c5fd;
+}
+
+html[data-theme="dark"] .question-number {
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .topic-pill {
+  background: #1e293b;
+  color: #93c5fd;
+}
+
+html[data-theme="dark"] .mode-toggle-pill {
+  background: #131c2e;
+  border-color: #243350;
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .source-note {
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .item-timer-bar-wrap {
+  background: #1f293d;
+}
+
+/* Question Prompts & Modes */
+html[data-theme="dark"] .prompt-stage.mode-wat {
+  background: linear-gradient(135deg, #131c31 0%, #162035 100%);
+  border-color: #1e3a8a;
+}
+
+html[data-theme="dark"] .prompt-stage.mode-wat h2 {
+  color: #93c5fd;
+}
+
+html[data-theme="dark"] .prompt-stage.mode-story,
+html[data-theme="dark"] .prompt-stage.mode-srt {
+  background: #131c2e;
+  border-left-color: #3b82f6;
+}
+
+html[data-theme="dark"] .prompt-stage.mode-story h2,
+html[data-theme="dark"] .prompt-stage.mode-srt h2 {
+  color: #f8fafc;
+}
+
+/* Academic MCQs in Dark Mode */
+html[data-theme="dark"] .options .option {
+  background: #131c2e;
+  border-color: #243350;
+  color: #f1f5f9;
+}
+
+html[data-theme="dark"] .options .option:hover:not(:disabled) {
+  border-color: #3b82f6;
+  background: #1c2a44;
+}
+
+html[data-theme="dark"] .option-letter {
+  background: #1f293d;
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .option.correct {
+  border-color: #16a34a;
+  background: #052e16;
+  color: #f0fdf4;
+}
+
+html[data-theme="dark"] .option.correct .option-letter {
+  background: #16a34a;
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .option.wrong {
+  border-color: #dc2626;
+  background: #450a0a;
+  color: #fef2f2;
+}
+
+html[data-theme="dark"] .option.wrong .option-letter {
+  background: #dc2626;
+  color: #ffffff;
+}
+
+html[data-theme="dark"] .feedback {
+  color: #4ade80;
+}
+
+html[data-theme="dark"] .feedback strong {
+  color: #86efac;
+}
+
+/* Likert Scale (OPI) in Dark Mode */
+html[data-theme="dark"] .likert-option {
+  background: #131c2e;
+  border-color: #243350;
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .likert-option:hover {
+  border-color: #3b82f6;
+  background: #1c2a44;
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .likert-option:has(input:checked) {
+  border-color: #3b82f6;
+  color: #93c5fd;
+  background: #172554;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+}
+
+html[data-theme="dark"] .likert-key-badge {
+  background: #1f293d;
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .likert-option:has(input:checked) .likert-key-badge {
+  background: #2563eb;
+  color: #ffffff;
+}
+
+/* Text Inputs and Preview */
+html[data-theme="dark"] .sct-live-preview {
+  background: #131c2e;
+  border-color: #243350;
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .sct-user-part {
+  color: #60a5fa;
+}
+
+html[data-theme="dark"] .sim-text-input,
+html[data-theme="dark"] .sim-textarea {
+  background: #0b1120;
+  border-color: #243350;
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .sim-text-input:focus,
+html[data-theme="dark"] .sim-textarea:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.22);
+}
+
+html[data-theme="dark"] .input-helper-row,
+html[data-theme="dark"] .keyboard-hint {
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .action-row {
+  border-top-color: #1f293d;
+}
+
+html[data-theme="dark"] .secondary-button {
+  color: #60a5fa;
+}
+
+html[data-theme="dark"] .secondary-button:hover:not(:disabled) {
+  background: #1e293b;
+}
+
+html[data-theme="dark"] .secondary-button.outline-btn {
+  border-color: #243350;
+  color: #cbd5e1;
+  background: #131c2e;
+}
+
+html[data-theme="dark"] .secondary-button.outline-btn:hover {
+  border-color: #3b82f6;
+  background: #1c2a44;
+}
+
+/* Gemini Live Studio */
+html[data-theme="dark"] .gemini-live-panel {
+  background: linear-gradient(135deg, #131b36 0%, #111827 100%);
+  border-color: #312e81;
+}
+
+html[data-theme="dark"] .gemini-badge {
+  background: #312e81;
+  color: #c7d2fe;
+}
+
+html[data-theme="dark"] .gemini-panel-head h3 {
+  color: #e0e7ff;
+}
+
+html[data-theme="dark"] .gemini-panel-head p {
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .gemini-loading {
+  background: #131c2e;
+  color: #93c5fd;
+}
+
+html[data-theme="dark"] .spinner {
+  border-color: #1f293d;
+  border-top-color: #60a5fa;
+}
+
+html[data-theme="dark"] .gemini-assessment-box {
+  background: #111827;
+  border-color: #1f293d;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+}
+
+html[data-theme="dark"] .assessment-verdict-row {
+  border-bottom-color: #1f293d;
+}
+
+html[data-theme="dark"] .assessment-headline {
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .overall-score-circle {
+  border-color: #1e40af;
+  background: #172554;
+}
+
+html[data-theme="dark"] .score-big {
+  color: #60a5fa;
+}
+
+html[data-theme="dark"] .score-sub {
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .assessment-summary-para {
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .olq-section h5,
+html[data-theme="dark"] .question-critiques-section h5 {
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .olq-score-card {
+  background: #131c2e;
+  border-color: #1f293d;
+}
+
+html[data-theme="dark"] .olq-score-num {
+  color: #60a5fa;
+}
+
+html[data-theme="dark"] .olq-bar-track {
+  background: #1f293d;
+}
+
+html[data-theme="dark"] .olq-note {
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .sw-strengths {
+  background: #052e16;
+  border-color: #14532d;
+}
+
+html[data-theme="dark"] .sw-strengths h5 {
+  color: #4ade80;
+}
+
+html[data-theme="dark"] .sw-strengths ul {
+  color: #dcfce7;
+}
+
+html[data-theme="dark"] .sw-weaknesses {
+  background: #451a03;
+  border-color: #78350f;
+}
+
+html[data-theme="dark"] .sw-weaknesses h5 {
+  color: #facc15;
+}
+
+html[data-theme="dark"] .sw-weaknesses ul {
+  color: #fef3c7;
+}
+
+html[data-theme="dark"] .ai-review-item {
+  background: #131c2e;
+  border-color: #1f293d;
+}
+
+html[data-theme="dark"] .ai-review-item p {
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .review-prompt strong,
+html[data-theme="dark"] .review-user-ans strong,
+html[data-theme="dark"] .review-analysis strong {
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .review-better {
+  border-left-color: #22c55e;
+  background: #052e16;
+  color: #86efac !important;
+}
+
+/* AI Export & Report Preview */
+html[data-theme="dark"] .ai-export-banner {
+  background: linear-gradient(135deg, #111d38 0%, #131c2e 100%);
+  border-color: #1e3a8a;
+}
+
+html[data-theme="dark"] .ai-export-info h3 {
+  color: #93c5fd;
+}
+
+html[data-theme="dark"] .ai-export-info p,
+html[data-theme="dark"] .report-subtitle,
+html[data-theme="dark"] .completion-summary {
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .filter-toggle {
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .metric-box {
+  background: #131c2e;
+  border-color: #1f293d;
+}
+
+html[data-theme="dark"] .metric-label {
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .metric-value {
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .report-header {
+  border-bottom-color: #1f293d;
+}
+
+html[data-theme="dark"] .muted-small {
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .ai-prompt-textarea {
+  background: #050811;
+  border-color: #1f293d;
+  color: #e2e8f0;
+}
+
+/* QA Breakdown List */
+html[data-theme="dark"] .qa-item {
+  background: #111827;
+  border-color: #1f293d;
+}
+
+html[data-theme="dark"] .qa-item.qa-answered {
+  background: #131c2e;
+  border-color: #1f293d;
+  border-left-color: #16a34a;
+}
+
+html[data-theme="dark"] .qa-item.qa-unanswered {
+  background: #0c121e;
+  border-color: #1f293d;
+  border-left-color: #334155;
+}
+
+html[data-theme="dark"] .qa-number {
+  background: #1e293b;
+  color: #93c5fd;
+}
+
+html[data-theme="dark"] .qa-time {
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .qa-edit-btn {
+  background: #1e293b;
+  border-color: #334155;
+  color: #cbd5e1;
+}
+
+html[data-theme="dark"] .qa-edit-btn:hover {
+  border-color: #3b82f6;
+  color: #93c5fd;
+}
+
+html[data-theme="dark"] .qa-field-label {
+  color: #94a3b8;
+}
+
+html[data-theme="dark"] .qa-question p {
+  color: #f8fafc;
+}
+
+html[data-theme="dark"] .answer-filled {
+  color: #93c5fd;
+}
+
+html[data-theme="dark"] .answer-empty {
+  color: #64748b;
+}
+
+html[data-theme="dark"] .loading-error,
+html[data-theme="dark"] .gemini-error {
+  background: #450a0a;
+  border-color: #7f1d1d;
+  color: #fca5a5;
+}
+
