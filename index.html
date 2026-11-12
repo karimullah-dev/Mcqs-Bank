@@ -4,49 +4,231 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#f4f7fb" />
-    <title>MCQs Dashboard</title>
+    <title>Exam &amp; ISSB Preparation Portal</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body class="dashboard-page">
     <main class="dashboard-shell">
-      <section class="quiz-grid" aria-label="MCQ sections">
-        <a class="quiz-tile tile-blue" href="quiz.html?subject=pakistan">
-          <span class="tile-content">
-            <strong>Pakistan Studies</strong>
-            <span>200 questions</span>
-          </span>
-        </a>
-        <a class="quiz-tile tile-green" href="quiz.html?subject=geography">
-          <span class="tile-content">
-            <strong>Geography of Pakistan</strong>
-            <span>200 questions</span>
-          </span>
-        </a>
-        <a class="quiz-tile tile-orange" href="quiz.html?subject=dailydose">
-          <span class="tile-content">
-            <strong>Daily Dose</strong>
-            <span>172 questions</span>
-          </span>
-        </a>
-        <a class="quiz-tile tile-purple" href="quiz.html?subject=pastpapers">
-          <span class="tile-content">
-            <strong>Past Papers</strong>
-            <span>76 questions</span>
-          </span>
-        </a>
-        <a class="quiz-tile tile-teal" href="quiz.html?subject=motorway">
-          <span class="tile-content">
-            <strong>Motorway</strong>
-            <span>87 questions</span>
-          </span>
-        </a>
-        <a class="quiz-tile tile-slate" href="quiz.html?subject=computer">
-          <span class="tile-content">
-            <strong>Computer</strong>
-            <span>100 questions</span>
-          </span>
-        </a>
-      </section>
+      <header class="portal-header">
+        <div class="brand">
+          <div class="brand-mark" aria-hidden="true">✦</div>
+          <div>
+            <p class="eyebrow">Preparation Workspace</p>
+            <h1 class="portal-title">Academic &amp; ISSB Assessment Suite</h1>
+          </div>
+        </div>
+        <div class="portal-stats" id="portal-stats">
+          <span class="stat-chip"><strong>12</strong> Modules</span>
+          <span class="stat-chip" id="saved-sessions-chip">Auto-save enabled</span>
+        </div>
+      </header>
+
+      <div class="dashboard-categories">
+        <section class="category-card category-academic" aria-labelledby="academic-title">
+          <div class="category-header">
+            <div>
+              <p class="eyebrow">Learning collection</p>
+              <h2 class="category-title" id="academic-title">Academic</h2>
+            </div>
+            <span class="category-count">6 subjects</span>
+          </div>
+
+          <div class="quiz-grid" aria-label="Academic MCQ sections">
+            <a class="quiz-tile tile-blue" href="quiz.html?subject=pakistan" data-academic-key="pakistan" data-total="200">
+              <span class="tile-content">
+                <span class="tile-tag">MCQs</span>
+                <strong>Pakistan Studies</strong>
+                <span class="tile-meta">200 questions</span>
+              </span>
+              <span class="tile-progress" data-progress-badge>Start →</span>
+            </a>
+
+            <a class="quiz-tile tile-green" href="quiz.html?subject=geography" data-academic-key="geography" data-total="200">
+              <span class="tile-content">
+                <span class="tile-tag">MCQs</span>
+                <strong>Geography of Pakistan</strong>
+                <span class="tile-meta">200 questions</span>
+              </span>
+              <span class="tile-progress" data-progress-badge>Start →</span>
+            </a>
+
+            <a class="quiz-tile tile-orange" href="quiz.html?subject=dailydose" data-academic-key="dailydose" data-total="172">
+              <span class="tile-content">
+                <span class="tile-tag">MCQs</span>
+                <strong>Daily Dose</strong>
+                <span class="tile-meta">172 questions</span>
+              </span>
+              <span class="tile-progress" data-progress-badge>Start →</span>
+            </a>
+
+            <a class="quiz-tile tile-purple" href="quiz.html?subject=pastpapers" data-academic-key="pastpapers" data-total="76">
+              <span class="tile-content">
+                <span class="tile-tag">MCQs</span>
+                <strong>Past Papers</strong>
+                <span class="tile-meta">76 questions</span>
+              </span>
+              <span class="tile-progress" data-progress-badge>Start →</span>
+            </a>
+
+            <a class="quiz-tile tile-teal" href="quiz.html?subject=motorway" data-academic-key="motorway" data-total="87">
+              <span class="tile-content">
+                <span class="tile-tag">MCQs</span>
+                <strong>Motorway</strong>
+                <span class="tile-meta">87 questions</span>
+              </span>
+              <span class="tile-progress" data-progress-badge>Start →</span>
+            </a>
+
+            <a class="quiz-tile tile-slate" href="quiz.html?subject=computer" data-academic-key="computer" data-total="100">
+              <span class="tile-content">
+                <span class="tile-tag">MCQs</span>
+                <strong>Computer</strong>
+                <span class="tile-meta">100 questions</span>
+              </span>
+              <span class="tile-progress" data-progress-badge>Start →</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="category-card category-issb" aria-labelledby="issb-title">
+          <div class="category-header">
+            <div>
+              <p class="eyebrow">Psychological battery &amp; AI evaluation</p>
+              <h2 class="category-title" id="issb-title">ISSB</h2>
+            </div>
+            <span class="category-count">6 simulators</span>
+          </div>
+
+          <div class="quiz-grid" aria-label="ISSB Psychological Test Simulators">
+            <a class="quiz-tile tile-blue" href="ISSB/simulator.html?test=opi" data-issb-key="opi" data-total="100">
+              <span class="tile-content">
+                <span class="tile-tag">Personality · 40m</span>
+                <strong>OPI Test</strong>
+                <span class="tile-meta">100 statements · Likert scale</span>
+              </span>
+              <span class="tile-progress" data-progress-badge>Simulate →</span>
+            </a>
+
+            <a class="quiz-tile tile-green" href="ISSB/simulator.html?test=wat" data-issb-key="wat" data-total="100">
+              <span class="tile-content">
+                <span class="tile-tag">Association · 10s/word</span>
+                <strong>WAT Simulator</strong>
+                <span class="tile-meta">100 words · Auto-flash timer</span>
+              </span>
+              <span class="tile-progress" data-progress-badge>Simulate →</span>
+            </a>
+
+            <a class="quiz-tile tile-orange" href="ISSB/simulator.html?test=sct_eng" data-issb-key="sct_eng" data-total="50">
+              <span class="tile-content">
+                <span class="tile-tag">Completion · 15m</span>
+                <strong>SCT (English)</strong>
+                <span class="tile-meta">50 incomplete sentences</span>
+              </span>
+              <span class="tile-progress" data-progress-badge>Simulate →</span>
+            </a>
+
+            <a class="quiz-tile tile-purple" href="ISSB/simulator.html?test=sct_urdu" data-issb-key="sct_urdu" data-total="50">
+              <span class="tile-content">
+                <span class="tile-tag">Completion · 15m</span>
+                <strong>SCT (Urdu / Roman)</strong>
+                <span class="tile-meta">50 incomplete sentences</span>
+              </span>
+              <span class="tile-progress" data-progress-badge>Simulate →</span>
+            </a>
+
+            <a class="quiz-tile tile-teal" href="ISSB/simulator.html?test=pointer" data-issb-key="pointer" data-total="5">
+              <span class="tile-content">
+                <span class="tile-tag">Thematic · 3.5m/story</span>
+                <strong>Pointer Stories</strong>
+                <span class="tile-meta">5 story prompts · Full editor</span>
+              </span>
+              <span class="tile-progress" data-progress-badge>Simulate →</span>
+            </a>
+
+            <a class="quiz-tile tile-slate" href="ISSB/simulator.html?test=srt" data-issb-key="srt" data-total="10">
+              <span class="tile-content">
+                <span class="tile-tag">Decision · 2m/case</span>
+                <strong>Situation Reaction (SRT)</strong>
+                <span class="tile-meta">10 tactical scenarios</span>
+              </span>
+              <span class="tile-progress" data-progress-badge>Simulate →</span>
+            </a>
+          </div>
+        </section>
+      </div>
     </main>
+
+    <script>
+      (function updateDashboardProgress() {
+        let activeSessions = 0;
+
+        // Migrate legacy OPI storage if present
+        try {
+          const legacyOpi = localStorage.getItem("issb-opi-practice-v1");
+          if (legacyOpi && !localStorage.getItem("issb-sim-v2-opi")) {
+            const parsed = JSON.parse(legacyOpi);
+            if (parsed && Array.isArray(parsed.answers)) {
+              localStorage.setItem(
+                "issb-sim-v2-opi",
+                JSON.stringify({
+                  currentIndex: parsed.currentIndex || 0,
+                  answers: parsed.answers,
+                  timeSpent: [],
+                  elapsedSeconds: parsed.elapsedSeconds || 0,
+                  completed: Boolean(parsed.completed),
+                  savedAt: parsed.savedAt || new Date().toISOString(),
+                })
+              );
+            }
+          }
+        } catch (_) {}
+
+        // Update ISSB cards
+        document.querySelectorAll("[data-issb-key]").forEach((tile) => {
+          const key = tile.getAttribute("data-issb-key");
+          const total = Number(tile.getAttribute("data-total")) || 0;
+          const badge = tile.querySelector("[data-progress-badge]");
+          try {
+            const saved = JSON.parse(localStorage.getItem(`issb-sim-v2-${key}`) || "null");
+            if (saved && Array.isArray(saved.answers)) {
+              const answered = saved.answers.filter((a) => a !== null && a !== undefined && String(a).trim() !== "").length;
+              if (answered > 0) {
+                activeSessions += 1;
+                const pct = total ? Math.round((answered / total) * 100) : 0;
+                badge.textContent = saved.completed ? `✓ Done (${answered}/${total})` : `${answered}/${total} saved (${pct}%)`;
+                badge.classList.add("has-progress");
+              }
+            }
+          } catch (_) {}
+        });
+
+        // Update Academic cards
+        try {
+          const academicSaved = JSON.parse(localStorage.getItem("academic-quiz-progress-v1") || "null");
+          if (academicSaved && academicSaved.answers) {
+            document.querySelectorAll("[data-academic-key]").forEach((tile) => {
+              const key = tile.getAttribute("data-academic-key");
+              const total = Number(tile.getAttribute("data-total")) || 0;
+              const badge = tile.querySelector("[data-progress-badge]");
+              const subjAnswers = academicSaved.answers[key];
+              if (Array.isArray(subjAnswers)) {
+                const answered = subjAnswers.filter(Boolean).length;
+                if (answered > 0) {
+                  activeSessions += 1;
+                  const pct = total ? Math.round((answered / total) * 100) : 0;
+                  badge.textContent = answered >= total ? `✓ Done (${answered}/${total})` : `${answered}/${total} saved (${pct}%)`;
+                  badge.classList.add("has-progress");
+                }
+              }
+            });
+          }
+        } catch (_) {}
+
+        const chip = document.getElementById("saved-sessions-chip");
+        if (chip && activeSessions > 0) {
+          chip.innerHTML = `<strong>${activeSessions}</strong> active session${activeSessions === 1 ? "" : "s"} saved`;
+        }
+      })();
+    </script>
   </body>
 </html>
