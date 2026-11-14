@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f7fb" />
+    <title>GTO Public Speaking — Lecturette Audio &amp; Practice</title>
+    <script>
+      (function(){try{var t=localStorage.getItem("exam-portal-theme")||(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t);}catch(e){}})();
+    </script>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../theme.js" defer></script>
+    <script src="public-speaking.js" defer></script>
+  </head>
+  <body class="quiz-page issb-simulator-page">
+    <main class="app-shell issb-shell">
+      <header class="topbar issb-topbar">
+        <div class="topbar-left">
+          <a class="back-link" href="../index.html#attempt-issb">← Attempt ISSB</a>
+          <span class="topbar-divider" aria-hidden="true">/</span>
+          <span class="topbar-badge">GTO · Public Speaking</span>
+        </div>
+
+        <div class="issb-actions">
+          <button class="theme-toggle-button" id="theme-toggle" type="button" aria-label="Toggle dark theme" title="Toggle dark mode">
+            <span class="theme-icon" aria-hidden="true">🌙</span>
+            <span class="theme-text">Dark</span>
+          </button>
+          <button class="reset-button" id="gto-reset-button" type="button">Reset Progress</button>
+        </div>
+      </header>
+
+      <section class="progress-card issb-progress-card" aria-label="Lecturette practice overview">
+        <div class="progress-head">
+          <div>
+            <span class="muted-label">GTO Lecturette / Extempore</span>
+            <strong id="gto-progress-label">0 of 7 topics practiced</strong>
+          </div>
+          <div class="timer-group">
+            <div class="item-timer-pill" id="speech-timer-pill" title="ISSB Lecturette Timer">
+              <span class="timer-caption" id="speech-timer-mode">Prep (2:00)</span>
+              <strong id="speech-timer-display">02:00</strong>
+            </div>
+            <button class="secondary-button" id="timer-toggle-btn" type="button">Start Prep</button>
+            <button class="secondary-button" id="timer-switch-btn" type="button">Switch to 3m Speech</button>
+            <button class="secondary-button" id="timer-reset-btn" type="button">Reset</button>
+          </div>
+        </div>
+        <div class="progress-track" aria-hidden="true">
+          <div class="progress-fill" id="gto-progress-fill" style="width: 0%;"></div>
+        </div>
+      </section>
+
+      <section class="quiz-card gto-topics-shell">
+        <div class="gto-section-head">
+          <div>
+            <span class="test-pill">7 Lecturette Topics</span>
+            <h1 class="gto-page-title">Public Speaking Topics &amp; Audio</h1>
+            <p class="test-instruction">
+              Listen to each topic's audio briefing from <code>ISSB/Lecturate/</code>, prepare your key points in 2 minutes, and practice delivering your speech in 3 minutes.
+            </p>
+          </div>
+        </div>
+
+        <div class="gto-topic-list" id="gto-topic-list">
+          <p class="muted-small">Loading topics…</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

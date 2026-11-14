@@ -1270,30 +1270,47 @@ Analyze the candidate's exact Questions and Answers below and return a rigorous,
   };
 
   try {
-    const endpoint = `https://generativelanguage.googleapis.com/v1beta/interactions?key=${encodeURIComponent(
-      GEMINI_API_KEY.trim()
-    )}`;
+    const requestPayload = {
+      model: GEMINI_MODEL,
+      system_instruction: systemPrompt,
+      input: `Evaluate the following ${report.summary.answeredQuestions} answered items from ${report.testTitle}:\n\n${qaPayload}`,
+      generation_config: {
+        temperature: 0.3,
+      },
+      response_format: {
+        type: "text",
+        mime_type: "application/json",
+        schema: responseSchema,
+      },
+    };
 
-    const res = await fetch(endpoint, {
+    const apiKey = GEMINI_API_KEY.trim();
+
+    // Use same-origin Vercel serverless proxy (/api/gemini) to avoid CORS errors on Vercel.
+    // Falls back to direct REST call if /api/gemini is not mounted (e.g. local static server).
+    let res = await fetch("/api/gemini", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        "Api-Revision": "2026-05-20",
       },
       body: JSON.stringify({
-        model: GEMINI_MODEL,
-        system_instruction: systemPrompt,
-        input: `Evaluate the following ${report.summary.answeredQuestions} answered items from ${report.testTitle}:\n\n${qaPayload}`,
-        generation_config: {
-          temperature: 0.3,
-        },
-        response_format: {
-          type: "text",
-          mime_type: "application/json",
-          schema: responseSchema,
-        },
+        apiKey,
+        payload: requestPayload,
       }),
     });
+
+    if (res.status === 404 || res.status === 405) {
+      const directEndpoint = `https://generativelanguage.googleapis.com/v1beta/interactions?key=${encodeURIComponent(
+        apiKey
+      )}`;
+      res = await fetch(directEndpoint, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(requestPayload),
+      });
+    }
 
     if (!res.ok) {
       const errBody = await res.json().catch(() => ({}));

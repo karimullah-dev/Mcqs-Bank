@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#f4f7fb" />
+    <meta name="theme-color" content="#f2f2f7" />
     <title>Exam &amp; ISSB Preparation Portal</title>
     <script>
       (function(){try{var t=localStorage.getItem("exam-portal-theme")||(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t);}catch(e){}})();
@@ -23,7 +23,7 @@
         </div>
         <div class="portal-header-actions">
           <div class="portal-stats" id="portal-stats">
-            <span class="stat-chip"><strong>12</strong> Modules</span>
+            <span class="stat-chip"><strong>3</strong> Core Tracks</span>
             <span class="stat-chip" id="saved-sessions-chip">Auto-save enabled</span>
           </div>
           <button class="theme-toggle-button" id="theme-toggle" type="button" aria-label="Toggle dark theme" title="Toggle dark mode">
@@ -33,8 +33,54 @@
         </div>
       </header>
 
-      <div class="dashboard-categories">
-        <section class="category-card category-academic" aria-labelledby="academic-title">
+      <!-- MAIN CLEAN 3-CARD HUB VIEW -->
+      <section class="category-card hub-overview-card" id="dashboard-hub-view" aria-label="Main Preparation Categories">
+        <div class="category-header">
+          <div>
+            <p class="eyebrow">Overview</p>
+            <h2 class="category-title">Select a Track</h2>
+          </div>
+          <span class="category-count">3 Tracks</span>
+        </div>
+
+        <div class="hub-cards-grid">
+          <button class="quiz-tile tile-blue hub-main-card" type="button" data-hub-target="academic">
+            <span class="tile-content">
+              <span class="tile-tag">6 Subjects</span>
+              <strong>Academic</strong>
+              <span class="tile-meta">835 MCQs across core subjects</span>
+            </span>
+            <span class="tile-progress" id="hub-badge-academic">Explore →</span>
+          </button>
+
+          <button class="quiz-tile tile-green hub-main-card" type="button" data-hub-target="issb-practice">
+            <span class="tile-content">
+              <span class="tile-tag">Untimed · Practice</span>
+              <strong>ISSB Practice</strong>
+              <span class="tile-meta">6 modules · No timer · 3x inputs</span>
+            </span>
+            <span class="tile-progress" id="hub-badge-practice">Practice →</span>
+          </button>
+
+          <button class="quiz-tile tile-purple hub-main-card" type="button" data-hub-target="attempt-issb">
+            <span class="tile-content">
+              <span class="tile-tag">Timed · Simulator</span>
+              <strong>Attempt ISSB</strong>
+              <span class="tile-meta">6 psych tests &amp; 2 GTO tasks</span>
+            </span>
+            <span class="tile-progress" id="hub-badge-attempt">Start →</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- DETAIL VIEW 1: ACADEMIC -->
+      <div class="hub-detail-view hidden" id="view-academic" aria-labelledby="academic-title">
+        <div class="hub-detail-header">
+          <button class="hub-back-button" type="button" data-back-to-hub>← Back to Main Categories</button>
+          <span class="hub-breadcrumb">Dashboard / <strong>Academic</strong></span>
+        </div>
+
+        <section class="category-card category-academic">
           <div class="category-header">
             <div>
               <p class="eyebrow">Learning collection</p>
@@ -99,78 +145,245 @@
             </a>
           </div>
         </section>
+      </div>
 
-        <section class="category-card category-issb" aria-labelledby="issb-title">
+      <!-- DETAIL VIEW 2: ISSB PRACTICE (UNTIMED · 3x VARIATIONS) -->
+      <div class="hub-detail-view hidden" id="view-issb-practice" aria-labelledby="issb-practice-title">
+        <div class="hub-detail-header">
+          <button class="hub-back-button" type="button" data-back-to-hub>← Back to Main Categories</button>
+          <span class="hub-breadcrumb">Dashboard / <strong>ISSB Practice</strong></span>
+        </div>
+
+        <section class="category-card category-issb">
           <div class="category-header">
             <div>
-              <p class="eyebrow">Psychological battery &amp; AI evaluation</p>
-              <h2 class="category-title" id="issb-title">ISSB</h2>
+              <p class="eyebrow">Untimed Practice Battery</p>
+              <h2 class="category-title" id="issb-practice-title">ISSB Practice</h2>
             </div>
-            <span class="category-count">6 simulators</span>
+            <span class="category-count">6 modules · Untimed</span>
           </div>
 
-          <div class="quiz-grid" aria-label="ISSB Psychological Test Simulators">
-            <a class="quiz-tile tile-blue" href="ISSB/simulator.html?test=opi" data-issb-key="opi" data-total="100">
+          <div class="quiz-grid" aria-label="ISSB Untimed Practice Modules">
+            <a class="quiz-tile tile-blue" href="ISSB/practice.html?test=opi" data-practice-key="opi" data-total="100">
               <span class="tile-content">
-                <span class="tile-tag">Personality · 40m</span>
-                <strong>OPI Test</strong>
-                <span class="tile-meta">100 statements · Likert scale</span>
+                <span class="tile-tag">Untimed</span>
+                <strong>OPI Practice</strong>
+                <span class="tile-meta">100 statements · 7-point scale</span>
               </span>
-              <span class="tile-progress" data-progress-badge>Simulate →</span>
+              <span class="tile-progress" data-progress-badge>Practice →</span>
             </a>
 
-            <a class="quiz-tile tile-green" href="ISSB/simulator.html?test=wat" data-issb-key="wat" data-total="100">
+            <a class="quiz-tile tile-green" href="ISSB/practice.html?test=wat" data-practice-key="wat" data-total="100">
               <span class="tile-content">
-                <span class="tile-tag">Association · 10s/word</span>
-                <strong>WAT Simulator</strong>
-                <span class="tile-meta">100 words · Auto-flash timer</span>
+                <span class="tile-tag">3x Sentences</span>
+                <strong>WAT Practice</strong>
+                <span class="tile-meta">100 words · Untimed</span>
               </span>
-              <span class="tile-progress" data-progress-badge>Simulate →</span>
+              <span class="tile-progress" data-progress-badge>Practice →</span>
             </a>
 
-            <a class="quiz-tile tile-orange" href="ISSB/simulator.html?test=sct_eng" data-issb-key="sct_eng" data-total="50">
+            <a class="quiz-tile tile-orange" href="ISSB/practice.html?test=sct_eng" data-practice-key="sct_eng" data-total="50">
               <span class="tile-content">
-                <span class="tile-tag">Completion · 15m</span>
+                <span class="tile-tag">3x Completions</span>
                 <strong>SCT (English)</strong>
-                <span class="tile-meta">50 incomplete sentences</span>
+                <span class="tile-meta">50 sentences · Untimed</span>
               </span>
-              <span class="tile-progress" data-progress-badge>Simulate →</span>
+              <span class="tile-progress" data-progress-badge>Practice →</span>
             </a>
 
-            <a class="quiz-tile tile-purple" href="ISSB/simulator.html?test=sct_urdu" data-issb-key="sct_urdu" data-total="50">
+            <a class="quiz-tile tile-purple" href="ISSB/practice.html?test=sct_urdu" data-practice-key="sct_urdu" data-total="50">
               <span class="tile-content">
-                <span class="tile-tag">Completion · 15m</span>
+                <span class="tile-tag">3x Completions</span>
                 <strong>SCT (Urdu / Roman)</strong>
-                <span class="tile-meta">50 incomplete sentences</span>
+                <span class="tile-meta">50 sentences · Untimed</span>
               </span>
-              <span class="tile-progress" data-progress-badge>Simulate →</span>
+              <span class="tile-progress" data-progress-badge>Practice →</span>
             </a>
 
-            <a class="quiz-tile tile-teal" href="ISSB/simulator.html?test=pointer" data-issb-key="pointer" data-total="5">
+            <a class="quiz-tile tile-teal" href="ISSB/practice.html?test=pointer" data-practice-key="pointer" data-total="5">
               <span class="tile-content">
-                <span class="tile-tag">Thematic · 3.5m/story</span>
+                <span class="tile-tag">3x Story Angles</span>
                 <strong>Pointer Stories</strong>
-                <span class="tile-meta">5 story prompts · Full editor</span>
+                <span class="tile-meta">5 stories · Untimed</span>
               </span>
-              <span class="tile-progress" data-progress-badge>Simulate →</span>
+              <span class="tile-progress" data-progress-badge>Practice →</span>
             </a>
 
-            <a class="quiz-tile tile-slate" href="ISSB/simulator.html?test=srt" data-issb-key="srt" data-total="10">
+            <a class="quiz-tile tile-slate" href="ISSB/practice.html?test=srt" data-practice-key="srt" data-total="10">
               <span class="tile-content">
-                <span class="tile-tag">Decision · 2m/case</span>
+                <span class="tile-tag">3x Action Plans</span>
                 <strong>Situation Reaction (SRT)</strong>
-                <span class="tile-meta">10 tactical scenarios</span>
+                <span class="tile-meta">10 scenarios · Untimed</span>
               </span>
-              <span class="tile-progress" data-progress-badge>Simulate →</span>
+              <span class="tile-progress" data-progress-badge>Practice →</span>
             </a>
           </div>
         </section>
       </div>
+
+      <!-- DETAIL VIEW 3: ATTEMPT ISSB (TIMED SIMULATORS + GTO) -->
+      <div class="hub-detail-view hidden" id="view-attempt-issb" aria-labelledby="issb-title">
+        <div class="hub-detail-header">
+          <button class="hub-back-button" type="button" data-back-to-hub>← Back to Main Categories</button>
+          <span class="hub-breadcrumb">Dashboard / <strong>Attempt ISSB</strong></span>
+        </div>
+
+        <div class="dashboard-categories">
+          <section class="category-card category-issb" aria-labelledby="issb-title">
+            <div class="category-header">
+              <div>
+                <p class="eyebrow">Psychological battery &amp; AI evaluation</p>
+                <h2 class="category-title" id="issb-title">ISSB</h2>
+              </div>
+              <span class="category-count">6 simulators · Timed</span>
+            </div>
+
+            <div class="quiz-grid" aria-label="ISSB Psychological Test Simulators">
+              <a class="quiz-tile tile-blue" href="ISSB/simulator.html?test=opi" data-issb-key="opi" data-total="100">
+                <span class="tile-content">
+                  <span class="tile-tag">Personality · 40m</span>
+                  <strong>OPI Test</strong>
+                  <span class="tile-meta">100 statements · Likert scale</span>
+                </span>
+                <span class="tile-progress" data-progress-badge>Simulate →</span>
+              </a>
+
+              <a class="quiz-tile tile-green" href="ISSB/simulator.html?test=wat" data-issb-key="wat" data-total="100">
+                <span class="tile-content">
+                  <span class="tile-tag">Association · 10s/word</span>
+                  <strong>WAT Simulator</strong>
+                  <span class="tile-meta">100 words · Auto-flash timer</span>
+                </span>
+                <span class="tile-progress" data-progress-badge>Simulate →</span>
+              </a>
+
+              <a class="quiz-tile tile-orange" href="ISSB/simulator.html?test=sct_eng" data-issb-key="sct_eng" data-total="50">
+                <span class="tile-content">
+                  <span class="tile-tag">Completion · 15m</span>
+                  <strong>SCT (English)</strong>
+                  <span class="tile-meta">50 incomplete sentences</span>
+                </span>
+                <span class="tile-progress" data-progress-badge>Simulate →</span>
+              </a>
+
+              <a class="quiz-tile tile-purple" href="ISSB/simulator.html?test=sct_urdu" data-issb-key="sct_urdu" data-total="50">
+                <span class="tile-content">
+                  <span class="tile-tag">Completion · 15m</span>
+                  <strong>SCT (Urdu / Roman)</strong>
+                  <span class="tile-meta">50 incomplete sentences</span>
+                </span>
+                <span class="tile-progress" data-progress-badge>Simulate →</span>
+              </a>
+
+              <a class="quiz-tile tile-teal" href="ISSB/simulator.html?test=pointer" data-issb-key="pointer" data-total="5">
+                <span class="tile-content">
+                  <span class="tile-tag">Thematic · 3.5m/story</span>
+                  <strong>Pointer Stories</strong>
+                  <span class="tile-meta">5 story prompts · Full editor</span>
+                </span>
+                <span class="tile-progress" data-progress-badge>Simulate →</span>
+              </a>
+
+              <a class="quiz-tile tile-slate" href="ISSB/simulator.html?test=srt" data-issb-key="srt" data-total="10">
+                <span class="tile-content">
+                  <span class="tile-tag">Decision · 2m/case</span>
+                  <strong>Situation Reaction (SRT)</strong>
+                  <span class="tile-meta">10 tactical scenarios</span>
+                </span>
+                <span class="tile-progress" data-progress-badge>Simulate →</span>
+              </a>
+            </div>
+          </section>
+
+          <section class="category-card category-gto" aria-labelledby="gto-title">
+            <div class="category-header">
+              <div>
+                <p class="eyebrow">Group Testing Officer · Tasks &amp; Speech</p>
+                <h2 class="category-title" id="gto-title">GTO</h2>
+              </div>
+              <span class="category-count">2 modules</span>
+            </div>
+
+            <div class="quiz-grid" aria-label="GTO modules">
+              <a class="quiz-tile tile-teal" href="ISSB/public-speaking.html" data-gto-key="public_speaking" data-total="7">
+                <span class="tile-content">
+                  <span class="tile-tag">Lecturette · Audio</span>
+                  <strong>Public Speaking</strong>
+                  <span class="tile-meta">7 topics · Audio &amp; speech timer</span>
+                </span>
+                <span class="tile-progress" data-progress-badge>Practice →</span>
+              </a>
+
+              <a class="quiz-tile tile-orange" href="ISSB/military-plans.html" data-gto-key="military_planning" data-total="5">
+                <span class="tile-content">
+                  <span class="tile-tag">Tactical · Model Room</span>
+                  <strong>Military Planning</strong>
+                  <span class="tile-meta">5 tactical exercises · Answer sheet</span>
+                </span>
+                <span class="tile-progress" data-progress-badge>Explore →</span>
+              </a>
+            </div>
+          </section>
+        </div>
+      </div>
     </main>
 
     <script>
+      (function initHubDashboard() {
+        const hubView = document.getElementById("dashboard-hub-view");
+        const detailViews = {
+          academic: document.getElementById("view-academic"),
+          "issb-practice": document.getElementById("view-issb-practice"),
+          "attempt-issb": document.getElementById("view-attempt-issb"),
+        };
+
+        function showSection(sectionKey, updateHash = true) {
+          const valid = Boolean(sectionKey && detailViews[sectionKey]);
+          hubView.classList.toggle("hidden", valid);
+          Object.entries(detailViews).forEach(([key, el]) => {
+            if (el) el.classList.toggle("hidden", key !== sectionKey);
+          });
+
+          if (updateHash) {
+            if (valid) {
+              history.replaceState(null, "", `#${sectionKey}`);
+            } else {
+              history.replaceState(null, "", window.location.pathname + window.location.search);
+            }
+          }
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+
+        function syncFromHash() {
+          const hash = (window.location.hash || "").replace(/^#/, "");
+          if (detailViews[hash]) {
+            showSection(hash, false);
+          } else {
+            showSection(null, false);
+          }
+        }
+
+        document.querySelectorAll("[data-hub-target]").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            showSection(btn.getAttribute("data-hub-target"), true);
+          });
+        });
+
+        document.querySelectorAll("[data-back-to-hub]").forEach((btn) => {
+          btn.addEventListener("click", () => {
+            showSection(null, true);
+          });
+        });
+
+        window.addEventListener("hashchange", syncFromHash);
+        syncFromHash();
+      })();
+
       (function updateDashboardProgress() {
         let activeSessions = 0;
+        let academicActive = 0;
+        let practiceActive = 0;
+        let attemptActive = 0;
 
         // Migrate legacy OPI storage if present
         try {
@@ -193,7 +406,7 @@
           }
         } catch (_) {}
 
-        // Update ISSB cards
+        // Update Timed ISSB cards
         document.querySelectorAll("[data-issb-key]").forEach((tile) => {
           const key = tile.getAttribute("data-issb-key");
           const total = Number(tile.getAttribute("data-total")) || 0;
@@ -204,8 +417,48 @@
               const answered = saved.answers.filter((a) => a !== null && a !== undefined && String(a).trim() !== "").length;
               if (answered > 0) {
                 activeSessions += 1;
+                attemptActive += 1;
                 const pct = total ? Math.round((answered / total) * 100) : 0;
                 badge.textContent = saved.completed ? `✓ Done (${answered}/${total})` : `${answered}/${total} saved (${pct}%)`;
+                badge.classList.add("has-progress");
+              }
+            }
+          } catch (_) {}
+        });
+
+        // Update Untimed 3x ISSB Practice cards
+        document.querySelectorAll("[data-practice-key]").forEach((tile) => {
+          const key = tile.getAttribute("data-practice-key");
+          const total = Number(tile.getAttribute("data-total")) || 0;
+          const badge = tile.querySelector("[data-progress-badge]");
+          try {
+            const saved = JSON.parse(localStorage.getItem(`issb-practice-v1-${key}`) || "null");
+            if (saved && Array.isArray(saved.answers)) {
+              let practicedCount = 0;
+              let totalVariations = 0;
+              saved.answers.forEach((entry) => {
+                if (!entry) return;
+                if (typeof entry === "object" && !Array.isArray(entry)) {
+                  const filled = Array.isArray(entry.variations)
+                    ? entry.variations.filter((v) => String(v || "").trim() !== "").length
+                    : 0;
+                  totalVariations += filled;
+                  if (filled > 0 || (key === "opi" && entry.rating !== null && entry.rating !== undefined)) {
+                    practicedCount += 1;
+                  }
+                } else if (String(entry).trim() !== "") {
+                  practicedCount += 1;
+                  totalVariations += 1;
+                }
+              });
+              if (practicedCount > 0) {
+                activeSessions += 1;
+                practiceActive += 1;
+                const pct = total ? Math.round((practicedCount / total) * 100) : 0;
+                badge.textContent =
+                  key === "opi"
+                    ? `${practicedCount}/${total} saved (${pct}%)`
+                    : `${practicedCount}/${total} (${totalVariations} vars)`;
                 badge.classList.add("has-progress");
               }
             }
@@ -225,6 +478,7 @@
                 const answered = subjAnswers.filter(Boolean).length;
                 if (answered > 0) {
                   activeSessions += 1;
+                  academicActive += 1;
                   const pct = total ? Math.round((answered / total) * 100) : 0;
                   badge.textContent = answered >= total ? `✓ Done (${answered}/${total})` : `${answered}/${total} saved (${pct}%)`;
                   badge.classList.add("has-progress");
@@ -233,6 +487,63 @@
             });
           }
         } catch (_) {}
+
+        // Update GTO cards
+        try {
+          const gtoSaved = JSON.parse(localStorage.getItem("gto-public-speaking-v1") || "null");
+          if (gtoSaved && gtoSaved.practiced) {
+            const tile = document.querySelector('[data-gto-key="public_speaking"]');
+            if (tile) {
+              const total = Number(tile.getAttribute("data-total")) || 7;
+              const badge = tile.querySelector("[data-progress-badge]");
+              const done = Object.values(gtoSaved.practiced).filter(Boolean).length;
+              if (done > 0 && badge) {
+                activeSessions += 1;
+                attemptActive += 1;
+                const pct = total ? Math.round((done / total) * 100) : 0;
+                badge.textContent = done >= total ? `✓ Done (${done}/${total})` : `${done}/${total} practiced (${pct}%)`;
+                badge.classList.add("has-progress");
+              }
+            }
+          }
+        } catch (_) {}
+
+        try {
+          const mpSaved = JSON.parse(localStorage.getItem("gto-military-planning-v2") || "null");
+          if (mpSaved && mpSaved.plansData) {
+            const tile = document.querySelector('[data-gto-key="military_planning"]');
+            const badge = tile?.querySelector("[data-progress-badge]");
+            const drafted = Object.values(mpSaved.plansData).filter(
+              (entry) =>
+                entry &&
+                ((entry.aim || "").trim() !== "" ||
+                  (Array.isArray(entry.rows) && entry.rows.some((r) => (r.actions || "").trim() !== "")))
+            ).length;
+            if (drafted > 0 && badge) {
+              activeSessions += 1;
+              attemptActive += 1;
+              badge.textContent = `${drafted}/5 drafted`;
+              badge.classList.add("has-progress");
+            }
+          }
+        } catch (_) {}
+
+        // Update main 3 hub card badges
+        const hubAcademic = document.getElementById("hub-badge-academic");
+        const hubPractice = document.getElementById("hub-badge-practice");
+        const hubAttempt = document.getElementById("hub-badge-attempt");
+        if (hubAcademic && academicActive > 0) {
+          hubAcademic.textContent = `${academicActive}/6 active →`;
+          hubAcademic.classList.add("has-progress");
+        }
+        if (hubPractice && practiceActive > 0) {
+          hubPractice.textContent = `${practiceActive}/6 in progress →`;
+          hubPractice.classList.add("has-progress");
+        }
+        if (hubAttempt && attemptActive > 0) {
+          hubAttempt.textContent = `${attemptActive}/8 active →`;
+          hubAttempt.classList.add("has-progress");
+        }
 
         const chip = document.getElementById("saved-sessions-chip");
         if (chip && activeSessions > 0) {

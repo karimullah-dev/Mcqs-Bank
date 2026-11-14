@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f7fb" />
+    <title>GTO Military Planning — All Exercises</title>
+    <script>
+      (function(){try{var t=localStorage.getItem("exam-portal-theme")||(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t);}catch(e){}})();
+    </script>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../theme.js" defer></script>
+  </head>
+  <body class="dashboard-page">
+    <main class="dashboard-shell">
+      <header class="portal-header">
+        <div class="brand">
+          <a class="back-link" href="../index.html#attempt-issb" style="margin-right: 6px;">← Attempt ISSB</a>
+          <div>
+            <p class="eyebrow">GTO · Group Planning Exercise</p>
+            <h1 class="portal-title">Military Planning Topics</h1>
+          </div>
+        </div>
+        <div class="portal-header-actions">
+          <div class="portal-stats">
+            <span class="stat-chip"><strong>5</strong> Sand-Model Plans</span>
+          </div>
+          <button class="theme-toggle-button" id="theme-toggle" type="button" aria-label="Toggle dark theme" title="Toggle dark mode">
+            <span class="theme-icon" aria-hidden="true">🌙</span>
+            <span class="theme-text">Dark</span>
+          </button>
+        </div>
+      </header>
+
+      <section class="category-card category-gto" aria-labelledby="mp-list-title">
+        <div class="category-header">
+          <div>
+            <p class="eyebrow">Select an exercise to begin</p>
+            <h2 class="category-title" id="mp-list-title">Tactical Scenarios</h2>
+          </div>
+          <span class="category-count">15 min each</span>
+        </div>
+
+        <div class="quiz-grid" aria-label="Military Planning Exercises">
+          <a class="quiz-tile tile-blue" href="military-planning.html?plan=plan-1" data-mp-key="plan-1">
+            <span class="tile-content">
+              <span class="tile-tag">Plan 01 · 14:00 hrs</span>
+              <strong>Railway Bridge Sabotage &amp; Evacuation</strong>
+              <span class="tile-meta">Bridge bomb threat, injured villager &amp; hilltop miscreants</span>
+            </span>
+            <span class="tile-progress" data-mp-badge>Start Plan →</span>
+          </a>
+
+          <a class="quiz-tile tile-green" href="military-planning.html?plan=plan-2" data-mp-key="plan-2">
+            <span class="tile-content">
+              <span class="tile-tag">Plan 02 · 09:00 hrs</span>
+              <strong>Dam Floodgate, Bus Crash &amp; Kidnapping</strong>
+              <span class="tile-meta">River barrage overflow, highway crash &amp; forest hideout</span>
+            </span>
+            <span class="tile-progress" data-mp-badge>Start Plan →</span>
+          </a>
+
+          <a class="quiz-tile tile-orange" href="military-planning.html?plan=plan-3" data-mp-key="plan-3">
+            <span class="tile-content">
+              <span class="tile-tag">Plan 03 · 11:00 hrs</span>
+              <strong>Mountain Convoy Landslide &amp; Relay</strong>
+              <span class="tile-meta">Blocked pass, injured patrol &amp; sabotaged wireless tower</span>
+            </span>
+            <span class="tile-progress" data-mp-badge>Start Plan →</span>
+          </a>
+
+          <a class="quiz-tile tile-purple" href="military-planning.html?plan=plan-4" data-mp-key="plan-4">
+            <span class="tile-content">
+              <span class="tile-tag">Plan 04 · 16:00 hrs</span>
+              <strong>Factory Fire, Water Tank &amp; Robbery</strong>
+              <span class="tile-meta">Water contamination, trapped workers &amp; highway cash van</span>
+            </span>
+            <span class="tile-progress" data-mp-badge>Start Plan →</span>
+          </a>
+
+          <a class="quiz-tile tile-teal" href="military-planning.html?plan=plan-5" data-mp-key="plan-5">
+            <span class="tile-content">
+              <span class="tile-tag">Plan 05 · 07:30 hrs</span>
+              <strong>Canal Breach, Train Derailment &amp; Dacoits</strong>
+              <span class="tile-meta">Flooding embankment, derailed bogies &amp; river escape</span>
+            </span>
+            <span class="tile-progress" data-mp-badge>Start Plan →</span>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      (function updateMilitaryPlanProgress() {
+        try {
+          const saved = JSON.parse(localStorage.getItem("gto-military-planning-v2") || "null");
+          if (!saved || !saved.plansData) return;
+
+          document.querySelectorAll("[data-mp-key]").forEach((tile) => {
+            const key = tile.getAttribute("data-mp-key");
+            const badge = tile.querySelector("[data-mp-badge]");
+            const entry = saved.plansData[key];
+            if (!entry || !badge) return;
+
+            const filledRows = Array.isArray(entry.rows)
+              ? entry.rows.filter((r) => (r.actions || "").trim() !== "").length
+              : 0;
+            const hasAim = Boolean((entry.aim || "").trim());
+
+            if (filledRows > 0 || hasAim) {
+              badge.textContent = filledRows > 0 ? `${filledRows} step${filledRows === 1 ? "" : "s"} drafted` : "Draft saved";
+              badge.classList.add("has-progress");
+            }
+          });
+        } catch (_) {}
+      })();
+    </script>
+  </body>
+</html>

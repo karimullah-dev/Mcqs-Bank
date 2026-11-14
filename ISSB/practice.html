@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f2f2f7" />
+    <title>ISSB Practice Mode — Untimed 3x Variations</title>
+    <script>
+      (function(){try{var t=localStorage.getItem("exam-portal-theme")||(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t);}catch(e){}})();
+    </script>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../theme.js" defer></script>
+  </head>
+  <body class="quiz-page issb-simulator-page issb-practice-page">
+    <main class="app-shell issb-shell">
+      <header class="topbar issb-topbar">
+        <div class="topbar-left">
+          <a class="back-link" href="../index.html#issb-practice">← ISSB Practice</a>
+          <span class="topbar-divider" aria-hidden="true">/</span>
+          <span class="topbar-badge" id="active-test-short">ISSB Practice</span>
+        </div>
+
+        <div class="issb-actions">
+          <button class="theme-toggle-button" id="theme-toggle" type="button" aria-label="Toggle dark theme" title="Toggle dark mode">
+            <span class="theme-icon" aria-hidden="true">🌙</span>
+            <span class="theme-text">Dark</span>
+          </button>
+          <button class="report-trigger-button" id="toggle-report-button" type="button">
+            AI Report &amp; Export
+          </button>
+          <button class="reset-button" id="reset-button" type="button">Reset</button>
+        </div>
+      </header>
+
+      <nav class="test-switcher" aria-label="Switch ISSB Practice Module">
+        <button class="test-tab" data-test="opi" type="button">OPI</button>
+        <button class="test-tab" data-test="wat" type="button">WAT</button>
+        <button class="test-tab" data-test="sct_eng" type="button">SCT English</button>
+        <button class="test-tab" data-test="sct_urdu" type="button">SCT Urdu</button>
+        <button class="test-tab" data-test="pointer" type="button">Pointer Stories</button>
+        <button class="test-tab" data-test="srt" type="button">SRT</button>
+      </nav>
+
+      <section class="progress-card issb-progress-card" aria-label="Practice progress">
+        <div class="progress-head">
+          <div>
+            <span class="muted-label" id="test-category-label">ISSB Practice · Untimed 3x Variations</span>
+            <strong id="progress-label">Loading test…</strong>
+          </div>
+          <div class="timer-group">
+            <div class="item-timer-pill practice-mode-pill" title="Untimed 3-Variation Practice">
+              <span class="timer-caption">Practice Mode</span>
+              <strong id="variations-count-pill">No Timer · 3x Inputs</strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-track">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+
+        <div class="score-row issb-score-row">
+          <div class="score-stats">
+            <span><i class="dot dot-correct"></i> Practiced <strong id="answered-count">0</strong></span>
+            <span><i class="dot dot-pending"></i> Remaining <strong id="remaining-count">0</strong></span>
+            <span class="save-pill" id="save-status">Auto-save ready</span>
+          </div>
+          <button class="map-toggle-button" id="map-toggle-button" type="button">
+            Question Map ▾
+          </button>
+        </div>
+
+        <div class="question-map hidden" id="question-map" aria-label="Question navigator"></div>
+      </section>
+
+      <section class="question-card issb-question-card" id="simulator-card">
+        <div class="question-meta">
+          <div class="meta-left">
+            <span class="question-number" id="item-number">Item 01</span>
+            <span class="topic-pill" id="test-pill">OPI Practice</span>
+          </div>
+          <div class="simulator-mode-controls" id="mode-controls"></div>
+        </div>
+
+        <p class="source-note" id="test-instruction">Loading instructions…</p>
+
+        <div class="prompt-stage" id="prompt-stage">
+          <h2 id="prompt-text">Loading prompt…</h2>
+        </div>
+
+        <div class="response-stage" id="response-stage"></div>
+
+        <div class="action-row issb-action-row">
+          <button class="secondary-button" id="previous-button" type="button">← Previous</button>
+          <div class="action-right">
+            <span class="keyboard-hint" id="keyboard-hint"></span>
+            <button class="primary-button" id="next-button" type="button">Next →</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="report-card hidden" id="report-card" aria-label="Practice Report and AI Export">
+        <div class="report-header">
+          <div>
+            <p class="eyebrow">Untimed Practice · 3x Variations Record</p>
+            <h2 id="report-title">ISSB Practice Report &amp; AI Evaluation</h2>
+            <p class="report-subtitle" id="report-summary-text">
+              Review all 3 variations you wrote for each prompt, analyze with Gemini AI, or export your Question &amp; Answer report.
+            </p>
+          </div>
+          <button class="secondary-button back-to-sim-btn" id="back-to-sim-button" type="button">
+            ← Back to Practice
+          </button>
+        </div>
+
+        <div class="report-metrics-grid" id="report-metrics-grid"></div>
+
+        <!-- Instant On-Page Gemini AI Assessment Studio -->
+        <div class="gemini-live-panel">
+          <div class="gemini-panel-head">
+            <div>
+              <span class="gemini-badge">✦ Powered by Gemini AI</span>
+              <h3>Instant On-Website ISSB Psychologist Assessment (3x Variations)</h3>
+              <p>
+                Evaluate all 3 variations per question right here. Gemini compares your 3 sentences/responses, highlights your strongest officer-like option, and suggests even sharper alternatives.
+              </p>
+            </div>
+            <button class="primary-button gemini-analyze-btn" id="analyze-gemini-button" type="button">
+              ✦ Analyze All Variations with Gemini AI
+            </button>
+          </div>
+
+          <p class="gemini-error hidden" id="gemini-error"></p>
+
+          <div class="gemini-loading hidden" id="gemini-loading">
+            <div class="spinner"></div>
+            <span>ISSB AI Psychologist is comparing your 3 variations per question…</span>
+          </div>
+
+          <div class="gemini-result-container hidden" id="gemini-result-container"></div>
+        </div>
+
+        <div class="ai-export-banner">
+          <div class="ai-export-info">
+            <h3>Export 3-Variation Question &amp; Answer Report</h3>
+            <p>
+              Every <strong>Question / Stimulus</strong> is paired with all of your written <strong>Variations (1, 2, 3)</strong>. Copy the prompt or download the report in Markdown, Text, or JSON format.
+            </p>
+          </div>
+
+          <div class="report-filter-bar">
+            <label class="filter-toggle">
+              <input type="checkbox" id="only-answered-checkbox" checked />
+              <span>Include only practiced questions in export &amp; AI evaluation</span>
+            </label>
+          </div>
+
+          <div class="export-actions">
+            <button class="primary-button copy-ai-btn" id="copy-ai-button" type="button">
+              📋 Copy AI Evaluation Prompt + 3x Q&amp;A Report
+            </button>
+            <button class="secondary-button outline-btn" id="download-md-button" type="button">
+              ⬇ Download Markdown (.md)
+            </button>
+            <button class="secondary-button outline-btn" id="download-txt-button" type="button">
+              ⬇ Download Q&amp;A Text (.txt)
+            </button>
+            <button class="secondary-button outline-btn" id="download-json-button" type="button">
+              ⬇ Download JSON (.json)
+            </button>
+          </div>
+        </div>
+
+        <div class="ai-prompt-preview-section">
+          <div class="section-bar">
+            <strong>AI-Ready Report Preview (Prompt + 3 Variations)</strong>
+            <span class="muted-small">Ready to paste directly into any AI assistant</span>
+          </div>
+          <textarea
+            id="ai-prompt-preview"
+            class="ai-prompt-textarea"
+            readonly
+            aria-label="AI Evaluation Prompt and Report Preview"
+          ></textarea>
+        </div>
+
+        <div class="qa-review-section">
+          <div class="section-bar">
+            <strong>Question &amp; 3-Variation Breakdown</strong>
+            <span class="muted-small" id="qa-table-count">0 items</span>
+          </div>
+          <div class="qa-list" id="qa-list"></div>
+        </div>
+      </section>
+
+      <p class="loading-error hidden" id="loading-error">
+        The ISSB test data could not be loaded. Please check that the JSON file exists in the ISSB folder.
+      </p>
+    </main>
+
+    <script src="practice.js"></script>
+  </body>
+</html>

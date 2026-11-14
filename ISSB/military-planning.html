@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4f7fb" />
+    <title>GTO Military Planning — ISSB Group Planning Task</title>
+    <script>
+      (function(){try{var t=localStorage.getItem("exam-portal-theme")||(window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t);}catch(e){}})();
+    </script>
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="../theme.js" defer></script>
+    <script src="military-planning.js" defer></script>
+  </head>
+  <body class="quiz-page issb-simulator-page mp-page">
+    <main class="app-shell issb-shell mp-shell">
+      <header class="topbar issb-topbar">
+        <div class="topbar-left">
+          <a class="back-link" href="military-plans.html">← All Plans</a>
+          <span class="topbar-divider" aria-hidden="true">/</span>
+          <span class="topbar-badge" id="mp-topbar-badge">GTO · Military Planning</span>
+        </div>
+
+        <div class="issb-actions">
+          <button class="theme-toggle-button" id="theme-toggle" type="button" aria-label="Toggle dark theme" title="Toggle dark mode">
+            <span class="theme-icon" aria-hidden="true">🌙</span>
+            <span class="theme-text">Dark</span>
+          </button>
+          <button class="secondary-button" id="mp-sample-btn" type="button">Sample Plan</button>
+          <button class="reset-button" id="mp-reset-btn" type="button">Reset Sheet</button>
+        </div>
+      </header>
+
+      <!-- 1. MODEL IMAGE / TACTICAL MAP -->
+      <section class="quiz-card mp-card" aria-labelledby="mp-model-heading">
+        <div class="mp-section-head">
+          <div>
+            <span class="test-pill">Step 1 · Sand Model / Tactical Map</span>
+            <h1 class="mp-section-title" id="mp-model-heading">Operation Model Overview</h1>
+          </div>
+          <button class="secondary-button" id="mp-zoom-btn" type="button">🔍 Enlarge Map</button>
+        </div>
+
+        <div class="mp-model-frame" id="mp-model-frame">
+          <div id="mp-model-visual" class="mp-model-visual">
+            <!-- Image or crisp tactical SVG rendered by JS -->
+          </div>
+          <div class="mp-model-caption" id="mp-model-caption">
+            <!-- Scale, Base Time, Group Strength -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 2. ISSB INSTRUCTIONS & SCENARIO BRIEFING -->
+      <section class="quiz-card mp-card" aria-labelledby="mp-inst-heading">
+        <div class="mp-section-head">
+          <div>
+            <span class="test-pill">Step 2 · GTO Briefing</span>
+            <h2 class="mp-section-title" id="mp-inst-heading">Scenario Narrative</h2>
+          </div>
+          <button class="secondary-button" id="mp-toggle-inst-btn" type="button">Hide Details</button>
+        </div>
+
+        <div class="mp-instructions-body" id="mp-instructions-body">
+          <div class="mp-narrative-box" id="mp-narrative-box">
+            <!-- Scenario details rendered by JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 3. ACTUAL ISSB PAPER ANSWER SHEET -->
+      <section class="mp-paper-sheet" aria-labelledby="mp-paper-heading">
+        <div class="mp-paper-header">
+          <div>
+            <span class="mp-paper-stamp" id="mp-paper-stamp">ISSB CANDIDATE ANSWER SHEET · PLAN 01</span>
+            <h2 class="mp-paper-title" id="mp-paper-heading">Written Military Plan</h2>
+          </div>
+          <div class="mp-paper-actions">
+            <button class="secondary-button" id="mp-copy-btn" type="button">Copy Plan</button>
+            <button class="secondary-button" id="mp-print-btn" type="button">Print Paper</button>
+            <span class="save-indicator" id="mp-save-status">Auto-saved</span>
+          </div>
+        </div>
+
+        <div class="mp-paper-meta-fields">
+          <div class="mp-field-group">
+            <label for="mp-aim-input">1. Aim / Mission</label>
+            <input
+              type="text"
+              id="mp-aim-input"
+              class="mp-line-input"
+              placeholder="Write your clear primary aim and secondary objectives…"
+            />
+          </div>
+          <div class="mp-field-group">
+            <label for="mp-resources-input">2. Resource Allocation (Sub-Groups)</label>
+            <input
+              type="text"
+              id="mp-resources-input"
+              class="mp-line-input"
+              placeholder="Divide your group and transport logically (e.g., Group A, Group B, Group C)…"
+            />
+          </div>
+        </div>
+
+        <div class="mp-table-wrap">
+          <table class="mp-plan-table" id="mp-plan-table">
+            <thead>
+              <tr>
+                <th class="col-step">#</th>
+                <th class="col-actions">Actions (Sub-Group, Task, Route &amp; Transport)</th>
+                <th class="col-time">Time</th>
+                <th class="col-running">Running Time</th>
+                <th class="col-del" aria-label="Remove row"></th>
+              </tr>
+            </thead>
+            <tbody id="mp-table-body">
+              <!-- Rows rendered by JS -->
+            </tbody>
+          </table>
+        </div>
+
+        <div class="mp-paper-footer">
+          <button class="primary-button" id="mp-add-row-btn" type="button">+ Add Action Row</button>
+          <span class="muted-small">Tip: Keep every step chronological and verify travel time using Distance ÷ Speed.</span>
+        </div>
+
+        <!-- Sample Solution Drawer -->
+        <div class="mp-sample-box hidden" id="mp-sample-box">
+          <div class="mp-sample-head">
+            <h3>Reference ISSB Model Solution</h3>
+            <button class="secondary-button" id="mp-close-sample-btn" type="button">Close</button>
+          </div>
+          <p class="muted-small" style="margin-bottom: 12px;">
+            One logical way to solve this model within the time limits using parallel sub-groups:
+          </p>
+          <div class="mp-table-wrap">
+            <table class="mp-plan-table mp-sample-table">
+              <thead>
+                <tr>
+                  <th class="col-step">#</th>
+                  <th class="col-actions">Actions</th>
+                  <th class="col-time">Time</th>
+                  <th class="col-running">Running Time</th>
+                </tr>
+              </thead>
+              <tbody id="mp-sample-body">
+                <!-- Populated by JS per active plan -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Fullscreen Map Modal -->
+    <div class="mp-modal hidden" id="mp-zoom-modal" role="dialog" aria-modal="true" aria-label="Enlarged Tactical Sand Model">
+      <div class="mp-modal-content">
+        <button class="mp-modal-close" id="mp-zoom-close" type="button" aria-label="Close map">✕</button>
+        <div id="mp-modal-visual" class="mp-modal-visual"></div>
+      </div>
+    </div>
+  </body>
+</html>

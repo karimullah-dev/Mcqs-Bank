@@ -1,0 +1,44 @@
+[
+  {
+    "id": "united-we-stand",
+    "number": 1,
+    "title": "United we stand, divided we fall",
+    "audioBase": "Lecturate/united-we-stand"
+  },
+  {
+    "id": "occasions-bring-families-home",
+    "number": 2,
+    "title": "Occasions bring families home",
+    "audioBase": "Lecturate/occasions-bring-families-home"
+  },
+  {
+    "id": "ai-is-killing-creativity",
+    "number": 3,
+    "title": "AI is killing creativity",
+    "audioBase": "Lecturate/ai-is-killing-creativity"
+  },
+  {
+    "id": "people-join-army-secure-future",
+    "number": 4,
+    "title": "People join the army for a secure future",
+    "audioBase": "Lecturate/people-join-army-secure-future"
+  },
+  {
+    "id": "terrorism-in-pakistan",
+    "number": 5,
+    "title": "Terrorism in Pakistan",
+    "audioBase": "Lecturate/terrorism-in-pakistan"
+  },
+  {
+    "id": "love-or-arranged-marriage",
+    "number": 6,
+    "title": "Love marriage or arranged marriage",
+    "audioBase": "Lecturate/love-or-arranged-marriage"
+  },
+  {
+    "id": "cybercrimes",
+    "number": 7,
+    "title": "Cybercrimes",
+    "audioBase": "Lecturate/cybercrimes"
+  }
+]
